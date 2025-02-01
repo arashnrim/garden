@@ -1,0 +1,32 @@
+name: Auto-update Quartz
+
+on:
+  push:
+  schedule:
+      - cron: "0 0 * * 1"
+
+jobs:
+  update:
+    name: Auto-update Quartz
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - name: Install dependencies
+        run: |
+          pnpm i
+      - name: Upgrade Quartz
+        run: |
+          pnpm quartz upgrade
+      - name: Check for changes
+        run: |
+          git diff --exit-code || echo "changes_found=true" >> $GITHUB_ENV
+      - name: Push changes
+        if: env.changes_found == 'true'
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add .
+          git commit -m "chore: update Quartz"
+          git push
