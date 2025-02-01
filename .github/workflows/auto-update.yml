@@ -44,6 +44,6 @@ jobs:
       - name: Create pull request
         if: env.changes_found == 'true'
         run: |
-          gh pr create -B chore/update-quartz -H main -t: "Update Quartz to latest version" -b "This PR updates Quartz to the latest version using `npx quartz update`. Double-check the changes and merge if everything looks good.\n\n<small>Raised automatically by the auto-update Actions workflow.</small>" -a arashnrim -r arashnrim
+          gh pr create -B chore/update-quartz -H main -t "Update Quartz to latest version" -b "This PR updates Quartz to the latest version using `npx quartz update`. Double-check the changes and merge if everything looks good.\n\n<small>Raised automatically by the auto-update Actions workflow.</small>" -a arashnrim -r arashnrim
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
