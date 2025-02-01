@@ -18,7 +18,7 @@ jobs:
           pnpm i
       - name: Upgrade Quartz
         run: |
-          pnpm exec quartz upgrade
+          npm quartz upgrade
       - name: Check for changes
         run: |
           git diff --exit-code || echo "changes_found=true" >> $GITHUB_ENV
