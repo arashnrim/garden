@@ -9,13 +9,13 @@ jobs:
   update:
     name: Auto-update Quartz
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions:
+      contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Set up pnpm
         uses: pnpm/action-setup@v4
       - name: Install dependencies
@@ -41,10 +41,18 @@ jobs:
       - name: Push changes
         if: env.changes_found == 'true'
         run: |
-          git push -u origin chore/update-quartz
+          git push -u origin -f chore/update-quartz
       - name: Create pull request
         if: env.changes_found == 'true'
-        run: |
-          gh pr create -B chore/update-quartz -H main -t "Update Quartz to latest version" -b "This PR updates Quartz to the latest version using `npx quartz update`. Double-check the changes and merge if everything looks good.\n\n<small>Raised automatically by the auto-update Actions workflow.</small>" -a arashnrim -r arashnrim
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: peter-evans/create-pull-request@v7
+        with:
+          committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
+          title: Update Quartz to latest version
+          body: |
+            This PR updates Quartz to the latest version using `npx quartz update`. Double-check the changes and merge if everything looks good.
+            
+            <small>Raised automatically by [the auto-update Actions workflow](https://github.com/arashnrim/garden/blob/main/.github/workflows/auto-update.yml).</small>
+          assignees: arashnrim
+          reviewers: arashnrim
+          labels: dependencies,enhancement
