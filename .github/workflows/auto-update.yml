@@ -22,17 +22,21 @@ jobs:
           git fetch upstream
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          if ! git merge --allow-unrelated-histories upstream/v4; then
+          git checkout -b chore/update-quartz
+          if ! git merge --allow-unrelated-histories -X ours -m "chore: update Quartz" upstream/v4; then
             exit 1
           fi
       - name: Check for changes
         run: |
           git diff --exit-code || echo "changes_found=true" >> $GITHUB_ENV
+          if [[ $(git rev-list --count main..chore/update-quartz) -gt 0 ]]; then
+            echo "changes_found=true" >> $GITHUB_ENV
+          else
+            echo "changes_found=false" >> $GITHUB_ENV
+          fi
       - name: Push changes
         if: env.changes_found == 'true'
         run: |
-          git checkout -b chore/update-quartz
-          git commit -a -m "chore: update Quartz"
           git push
       - name: Create pull request
         if: env.changes_found == 'true'
