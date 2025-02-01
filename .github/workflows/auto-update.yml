@@ -51,7 +51,6 @@ jobs:
           committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           title: Update Quartz to latest version
-          branch: chore/update-quartz
           body: |
             This PR updates Quartz to the latest version using `npx quartz update`. Double-check the changes and merge if everything looks good.
             
