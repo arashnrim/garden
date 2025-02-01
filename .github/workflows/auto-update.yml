@@ -20,7 +20,7 @@ jobs:
         run: |
           git remote add upstream https://github.com/jackyzha0/quartz.git
           git fetch upstream
-          if [[ ! git merge --allow-unrelated-histories upstream/v4 ]]; then
+          if ! git merge --allow-unrelated-histories upstream/v4; then
             exit 1
           fi
       - name: Check for changes
