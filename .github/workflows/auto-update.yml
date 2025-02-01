@@ -18,7 +18,7 @@ jobs:
           pnpm i
       - name: Upgrade Quartz
         run: |
-          npm quartz upgrade
+          npx quartz upgrade
       - name: Check for changes
         run: |
           git diff --exit-code || echo "changes_found=true" >> $GITHUB_ENV
@@ -27,6 +27,12 @@ jobs:
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git add .
-          git commit -m "chore: update Quartz"
+          git checkout -b chore/update-quartz
+          git commit -a -m "chore: update Quartz"
           git push
+      - name: Create pull request
+        if: env.changes_found == 'true'
+        run: |
+          gh pr create -B chore/update-quartz -H main -t: "Upgrade Quartz to latest version" -b "This PR updates Quartz to the latest version using `npx quartz upgrade`. Double-check the changes and merge if everything looks good.\n\n<small>Raised automatically by the auto-update Actions workflow.</small>" -a arashnrim -r arashnrim
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
