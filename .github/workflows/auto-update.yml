@@ -18,7 +18,11 @@ jobs:
           pnpm i
       - name: Update Quartz
         run: |
-          npx quartz update
+          git remote add upstream https://github.com/jackyzha0/quartz.git
+          git fetch upstream
+          if [[ ! git merge --allow-unrelated-histories upstream/v4 ]]; then
+            exit 1
+          fi
       - name: Check for changes
         run: |
           git diff --exit-code || echo "changes_found=true" >> $GITHUB_ENV
