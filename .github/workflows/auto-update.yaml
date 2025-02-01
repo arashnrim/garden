@@ -3,7 +3,7 @@ name: Auto-update Quartz
 on:
   push:
   schedule:
-      - cron: "0 0 * * 1"
+    - cron: "0 0 * * 1"
 
 jobs:
   update:
@@ -16,13 +16,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Set up pnpm
         uses: pnpm/action-setup@v4
       - name: Install dependencies
         run: |
-          pnpm i
+          pnpm install
       - name: Update Quartz
         run: |
           git remote add upstream https://github.com/jackyzha0/quartz.git
@@ -32,19 +30,7 @@ jobs:
           if ! git merge --allow-unrelated-histories -X ours -m "chore: update Quartz" upstream/v4; then
             exit 1
           fi
-      - name: Check for changes
-        run: |
-          if [[ $(git rev-list --count origin/main..main) -gt 0 ]]; then
-            echo "changes_found=true" >> $GITHUB_ENV
-          else
-            echo "changes_found=false" >> $GITHUB_ENV
-          fi
-      - name: Push changes
-        if: env.changes_found == 'true'
-        run: |
-          git push -u origin -f chore/update-quartz
-      - name: Create pull request
-        if: env.changes_found == 'true'
+      - name: Push changes and create pull request
         uses: peter-evans/create-pull-request@v7
         with:
           committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
@@ -53,7 +39,7 @@ jobs:
           branch: chore/update-quartz
           body: |
             This PR updates Quartz to the latest version using `git merge`. Double-check the changes and merge if everything looks good.
-            
+
             <small>Raised automatically by [the auto-update Actions workflow](https://github.com/arashnrim/garden/blob/main/.github/workflows/auto-update.yml).</small>
           assignees: arashnrim
           reviewers: arashnrim
