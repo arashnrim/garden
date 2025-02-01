@@ -29,13 +29,12 @@ jobs:
           git fetch upstream
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git checkout -b chore/update-quartz
           if ! git merge --allow-unrelated-histories -X ours -m "chore: update Quartz" upstream/v4; then
             exit 1
           fi
       - name: Check for changes
         run: |
-          if [[ $(git rev-list --count origin/main..chore/update-quartz) -gt 0 ]]; then
+          if [[ $(git rev-list --count origin/main..main) -gt 0 ]]; then
             echo "changes_found=true" >> $GITHUB_ENV
           else
             echo "changes_found=false" >> $GITHUB_ENV
@@ -51,8 +50,9 @@ jobs:
           committer: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
           title: Update Quartz to latest version
+          branch: chore/update-quartz
           body: |
-            This PR updates Quartz to the latest version using `npx quartz update`. Double-check the changes and merge if everything looks good.
+            This PR updates Quartz to the latest version using `git merge`. Double-check the changes and merge if everything looks good.
             
             <small>Raised automatically by [the auto-update Actions workflow](https://github.com/arashnrim/garden/blob/main/.github/workflows/auto-update.yml).</small>
           assignees: arashnrim
