@@ -3,6 +3,7 @@ title: Perception of self
 date: 2022-10-10
 tags:
   - spark
+  - knowledge
 ---
 
 Perceived as the subjective awareness of one's identity of experience.

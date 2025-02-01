@@ -3,6 +3,7 @@ title: Process management
 date: 2022-10-31T09:18:25+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The state of managing active processes running in a computer system. 

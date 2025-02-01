@@ -3,6 +3,8 @@ title: Design thinking
 date: 2022-10-19T13:50:15+08:00
 tags:
   - spark
+  - knowledge
+  - thoughts
 ---
 
 A thinking process to help with generating and executing an solution for problems. Often utilises [[social/human-centred-design|human-centred design]] to come up with humane and usable solutions. Requires creators to consider people's experiences to focus on their human needs. Has five distinct steps to the process:

@@ -3,6 +3,8 @@ title: Learning in public
 date: 2022-10-13T00:38:55+08:00
 tags:
   - spark
+  - knowledge
+  - thoughts
 ---
 
 An extension of [[building in public]], where the individual opens up their learning process for the public to view.[^1]

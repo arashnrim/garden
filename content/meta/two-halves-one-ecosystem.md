@@ -2,6 +2,7 @@
 title: Two halves, one ecosystem
 tags:
   - ember
+  - thoughts
 date: 2025-01-31
 ---
 ![](images/fn-delta-venn-diagram.png)

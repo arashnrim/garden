@@ -3,6 +3,7 @@ title: Entity-relationship model
 date: 2022-11-01T09:21:57+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A database visualisation model that describes interrelated things of interest in a specific domain of knowledge. Provides a detailed and logical representation of the data in a database.

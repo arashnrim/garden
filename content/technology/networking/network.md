@@ -3,6 +3,7 @@ title: Network
 date: 2023-01-09T09:20:25+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The connection of at least two computer systems either by a cable or wireless connection. In today's context, the internet is the world's largest network (literally spelling out inter network) that connects devices across the world.

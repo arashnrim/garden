@@ -3,6 +3,7 @@ title: Wi-Fi Protected Access
 date: 2023-02-08T17:41:23+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A brand of security algorithms developed after 2000 by the Wi-Fi Alliance to secure Wi-Fi networks. Also referred to by the TKIP standard. Defined in response to critical weaknesses in [[technology/networking/wired-equivalent-privacy|WEP]].

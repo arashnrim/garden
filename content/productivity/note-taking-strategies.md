@@ -3,6 +3,7 @@ title: Note-taking strategies
 date: 2022-10-10
 tags:
   - spark
+  - knowledge
 ---
 
 ## Discerning what's important

@@ -3,6 +3,7 @@ title: Hypothesis testing
 date: 2023-01-24T17:27:32+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 Refers to the process involved in accepting or rejecting statements about a population's parameters. These parameters usually are the mean ($\mu$) or a proportion ($p$).

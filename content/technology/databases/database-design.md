@@ -3,6 +3,7 @@ title: Database design
 date: 2022-10-21T10:03:43+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The process of coming up with entities and models to be used in a future database. Considered a critical process in the planning and development of a database for use.

@@ -3,6 +3,7 @@ title: Computer
 date: 2022-10-20T11:29:11+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 An electronic device that operates under the control of **instructions stored in memory** that can **accept data** and **process them** according to a set of instructions before producing results and storing them for future use.

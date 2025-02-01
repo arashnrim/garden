@@ -3,6 +3,7 @@ title: Probability
 date: 2022-10-25T17:42:14+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A branch of mathematics that examines the possibility of an event to happen. Events are assigned values between 0 (impossible) to 1 (always); many events in real life range in this spectrum.

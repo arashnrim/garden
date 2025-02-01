@@ -3,6 +3,7 @@ title: Class
 date: 2022-11-07T11:20:51+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A blueprint for creating objects, often a feature of many object-oriented programming languages.

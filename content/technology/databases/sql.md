@@ -3,6 +3,7 @@ title: SQL
 date: 2022-10-13T11:26:45+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Used as a language used in [[technology/databases/databases|databases]] to query for data according to specified instructions by the language. Used to create, query, and update relational databases.

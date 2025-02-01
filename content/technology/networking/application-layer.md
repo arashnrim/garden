@@ -3,6 +3,7 @@ title: Application layer
 date: 2023-01-31T00:53:47+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The fourth layer in the [[technology/networking/internet-protocol-suite|internet protocol suite]] and seventh layer in the [[technology/networking/open-systems-interconnection-model|OSI model]].

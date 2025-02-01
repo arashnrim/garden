@@ -3,6 +3,7 @@ title: Internet protocol suite
 date: 2023-01-31T00:30:41+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A framework for organising the set of communication protocols used in the internet and similar networks. Also commonly known as the [[technology/networking/transmission-control-protocol|TCP]]/[[technology/networking/internet-protocol|IP]] protocol suite.

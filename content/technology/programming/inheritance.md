@@ -3,6 +3,7 @@ title: Inheritance
 date: 2022-11-21T11:03:49+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A feature that allows the derivation of a new class from an existing class. Introduces a way to reuse existing code without duplicating them.

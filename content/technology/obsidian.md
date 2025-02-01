@@ -3,6 +3,8 @@ title: Obsidian
 date: 2022-10-10
 tags:
   - spark
+  - knowledge
+  - thoughts
 ---
 
 A [[technology/markdown|Markdown]]-based note-taking app centred around keeping distinct ideas connected through identifying relationships they share with one another. Marketed as "a second brain, for you, forever". Featuring a vault-like system for organisation with pure Markdown files, assuring that [[data]] won't be lost if Obsidian eventually shuts down (since it's a [[technology/open-source|closed source]] service), it is a form of [[productivity/personal-knowledge-management|personal knowledge management]].

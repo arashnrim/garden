@@ -3,6 +3,7 @@ title: Wireless transmission medium
 date: 2023-02-08T17:15:44+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The method of transmitting data through wireless means. Uses radio frequencies to transmit data. The most common standard in today's world used is Wi-Fi by the Wi-Fi Alliance.

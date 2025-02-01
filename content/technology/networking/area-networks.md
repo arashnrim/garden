@@ -3,6 +3,7 @@ title: Area networks
 date: 2023-01-09T09:24:02+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 When talking about networking, there are three kinds of area networks that are of importance. They include the:

@@ -3,6 +3,7 @@ title: Address Resolution Protocol
 date: 2023-01-31T00:23:38+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 Used to discover the [[technology/networking/media-access-control-address|MAC address]] of a device given its [[technology/networking/internet-protocol-address|IP address]]. There are particularly two parts to the ARP protocol, namely the request and response.

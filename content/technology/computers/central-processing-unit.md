@@ -3,6 +3,7 @@ title: Central processing unit
 date: 2022-10-20T11:50:07+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A component that processes data according to a set of instructions. Often abbreviated as CPU. Clock speeds are measured in gigahertz (GHz); the faster the clock speed, the faster the performance. Has four distinguishable units within the CPU:

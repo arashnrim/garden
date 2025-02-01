@@ -3,6 +3,7 @@ title: System development life cycle
 date: 2023-04-24T16:00:20+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A set of activities, methodologies, best practices, deliverables, and automated tools stakeholders use to develop and maintain information systems and software. Often related to in different [[software-development-methodology|methodologies]].

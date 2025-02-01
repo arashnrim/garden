@@ -3,6 +3,7 @@ title: Software
 date: 2022-10-20T11:59:23+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 Series of related instructions that tells the computer what tasks to perform and how to perform them. Generally, there are two types of software in a computer:

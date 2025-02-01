@@ -3,6 +3,7 @@ title: Regression
 date: 2023-01-30T15:14:45+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A process to analyse two sets of data and work backwards (hence the name) to deduce the relationship between the two sets of data. Should a relationship be found between the two sets, prediction of the value of one set of data given the value of the other can be made.

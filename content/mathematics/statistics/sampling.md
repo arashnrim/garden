@@ -3,6 +3,7 @@ title: Sampling
 date: 2022-11-20T10:55:27+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 Refers to the process of extracting a subset of a population. Done either due to constraints around:

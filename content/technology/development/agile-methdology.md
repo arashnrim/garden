@@ -3,6 +3,7 @@ title: Agile methdology
 date: 2023-04-24T16:16:21+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 An iterative [[software-development-methodology|methodology]] which condenses the [[system-development-life-cycle|system development life cycle]]. Typically executes the SDLC in sprints lasting one to three or four weeks long. At every sprint, coding, testing, and quality verification is done. Refers to the Agile Manifesto to establish principles to guide a better approach to software development.

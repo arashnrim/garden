@@ -3,6 +3,7 @@ title: Power-on self-test
 date: 2022-10-26T22:02:08+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A set of routines performed by firmware or software immediately after a computer is powered on. Used to determine if hardware is working as expected. The power-on self test performs the following:

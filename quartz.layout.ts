@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { SimpleSlug } from "./quartz/util/path"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -29,14 +30,37 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer()),
-    Component.DesktopOnly(Component.RecentNotes()),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Latest thought",
+        filter: (f) => {
+          return f.frontmatter?.tags?.includes("thoughts") || false
+        },
+        limit: 1,
+        linkToMore: "/tags/thoughts" as SimpleSlug,
+      }),
+    ),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Latest knowledge",
+        filter: (f) => {
+          return f.frontmatter?.tags?.includes("knowledge") || false
+        },
+        limit: 1,
+        linkToMore: "/tags/knowledge" as SimpleSlug,
+      }),
+    ),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.Backlinks()),
     Component.MobileOnly(Component.RecentNotes()),
   ],
-  afterBody: [Component.MobileOnly(Component.TableOfContents()), Component.Graph()],
+  afterBody: [
+    Component.MobileOnly(Component.TableOfContents()),
+    Component.MobileOnly(Component.Graph()),
+  ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)

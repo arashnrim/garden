@@ -3,6 +3,7 @@ title: Wireless access point
 date: 2023-01-09T09:38:55+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A network device that provides a connection between wireless devices up to 100 metres away. Usually connects to wired networks and supplies a wireless network. Most wireless access points create wireless networks conforming to the Wi-Fi standard.

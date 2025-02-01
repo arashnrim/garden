@@ -3,6 +3,7 @@ title: Continuous probability distribution
 date: 2022-11-13
 tags:
   - spark
+  - knowledge
 ---
 A continuous probability distribution is the probability distribution of a continuous random variable. A common distribution is the normal distribution.
 

@@ -3,6 +3,7 @@ title: Internet Protocol address
 date: 2023-01-30T09:47:27+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 An 4-byte (i.e., 32-bit) identifier for a network device typically assigned by another more prominent network device that identifies the device in the network using the [[technology/networking/internet-protocol|internet protocol]]. Typically has two components to it, namely the:

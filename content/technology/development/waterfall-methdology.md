@@ -3,6 +3,7 @@ title: Waterfall methdology
 date: 2023-04-24T16:10:13+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A traditional [[software-development-methodology|methodology]] for information systems development. Known as waterfall because of its strict linear path, where each component depends on the one before it.

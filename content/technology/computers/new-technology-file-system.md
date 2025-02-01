@@ -3,6 +3,7 @@ title: New Technology File System
 date: 2022-11-24T11:33:39+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A file system used in modern Windows operating systems (starting with Windows NT in 1993). All data are allocateed to files, including the file system itself. Has three main components, including the:

@@ -3,6 +3,7 @@ title: Open source
 date: 2022-10-20T12:05:40+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A term used to initially refer to software or hardware with source code that is publically accesible. Currently has expanded its scope of definition, ranging from software to a movement and way of working. Current definitions to open source by the [Open Source Initiative](https://opensource.org/osd) include additional restraints, including:

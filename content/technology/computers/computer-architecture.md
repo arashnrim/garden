@@ -3,6 +3,7 @@ title: Computer architecture
 date: 2022-10-20T12:55:53+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 Describes how a [[technology/computers/computer|computer]] is designed and built to function, including how parts of the computer are designed, organised, and connected.

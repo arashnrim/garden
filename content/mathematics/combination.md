@@ -3,6 +3,7 @@ title: Combination
 date: 2022-10-25T18:07:19+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The arrangement of a given number of items **without the consideration of order**. Not to be confused with [[mathematics/permutation|permutations]], which is similar but with consideration of order.

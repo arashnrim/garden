@@ -3,6 +3,7 @@ title: Enterprise design thinking
 date: 2023-05-26T09:58:01+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A tailor-made approach of [[design-thinking|design thinking]] for large and distributed teams to help them quickly deliver human-centred outcomes to the market. Has three principles in particular to guide teams:

@@ -3,6 +3,7 @@ title: Requirement elicitation
 date: 2023-04-24T16:53:54+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The practice of collecting requirements of a system from users, customers, and other stakeholders. Also referred to as requirement gathering. Also involves analysing the current system, as the new system must carry functionality forward from the existing systems and to also understand the shortcomings and defects correctable from the existing systems.

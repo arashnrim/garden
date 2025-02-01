@@ -3,6 +3,7 @@ title: Cloud computing
 date: 2023-03-15T13:45:24+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The delivery of services over the internet. Also defined as a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources that can be rapidly provisioned and released with minimal management effort or service provider interaction. Usually includes several common infrastructure used in information technology, including but not limited to:

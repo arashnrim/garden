@@ -3,6 +3,7 @@ title: Discrete probability distribution
 date: 2022-10-31T14:12:37+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A random variable can be discrete if it has:

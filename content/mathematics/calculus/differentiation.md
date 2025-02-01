@@ -3,6 +3,7 @@ title: Differentiation
 date: 2023-04-25T08:07:46+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The process of finding the rate of change of one variable compared to another. Useful when the rate of change is non-linear. Given a function $f(x)$, its derivative can be denoted by either:

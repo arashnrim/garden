@@ -3,6 +3,7 @@ title: Transmission medium
 date: 2023-02-08T16:05:56+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The method in which data is being transmitted to and from from. There are usually two classifications of transmission media:

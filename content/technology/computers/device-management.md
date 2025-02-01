@@ -3,6 +3,7 @@ title: Device management
 date: 2022-10-26T22:16:49+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 Devices connected to a computer are managed by connections to the processor. There are two parts to device management, particularly the hardware aspect ([device controller](#device-controller)) and software aspect ([device driver](#device-driver)).

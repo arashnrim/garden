@@ -3,6 +3,7 @@ title: Operating system
 date: 2022-10-20T11:57:17+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A collection of software that manages computer hardware resources and provides common services for application software. Designed to support a [[technology/computers/computer|computer]]'s basic functions. Often provides a [[technologies/graphical-user-interface|graphical user interface]] for the user to interact with the OS.

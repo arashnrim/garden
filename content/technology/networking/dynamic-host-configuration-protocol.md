@@ -3,6 +3,7 @@ title: Dynamic Host Configuration Protocol
 date: 2023-01-30T10:09:55+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A protocol typically employed in the provision and assignment of [[technology/networking/internet-protocol-address|IP addresses]]. It allows a host to obtain an IP address dynamically without the network administrator having to set up an individual profile for the host.

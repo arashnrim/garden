@@ -3,6 +3,7 @@ title: Integration
 date: 2023-05-21T19:24:43+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The reverse process of [[differentiation]], where a derived equation is restored to its original equation. There is a loss when differentiating an equation (i.e., constants are stripped away), which is why integration is only able to add an arbitrary constant $C$ or $K$ to the restored equation.

@@ -3,6 +3,7 @@ title: Ethernet
 date: 2023-02-08T16:09:58+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A [[technology/networking/wired-transmission-medium|wired transmission]] family of technologies frequently adapted for data transfer across the internet. Exists in the physical layer of the [[technology/networking/open-systems-interconnection-model|OSI model]]. Has two main implementations: Fast Ethernet (obsolete) and Gigabit Ethernet (current).

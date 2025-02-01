@@ -3,6 +3,7 @@ title: IEEE 802.11
 date: 2023-02-08T18:11:09+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A part of the IEEE 802 standards (relating to [[technology/networking/area-networks#Local area network|LANs]]) that specifies the set of media access control and physical layer protocols for implementing [[technology/networking/wireless-transmission-medium#Wireless LAN|WLANs]]. Most commonly known to be the standard employed by the Wi-Fi Alliance known as Wi-Fi.

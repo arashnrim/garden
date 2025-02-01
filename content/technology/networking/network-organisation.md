@@ -3,6 +3,7 @@ title: Network organisation
 date: 2023-01-09T09:47:48+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 A network can differ in terms of the roles each device plays in the network. Generally, devices in a network can take up any of two roles:

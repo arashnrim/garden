@@ -3,6 +3,7 @@ title: File management
 date: 2022-11-21T09:07:22+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 # Terminologies

@@ -3,6 +3,7 @@ title: Memory management
 date: 2022-11-07T09:20:32+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 Refers to the allocation of resources to each program by the [[technology/computers/operating-system|operating system]]. Heavily involves the [[technology/computers/random-access-memory|random access memory]] as a resource used by programs as a working space.

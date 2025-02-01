@@ -3,6 +3,7 @@ title: Wired transmission medium
 date: 2023-01-09T09:55:38+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The method of transmitting data through physical means. Is ubiquitous even in today's world, owing to their performance in transmitting data compared to wireless transmission media. 

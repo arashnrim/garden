@@ -3,6 +3,7 @@ title: Databases
 date: 2022-10-13T11:29:12+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 Can be defined as organised collections of data. Generally more advantageous compared to spreadsheets, given that they have:

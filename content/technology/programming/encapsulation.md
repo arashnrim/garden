@@ -3,6 +3,7 @@ title: Encapsulation
 date: 2022-11-07T11:06:01+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The process of enclosing certain information. In the context of object-oriented programming, encapsulation refers to hiding irrelevant data (e.g., variables and methods) outside of a class.

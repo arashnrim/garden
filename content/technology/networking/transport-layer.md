@@ -3,6 +3,7 @@ title: Transport layer
 date: 2023-01-31T00:38:07+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The third layer in the [[technology/networking/internet-protocol-suite|internet protocol suite]]. Mainly used to provide end-to-end communication services for applications and is more focused on connection-oriented communications. Where required, the protocol segments data into smaller segments and reassembles the segments at the receiving host.

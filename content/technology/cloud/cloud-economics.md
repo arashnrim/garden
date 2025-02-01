@@ -3,6 +3,7 @@ title: Cloud economics
 date: 2023-04-24T10:04:36+08:00
 tags:
   - spark
+  - knowledge
 ---
 
 The cloud introduces new business models and economics as companies shift their expenditure, spending less money on setting up (e.g., servers) and more money on operations instead.

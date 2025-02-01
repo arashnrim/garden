@@ -3,6 +3,7 @@ title: Personal knowledge management
 date: 2022-10-10
 tags:
   - spark
+  - knowledge
 ---
 
 The process of consolidating and collecting information that can be used to gather, classify, store, search, retrieve, and share knowledge in daily activities
