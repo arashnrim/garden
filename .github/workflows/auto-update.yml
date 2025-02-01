@@ -40,7 +40,7 @@ jobs:
       - name: Push changes
         if: env.changes_found == 'true'
         run: |
-          git push
+          git push -u origin chore/update-quartz
       - name: Create pull request
         if: env.changes_found == 'true'
         run: |
