@@ -5,7 +5,31 @@ tags:
   - spark
   - knowledge
 ---
-> [!leading-question]
+> [!question] Leading question
 > How might we discover uncommon[^1] fonts that match the aesthetic we're looking for?
+
+# Font foundries and collections
+
+Thank you to these people for sharing their lists: [Mutammim](https://mutammim.com)
+
+* [Fontshare](https://fontshare.com)
+* [Google Fonts](https://fonts.google.com)
+* [Hanken Design Co.](https://hanken.co/collections/free)
+* [WELTKERN](https://weltkern.com/typefaces)
+
+# Individual fonts
+
+## Sans serif
+
+* [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont/)
+
+## Serif
+
+* [Redaction](https://www.redaction.us/)
+
+## Monospace
+
+* [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+
 
 [^1]: Uncommon here means that we're wanting to find fonts that are not regularly used. A complete antithesis would include fonts like Open Sans and Inter.
