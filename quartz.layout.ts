@@ -55,7 +55,26 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.Backlinks()),
-    Component.MobileOnly(Component.RecentNotes()),
+    Component.MobileOnly(
+      Component.RecentNotes({
+        title: "Latest thought",
+        filter: (f) => {
+          return f.frontmatter?.tags?.includes("thoughts") || false
+        },
+        limit: 1,
+        linkToMore: "/tags/thoughts" as SimpleSlug,
+      }),
+    ),
+    Component.MobileOnly(
+      Component.RecentNotes({
+        title: "Latest knowledge",
+        filter: (f) => {
+          return f.frontmatter?.tags?.includes("knowledge") || false
+        },
+        limit: 1,
+        linkToMore: "/tags/knowledge" as SimpleSlug,
+      }),
+    ),
   ],
   afterBody: [
     Component.MobileOnly(Component.TableOfContents()),
