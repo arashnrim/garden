@@ -1,5 +1,5 @@
 ---
-title: Allan variance and derivation
+title: Allan variance and deviation
 date: 2025-02-19
 tags:
   - spark
