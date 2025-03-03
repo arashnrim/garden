@@ -9,7 +9,7 @@ tags:
 
 A thinking process to help with generating and executing an solution for problems. Often utilises [[social/human-centred-design|human-centred design]] to come up with humane and usable solutions. Requires creators to consider people's experiences to focus on their human needs. Has five distinct steps to the process:
 
-1. [[social/empathy|Empathise|]]
+1. [[social/empathy|Empathise]]
 	- Aims to understand the experiences, actions, and feelings experienced by people (e.g., the target audience)
 	- Conducting interviews to get a sense of what people (e.g., the target audience) care about
 	- Understand current problems derived from experiences shared during the interviews
@@ -20,7 +20,7 @@ A thinking process to help with generating and executing an solution for problem
 5. Test
 
 ## Empathy
-At this stage, asking questions and interviewing the right audinece is crucial to understanding the issues a group of people face. Through interviews and asking good questions, we can think of pain points or smile points that a person is experiencing; we can then use these points to identify opportunities that we can add on.
+At this stage, asking questions and interviewing the right audience is crucial to understanding the issues a group of people face. Through interviews and asking good questions, we can think of pain points or smile points that a person is experiencing; we can then use these points to identify opportunities that we can add on.
 
 Identifying opportunities is important, as it provides a basis that we can use to think of opportunity statements (i.e., sentences that prompt for idea generation using the structure "how might we...?").
 - Opportunity statements tend to have the structure of "how might we <problem with user> so as to <impact>?"

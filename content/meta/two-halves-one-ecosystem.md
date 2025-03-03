@@ -7,11 +7,11 @@ date: 2025-01-31
 ---
 ![](images/fn-delta-venn-diagram.png)
 
-I've been thinking about how I might transition over to a more "open" digital garden-like way of writing and sharing my thoughts on the Internet. I currently have a rigid and more traditional blog called *[`function()`](https://blog.arash.codes)*, and I realised that there has been a lot of friction in writing mostly because of how I approach it: I have that rigid structure of prose in mind, and that conflicts with what I'm looking for with a inherently imperfect and incomplete web of ideas and notes.
+I've been thinking about how I might transition over to a more "open" digital garden-like way of writing and sharing my thoughts on the Internet. I currently have a rigid and more traditional blog called [function()](https://blog.arash.codes), and I realised that there has been a lot of friction in writing mostly because of how I approach it: I have that rigid structure of prose in mind, and that conflicts with what I'm looking for with a inherently imperfect and incomplete web of ideas and notes.
 
 I'm therefore opting to explore this alternative where I have these two avenues of writing that I'll contribute actively to, but with slightly different purposes:
 
-* *`function()`* will remain being a place where curated and mostly-complete pieces of writing will be home to. They'll embody the spirit of the traditional personal blog, where each post is chronologically ordered.
+* function() will remain being a place where curated and mostly-complete pieces of writing will be home to. They'll embody the spirit of the traditional personal blog, where each post is chronologically ordered.
 * Δ Delta will be a place where ideas and notes can run and exist freely in any state. I'll probably need to have some [[#Mindset changes|mindset changes]] when it comes to writing in a digital garden, and that's something I hope to hone naturally with more exposure and time writing in one.
 
 # Mindset changes
@@ -20,7 +20,7 @@ I'm therefore opting to explore this alternative where I have these two avenues 
 > 
 > The emotional approach to writing is one that speaks out to me more, because it feels like a more *truer* way of expressing yourself. Not caring much about how the end results will look like and embracing the many changes along the way feel contradictory to the systematic and orderly method I've been brought up with.
 > 
-> — *[Breaking out of prose](https://blog.arash.codes/posts/breaking-out-of-prose)*
+> — [Breaking out of prose, function()](https://blog.arash.codes/posts/breaking-out-of-prose)
 
 Quite fundamental in making this whole thing work is my processes and mindset towards writing. I mentioned before that I was raised with a rather systematic way of writing, and I believe that it has influenced me in the details I pay attention to while writing.
 
@@ -33,5 +33,5 @@ Quite fundamental in making this whole thing work is my processes and mindset to
 The truth is that there probably won't be any code wizardry bringing these together as it is simply the two sharing things with each other. I have a few ideas going about how to bring these two sister projects together:
 
 1. **A cohesive identity** — as a start, I plan to bring the look and feel of *`function()`* to Δ Delta. That way, the interactions between each feel more *natural* and less obvious. Instead of moving from one website to another, I want the experience to feel like you're moving to an *extension* of the same page.
-2. **Including tidbits of both within each other** — for starters, having simple embeds of Δ Delta in *`function()`* and vice versa can already do a considerable amount in bringing these two places together. I'm thinking of adding something at the end of blog posts that leads to notes here, and something at the root page of here that brings up the latest blog posts from there.
+2. **Including tidbits of both within each other** — for starters, having simple embeds of Δ Delta in function() and vice versa can already do a considerable amount in bringing these two places together. I'm thinking of adding something at the end of blog posts that leads to notes here, and something at the root page of here that brings up the latest blog posts from there.
 3. **Seamless flows from one place to another.** — I'm still figuring out the details here as I dabble more with [Quartz](https://quartz.jzhao.xyz), but I'm thinking along the lines of this: where `A -> B`, there should be as little interruptions as possible.
