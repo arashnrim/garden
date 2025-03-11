@@ -49,3 +49,16 @@
     font-style: normal;
     display: swap;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: normal;
+}
+
+article *:not(h1, h2, h3, h4, h5, h6) {
+    font-size: clamp(1rem, 5vw, 1.125rem);
+    line-height: 1.6;
+}
+
+.article-title {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
