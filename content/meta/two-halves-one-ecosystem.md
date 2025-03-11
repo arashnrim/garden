@@ -32,6 +32,6 @@ Quite fundamental in making this whole thing work is my processes and mindset to
 
 The truth is that there probably won't be any code wizardry bringing these together as it is simply the two sharing things with each other. I have a few ideas going about how to bring these two sister projects together:
 
-1. **A cohesive identity** — as a start, I plan to bring the look and feel of *`function()`* to Δ Delta. That way, the interactions between each feel more *natural* and less obvious. Instead of moving from one website to another, I want the experience to feel like you're moving to an *extension* of the same page.
+1. **A cohesive identity** — as a start, I plan to bring the look and feel of function() to Δ Delta. That way, the interactions between each feel more *natural* and less obvious. Instead of moving from one website to another, I want the experience to feel like you're moving to an *extension* of the same page.
 2. **Including tidbits of both within each other** — for starters, having simple embeds of Δ Delta in function() and vice versa can already do a considerable amount in bringing these two places together. I'm thinking of adding something at the end of blog posts that leads to notes here, and something at the root page of here that brings up the latest blog posts from there.
 3. **Seamless flows from one place to another.** — I'm still figuring out the details here as I dabble more with [Quartz](https://quartz.jzhao.xyz), but I'm thinking along the lines of this: where `A -> B`, there should be as little interruptions as possible.
