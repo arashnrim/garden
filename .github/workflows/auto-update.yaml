@@ -27,7 +27,7 @@ jobs:
           git fetch upstream
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          if ! git merge --allow-unrelated-histories -X ours -m "chore: update Quartz" upstream/v4; then
+          if ! git pull --no-rebase --autostash -s recursive -X ours --no-edit upstream v4; then
             exit 1
           fi
       - name: Push changes and create pull request
