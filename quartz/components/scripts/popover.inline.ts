@@ -30,34 +30,34 @@ async function mouseEnterHandler(
     return setPosition(link.lastChild as HTMLElement)
   }
 
-  const thisUrl = new URL(document.location.href)
-  thisUrl.hash = ""
-  thisUrl.search = ""
   const targetUrl = new URL(link.href)
   const hash = decodeURIComponent(targetUrl.hash)
   targetUrl.hash = ""
   targetUrl.search = ""
+  const popoverId = `popover-${link.pathname}`
+  const prevPopoverElement = document.getElementById(popoverId)
+
+  // dont refetch if there's already a popover
+  if (!!document.getElementById(popoverId)) {
+    showPopover(prevPopoverElement as HTMLElement)
+    return
+  }
 
   const response = await fetchCanonical(targetUrl).catch((err) => {
     console.error(err)
   })
-
-  // bailout if another popover exists
-  if (hasAlreadyBeenFetched()) {
-    return
-  }
 
   if (!response) return
   const [contentType] = response.headers.get("Content-Type")!.split(";")
   const [contentTypeCategory, typeInfo] = contentType.split("/")
 
   const popoverElement = document.createElement("div")
+  popoverElement.id = popoverId
   popoverElement.classList.add("popover")
   const popoverInner = document.createElement("div")
   popoverInner.classList.add("popover-inner")
-  popoverElement.appendChild(popoverInner)
-
   popoverInner.dataset.contentType = contentType ?? undefined
+  popoverElement.appendChild(popoverInner)
 
   switch (contentTypeCategory) {
     case "image":
@@ -98,10 +98,12 @@ async function mouseEnterHandler(
       popoverInner.scroll({ top: heading.offsetTop - 12, behavior: "instant" })
     }
   }
+
+  showPopover(popoverElement)
 }
 
 document.addEventListener("nav", () => {
-  const links = [...document.getElementsByClassName("internal")] as HTMLAnchorElement[]
+  const links = [...document.querySelectorAll("a.internal")] as HTMLAnchorElement[]
   for (const link of links) {
     link.addEventListener("mouseenter", mouseEnterHandler)
     window.addCleanup(() => link.removeEventListener("mouseenter", mouseEnterHandler))
