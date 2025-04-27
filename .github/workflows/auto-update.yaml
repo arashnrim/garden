@@ -38,7 +38,7 @@ jobs:
           title: Update Quartz to latest version
           branch: chore/update-quartz
           body: |
-            This PR updates Quartz to the latest version using `git merge`. Double-check the changes and merge if everything looks good.
+            This PR updates Quartz to the latest version using `git pull`. Double-check the changes and merge if everything looks good.
 
             <small>Raised automatically by [the auto-update Actions workflow](https://github.com/arashnrim/garden/blob/main/.github/workflows/auto-update.yml).</small>
           assignees: arashnrim

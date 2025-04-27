@@ -1,25 +1,10 @@
 function toggleCallout(this: HTMLElement) {
   const outerBlock = this.parentElement!
   outerBlock.classList.toggle("is-collapsed")
+  const content = outerBlock.getElementsByClassName("callout-content")[0] as HTMLElement
+  if (!content) return
   const collapsed = outerBlock.classList.contains("is-collapsed")
-  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight
-  outerBlock.style.maxHeight = height + "px"
-
-  // walk and adjust height of all parents
-  let current = outerBlock
-  let parent = outerBlock.parentElement
-  while (parent) {
-    if (!parent.classList.contains("callout")) {
-      return
-    }
-
-    const collapsed = parent.classList.contains("is-collapsed")
-    const height = collapsed ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight
-    parent.style.maxHeight = height + "px"
-
-    current = parent
-    parent = parent.parentElement
-  }
+  content.style.gridTemplateRows = collapsed ? "0fr" : "1fr"
 }
 
 function setupCallout() {
