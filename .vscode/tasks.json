@@ -6,7 +6,7 @@
         {
             "label": "quartz serve",
             "type": "shell",
-            "command": "npx quartz build --serve"
+            "command": "pnpm quartz build --serve"
         }
     ]
 }

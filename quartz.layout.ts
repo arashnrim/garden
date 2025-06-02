@@ -50,6 +50,16 @@ export const defaultContentPageLayout: PageLayout = {
         linkToMore: "/tags/knowledge" as SimpleSlug,
       }),
     ),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Latest work",
+        filter: (f) => {
+          return f.frontmatter?.tags?.includes("works") || false
+        },
+        limit: 1,
+        linkToMore: "/tags/works" as SimpleSlug,
+      }),
+    ),
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
@@ -73,6 +83,16 @@ export const defaultContentPageLayout: PageLayout = {
         },
         limit: 1,
         linkToMore: "/tags/knowledge" as SimpleSlug,
+      }),
+    ),
+    Component.MobileOnly(
+      Component.RecentNotes({
+        title: "Latest work",
+        filter: (f) => {
+          return f.frontmatter?.tags?.includes("works") || false
+        },
+        limit: 1,
+        linkToMore: "/tags/works" as SimpleSlug,
       }),
     ),
   ],
