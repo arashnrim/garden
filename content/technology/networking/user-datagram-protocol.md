@@ -6,8 +6,8 @@ tags:
   - knowledge
 ---
 
-A connectionless protocol under the [[technology/networking/transport-layer|transport layer of the internet protocol suite]]. Starts data transfers without establishing a connection and is therefore less reliable but simple with low overhead.
+A connectionless protocol under the [[transport-layer|transport layer of the internet protocol suite]]. Starts data transfers without establishing a connection and is therefore less reliable but simple with low overhead.
 
 Often used for transaction-based services such as:
 - [[technology/networking/domain-name-system|DNS systems]]; and
-- the [[technology/networking/dynamic-host-configuration-protocol|DHCP]].
+- the [[dynamic-host-configuration-protocol|DHCP]].

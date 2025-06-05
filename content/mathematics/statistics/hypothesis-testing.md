@@ -51,11 +51,11 @@ The critical value is the value arrived based on the level of significance decid
 
 In a two-tailed test, the rejection region refers to the values below the negative and above the significance level.
 
-![[images/two-tailed-rejection-region.png]]
+![[two-tailed-rejection-region.png]]
 In a one-tailed test where $H_1: \mu < \mu_0$, the rejection region is the values below the negative of the significance level.
-![[images/one-tailed-lt-rejection-region.png]]
+![[one-tailed-lt-rejection-region.png]]
 In a one-tailed test where $H_1 : \mu > \mu_0$, the rejection region is the values above the significance level.
-![[images/one-tailed-gt-rejection-region.png]]
+![[one-tailed-gt-rejection-region.png]]
 
 The critical values can be determined based on the significance level. Depending on whether the sample size is large ($n \geq 30$) or small ($n < 30$), we can refer to the $z$-distribution and $t$-distribution table respectively.
 

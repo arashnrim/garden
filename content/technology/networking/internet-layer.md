@@ -6,8 +6,8 @@ tags:
   - knowledge
 ---
 
-The second layer in the [[technology/networking/internet-protocol-suite|internet protocol suite]]. Mainly responsible for packet forwarding, including routing through intermediate routers.
+The second layer in the [[internet-protocol-suite|internet protocol suite]]. Mainly responsible for packet forwarding, including routing through intermediate routers.
 
 Several protocols employed in the internet layer include:
-- [[technology/networking/internet-protocol-address|IP addresses]]; and
+- [[internet-protocol-address|IP addresses]]; and
 - [[technology/networking/internet-control-message-protocol-address|ICMP addreses]].

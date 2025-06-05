@@ -6,7 +6,7 @@ tags:
   - knowledge
 ---
 
-A part of the IEEE 802 standards (relating to [[technology/networking/area-networks#Local area network|LANs]]) that specifies the set of media access control and physical layer protocols for implementing [[technology/networking/wireless-transmission-medium#Wireless LAN|WLANs]]. Most commonly known to be the standard employed by the Wi-Fi Alliance known as Wi-Fi.
+A part of the IEEE 802 standards (relating to [[area-networks#Local area network|LANs]]) that specifies the set of media access control and physical layer protocols for implementing [[wireless-transmission-medium#Wireless LAN|WLANs]]. Most commonly known to be the standard employed by the Wi-Fi Alliance known as Wi-Fi.
 
 # IEEE 802.11a–802.11be
 

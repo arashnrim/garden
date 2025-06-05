@@ -6,7 +6,7 @@ tags:
   - knowledge
 ---
 
-Refers to the allocation of resources to each program by the [[technology/computers/operating-system|operating system]]. Heavily involves the [[technology/computers/random-access-memory|random access memory]] as a resource used by programs as a working space.
+Refers to the allocation of resources to each program by the [[operating-system|operating system]]. Heavily involves the [[random-access-memory|random access memory]] as a resource used by programs as a working space.
 
 A memory manager has several tasks in particular:
 - allocating portions of the main memory to various programs at their request;
@@ -14,7 +14,7 @@ A memory manager has several tasks in particular:
 - keeping track of the status of each location of the main memory; and
 - protecting the memory allocated to a program from unauthorised access by other programs.
 
-The [[technology/computers/operating-system-kernel|kernel]] is the part of the operating system always in the RAM as long as the computer is turned on.
+The [[operating-system-kernel|kernel]] is the part of the operating system always in the RAM as long as the computer is turned on.
 
 # Memory address
 
@@ -22,7 +22,7 @@ A location, often in the form of a binary number, located on the memory. It can 
 
 To calculate the range of an address space provided the amount of RAM, given that $b$ is the number of bytes, find the number of bits $n$ by using $\frac {log(b)} {log(2)}$ and use that to find the maximum value ($\frac n 4$ `F`s).
 
-The number of bits an address has is dependent on the [[technology/computers/computer-architecture#von Neumann computer architecture|address bus]]'s width.
+The number of bits an address has is dependent on the [[computer-architecture#von Neumann computer architecture|address bus]]'s width.
 
 # Memory content
 
@@ -49,7 +49,7 @@ The physical memory is the memory stored as-is physically, and is seen as frames
 
 # Virtual memory and demand paging
 
-Multiple programs may be loaded into the physical memory at once (in [[technology/computers/operating-system#Multi-tasking and multi-user OSs|multi-tasking operating systems]]). The total memory size required by the OS and all the programs may exceed the physical memory size; in this event, the OS uses virtual memory to compensate. This space is known as a swap space; on Linux, this space is a partition called `swap` while on Windows, this space is in a file named `pagefile.sys`.
+Multiple programs may be loaded into the physical memory at once (in [[operating-system#Multi-tasking and multi-user OSs|multi-tasking operating systems]]). The total memory size required by the OS and all the programs may exceed the physical memory size; in this event, the OS uses virtual memory to compensate. This space is known as a swap space; on Linux, this space is a partition called `swap` while on Windows, this space is in a file named `pagefile.sys`.
 - This method makes use of the available space on the secondary storage to store programs.
 - The OS moves inactive data from the physical memory to the temporary space in the secondary storage.
 - The memory manager than swaps data to and fro the storage and memory when required.

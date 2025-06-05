@@ -13,4 +13,4 @@ There can be many kinds of networks. They may differ in terms of:
 - method of connection (centralised vs peer-to-peer).
 
 A network typically has several important network devices, including the:
-- [[technology/networking/network-switch-and-bridge|network switch]],
+- [[network-switch-and-bridge|network switch]],

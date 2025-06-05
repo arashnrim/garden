@@ -19,10 +19,10 @@ tags:
 A structure for filling data. Utilised by operating systems to store and access information on a computer. The file system manages, stores, and retrieves information and allocates locations on the storage and keeps a record of where specific information is kept.
 
 Some examples of commonly-used file systems:
-- [[technology/computers/file-allocation-table|File Allocation Table]] (FAT), used in legacy Windows computers;
+- [[file-allocation-table|File Allocation Table]] (FAT), used in legacy Windows computers;
 	- FAT32, a version of FAT designed by Microsoft;
-- [[technology/computers/extensible-file-allocation-table|Extensible File Allocation Table]] (exFAT), used in modern windows computers;
-- [[technology/computers/new-technology-file-system|New Technology File System]] (NTFS), used in modern Windows computers;
+- [[extensible-file-allocation-table|Extensible File Allocation Table]] (exFAT), used in modern windows computers;
+- [[new-technology-file-system|New Technology File System]] (NTFS), used in modern Windows computers;
 - Hierarchical File System (HFS), used in legacy Apple computers; and
 - Apple File System (APFS), used in modern Apple computers.
 
@@ -94,7 +94,7 @@ Solid state drives are similar to hard disk drives, but are more efficient and p
 
 The wastage of disk space within the cluster due to the actual file size being smaller than the allocated space. Also known as slack space (or file slack), which is the space between the end of a file and the end of the cluster it is stored in.
 
-![[images/external-fragmentation.png]]
+![[external-fragmentation.png]]
 
 Occurs when a file is divided into pieces scattered around the disk, and of which is usually caused by frequently creating, deleting, and modifying files. Usually caused by the deletion of small files which leaves small sets of contiguous clusters insufficient enough to be filled by a bigger new file.
 

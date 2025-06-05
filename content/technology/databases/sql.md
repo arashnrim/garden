@@ -6,7 +6,7 @@ tags:
   - knowledge
 ---
 
-Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Used as a language used in [[technology/databases/databases|databases]] to query for data according to specified instructions by the language. Used to create, query, and update relational databases.
+Abbreviated term for Structured Query Language, often pronounced as 'sequel'. Used as a language used in [[databases|databases]] to query for data according to specified instructions by the language. Used to create, query, and update relational databases.
 
 # Terminologies
 
@@ -98,7 +98,7 @@ Note that for each syntax, `interval` refers to `DAY`, `MONTH`, `YEAR`, `WEEK`, 
 | `>=` | greater than or equal to |
 
 # Data types
-Often [[technology/data-typing|data typed]] and store a particular piece of required information; common data types include:
+Often [[data-typing|data typed]] and store a particular piece of required information; common data types include:
 
 | Data type | Used for |
 |:-:|:-|

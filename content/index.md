@@ -13,8 +13,8 @@ I've been fond of learning in public for a long time now, and thought to start a
 
 Digital gardens are exciting because there's no proper starting point. To move around, feel free to look at the graph view to the right or below (depending on your device!). Because digital gardens are imperfect and always a work-in-progress, different notes are grouped like this:
 
-* [[tags/spark|✨ Sparks]] — these are notes that are brand-new and have the least time spent on writing. They're due for more work and writing, but they're exciting starts that will grow with more time spent.
-* [[tags/ember|🔥 Embers]] — these are notes that have progressed since being sparks with some time and effort put in. They're not that complete just yet and require more time and elaboration to work on them.
+* [[spark|✨ Sparks]] — these are notes that are brand-new and have the least time spent on writing. They're due for more work and writing, but they're exciting starts that will grow with more time spent.
+* [[ember|🔥 Embers]] — these are notes that have progressed since being sparks with some time and effort put in. They're not that complete just yet and require more time and elaboration to work on them.
 
 Have fun exploring my garden!
 

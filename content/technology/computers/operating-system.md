@@ -6,7 +6,7 @@ tags:
   - knowledge
 ---
 
-A collection of software that manages computer hardware resources and provides common services for application software. Designed to support a [[technology/computers/computer|computer]]'s basic functions. Often provides a [[technologies/graphical-user-interface|graphical user interface]] for the user to interact with the OS.
+A collection of software that manages computer hardware resources and provides common services for application software. Designed to support a [[computer|computer]]'s basic functions. Often provides a [[technologies/graphical-user-interface|graphical user interface]] for the user to interact with the OS.
 
 # Kinds of OSs
 
@@ -18,7 +18,7 @@ Often comes as two kinds of operating systems:
 	- the Windows Server family of operating systems are examples of server OSs
 
 ## Open-source and closed-source OSs
-Operating systems may also vary in whether they are [[technology/open-source|open source]]; the Linux OS and most distributions based off it are open-source, whereas Windows and macOS are examples of proprietary OSs.
+Operating systems may also vary in whether they are [[open-source|open source]]; the Linux OS and most distributions based off it are open-source, whereas Windows and macOS are examples of proprietary OSs.
 
 ## Multi-tasking and multi-user OSs
 A multi-tasking OS allows more than one program to run at the same time in a computer. Users will be able to:
@@ -46,15 +46,15 @@ Based on the definitions above:
 # How it works
 
 Operating systems work with other components in a computer to fully make use of a computer's resources and function well. These components include:
-- the [[technology/computers/basic-input-output-system|basic input/output system (BIOS)]];
-- the operating system's [[technology/computers/operating-system-kernel|kernel]] and
-- [[technology/computers/device-management|device drivers]].
+- the [[basic-input-output-system|basic input/output system (BIOS)]];
+- the operating system's [[operating-system-kernel|kernel]] and
+- [[device-management|device drivers]].
 
 # Functions
 
 Generally has four important functions:
 
-- [[technology/computers/file-management|file management]] — the handling of file-related activities (e.g., storage, retrieval, naming, and sharing);
-- [[technology/computers/process-management|process management]] — the handling of the creation and destruction of processes and provision of mechanisms for synchronisation and communication across processes;
-- [[technology/computers/memory-management|memory management]] — the handling of the allocation and deallocation of memory space to programs; and
-- [[technology/computers/device-management|device management]] — the handling of the management of I/O devices.
+- [[file-management|file management]] — the handling of file-related activities (e.g., storage, retrieval, naming, and sharing);
+- [[process-management|process management]] — the handling of the creation and destruction of processes and provision of mechanisms for synchronisation and communication across processes;
+- [[memory-management|memory management]] — the handling of the allocation and deallocation of memory space to programs; and
+- [[device-management|device management]] — the handling of the management of I/O devices.

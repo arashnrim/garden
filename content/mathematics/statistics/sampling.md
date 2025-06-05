@@ -61,7 +61,7 @@ There may also be additional bias as interviewers may approach more approchable 
 Refers to the probability distribution of a statistic. More of a theoretical concept than one observed from experiment. As statistics are random variables, each statistic follows a particular distribution.
 
 ## Sampling distribution of the sample mean
-Refers to the probability distribution of all possible values the sample mean can take when a sample (of size $n$) is taken from a particular population. Is a [[mathematics/statistics/continuous-probability-distribution|continuous probability distribution]] by nature.
+Refers to the probability distribution of all possible values the sample mean can take when a sample (of size $n$) is taken from a particular population. Is a [[continuous-probability-distribution|continuous probability distribution]] by nature.
 
 An important statistic is the sample's mean ($\bar X$), meaning that we often concern ourselves with the sample distribution of the sample mean.
 

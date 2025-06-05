@@ -16,7 +16,7 @@ tags:
 - Questions can come up in real-time instead of after class when analysing sequential notes
 - It's too much work to go back and rewrite whatever content the lecturer has gone through; that's likely why we focus on writing sequentially
 
-[[technology/obsidian|Obsidian]]-specific tips
+[[obsidian|Obsidian]]-specific tips
 - Try not to make a note for the concepts you already know; it's already in your primary database (your mind!)
 - Don't treat this as a big project management project; it is not
 - You're not here to hoard data, you're here to organise your thoughts

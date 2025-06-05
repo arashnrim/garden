@@ -65,7 +65,7 @@ $$
 $$
 
 ## Confidence intervals of small samples or populations with unknown variance
-The [[mathematics/statistics/continuous-probability-distribution#$t$-distribution|t-distribution]] is employed here. Where $\bar X$ is the mean of a sample of size $n$, and:
+The [[continuous-probability-distribution#$t$-distribution|t-distribution]] is employed here. Where $\bar X$ is the mean of a sample of size $n$, and:
 - the sample size is small ($n < 30$); and
 - the population does not have a known variance $\sigma^2$,
 for a $100(1 - \alpha)$% confidence interval for $\mu$, the formula is:

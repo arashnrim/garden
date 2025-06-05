@@ -6,6 +6,6 @@ tags:
   - knowledge
 ---
 
-A method of mapping an [[technology/networking/internet-protocol-address|IP address]] into another by modifying address information in the IP header of packets while in transit across a traffic routing device. Often used to convert to and fro public and private IP addresses.
+A method of mapping an [[internet-protocol-address|IP address]] into another by modifying address information in the IP header of packets while in transit across a traffic routing device. Often used to convert to and fro public and private IP addresses.
 
 

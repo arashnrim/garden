@@ -6,11 +6,11 @@ tags:
   - knowledge
 ---
 
-The third layer in the [[technology/networking/internet-protocol-suite|internet protocol suite]]. Mainly used to provide end-to-end communication services for applications and is more focused on connection-oriented communications. Where required, the protocol segments data into smaller segments and reassembles the segments at the receiving host.
+The third layer in the [[internet-protocol-suite|internet protocol suite]]. Mainly used to provide end-to-end communication services for applications and is more focused on connection-oriented communications. Where required, the protocol segments data into smaller segments and reassembles the segments at the receiving host.
 
 Several protocols employed in the transport layer include the:
-- [[technology/networking/transmission-control-protocol|Transmission Control Protocol (TCP)]]; and
-- [[technology/networking/user-datagram-protocol|User Datagram Protocol (UDP)]].
+- [[transmission-control-protocol|Transmission Control Protocol (TCP)]]; and
+- [[user-datagram-protocol|User Datagram Protocol (UDP)]].
 
 # Port numbers
 

@@ -26,7 +26,7 @@ X \sim N(\mu, \sigma^2)
 $$
 
 There are certain values that are good to know when it comes to the area bound between standard deviations.
-![[images/normal-distribution-curve-area.png]]
+![[normal-distribution-curve-area.png]]
 - $P(\mu - \sigma < X < \mu + \sigma) = 0.68$
 - $P(\mu - 2\sigma < X < \mu + 2\sigma) = 0.95$
 - $P(\mu - 3\sigma < X < \mu + 3\sigma) = 0.997$
@@ -51,7 +51,7 @@ $$
 \phi (z) = P(Z \leq z)
 $$
 
-## Normal approximation to [[mathematics/statistics/discrete-probability-distribution|discrete probability distributions]]
+## Normal approximation to [[discrete-probability-distribution|discrete probability distributions]]
 
 Since normal distribution is a form of continuous probabiity distribution, while it is possible to approximate it to a discrete probability distribution, continuity correction must be done to convert the discrete random variable into one of continuous nature.
 
@@ -60,21 +60,21 @@ Generally, to perform continuity correction, each discrete number must be treate
 > 	**Example**
 > Provided $X = 1$, correction will be done such that $X$ becomes a range ($0.5 < X < 1.5$).
 
-### Normal approximation from [[mathematics/statistics/discrete-probability-distribution#Binomial distribution|binomial distribution]]
+### Normal approximation from [[discrete-probability-distribution#Binomial distribution|binomial distribution]]
 When a binomial distribution has a high number of independent trails ($n$) and a low probability ($p$), we can approximate the binomial distribution into a normal distribution.
 
 Expressed mathematically, when $n \to \infty, \space p \approx 0.5$ such that $np > 5, nq > 5$,
 $$
 X \sim B(n, p) \approx X \sim N (np, npq)
 $$
-### Normal approximation from [[mathematics/statistics/discrete-probability-distribution#Poisson distribution|Poisson distribution]]
+### Normal approximation from [[discrete-probability-distribution#Poisson distribution|Poisson distribution]]
 When a Poisson distribution has an average value ($\lambda$) sufficiently larger than its square root ($\sqrt \lambda$), we can approximate the Poisson distribution into a normal distribution.
 
 Expressed mathematically, when $\lambda > 10$:
 $$
 X \sim P_O (\lambda) \approx X \sim N (\lambda, \lambda)
 $$
-## Normal approximation to [[mathematics/statistics/sampling#Sampling distribution of the sample mean|sampling distribution of the sample mean]]
+## Normal approximation to [[sampling#Sampling distribution of the sample mean|sampling distribution of the sample mean]]
 If $X_1, X_2, ..., X_n$ is a random sample (of size $n$) taken from a population where $X \sim N (\mu, \sigma^2)$, then the sample mean ($\bar X$) follows a normal distribution.
 
 Expressed mathematically, when $X \sim N (\mu, \sigma^2)$,

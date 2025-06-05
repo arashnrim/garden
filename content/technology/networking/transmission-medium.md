@@ -8,8 +8,8 @@ tags:
 
 The method in which data is being transmitted to and from from. There are usually two classifications of transmission media:
 
-- [[technology/networking/wired-transmission-medium|wired transmission mediums]]; and
-- [[technology/networking/wireless-transmission-medium|wireless transmission mediums]].
+- [[wired-transmission-medium|wired transmission mediums]]; and
+- [[wireless-transmission-medium|wireless transmission mediums]].
 
 When considering the medium of choice, there are usually multiple factors that come into play to settle the score. They include the:
 - maximum speed (rate of transmission);

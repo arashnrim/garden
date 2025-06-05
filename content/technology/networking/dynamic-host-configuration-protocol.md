@@ -6,7 +6,7 @@ tags:
   - knowledge
 ---
 
-A protocol typically employed in the provision and assignment of [[technology/networking/internet-protocol-address|IP addresses]]. It allows a host to obtain an IP address dynamically without the network administrator having to set up an individual profile for the host.
+A protocol typically employed in the provision and assignment of [[internet-protocol-address|IP addresses]]. It allows a host to obtain an IP address dynamically without the network administrator having to set up an individual profile for the host.
 
 # Process
 

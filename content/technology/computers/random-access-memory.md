@@ -6,7 +6,7 @@ tags:
   - knowledge
 ---
 
-A component that stores data and instructions temporarily so that they can be quickly accessed by the [[technology/computers/central-processing-unit|processor]] when needed. Also a resource used by programs as a working space.
+A component that stores data and instructions temporarily so that they can be quickly accessed by the [[central-processing-unit|processor]] when needed. Also a resource used by programs as a working space.
 
 
 

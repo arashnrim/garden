@@ -6,11 +6,11 @@ tags:
   - knowledge
 ---
 
-A computing programming model that models a system as a collection of objects, of which each object represents a particular part of the system[^1]. Generally involves the use of [[technology/programming/class|classes]] and objects.
+A computing programming model that models a system as a collection of objects, of which each object represents a particular part of the system[^1]. Generally involves the use of [[class|classes]] and objects.
 
 Object-oriented programming has four main concepts:
-	- [[technology/programming/encapsulation|encapsulation]];
-	- [[technology/programming/inheritance|inheritance]];
+	- [[encapsulation|encapsulation]];
+	- [[inheritance|inheritance]];
 	- [[technologies/programming/classes|abstract classes and instances]]; and
 	- [[technologies/programming/polymorphism|polymorphism]]
 

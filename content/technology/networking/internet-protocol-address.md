@@ -6,7 +6,7 @@ tags:
   - knowledge
 ---
 
-An 4-byte (i.e., 32-bit) identifier for a network device typically assigned by another more prominent network device that identifies the device in the network using the [[technology/networking/internet-protocol|internet protocol]]. Typically has two components to it, namely the:
+An 4-byte (i.e., 32-bit) identifier for a network device typically assigned by another more prominent network device that identifies the device in the network using the [[internet-protocol|internet protocol]]. Typically has two components to it, namely the:
 - network identifier; and
 - host identifier.
 
@@ -28,12 +28,12 @@ Usually just used in internal networks. Not routable through the internet and wi
 - 172.16.0.0 to 172.31.255.255 for Class B addresses; and
 - 192.168.0.0 to 192.168.255.255 for Class C addresses.
 
-To translate or map a private address to or fro a public address, [[technology/networking/network-address-translation|network address translation (NAT)]] can be used.
+To translate or map a private address to or fro a public address, [[network-address-translation|network address translation (NAT)]] can be used.
 
 # Assignment of IP addresses
 
-IP addresses can be static or dynamic, and they are assigned via the [[technology/networking/dynamic-host-configuration-protocol|Dynamic Host Configuration Protocol (DHCP)]].
+IP addresses can be static or dynamic, and they are assigned via the [[dynamic-host-configuration-protocol|Dynamic Host Configuration Protocol (DHCP)]].
 
-# Binding of IP address with [[technology/networking/media-access-control-address|MAC address]]
+# Binding of IP address with [[media-access-control-address|MAC address]]
 
-IP addresses are often bound together with MAC addresses via the [[technology/networking/address-resolution-protocol|Address Resolution Protocol (ARP)]] and, in the past, the Reverse Address Resolution Protocol (RARP).
+IP addresses are often bound together with MAC addresses via the [[address-resolution-protocol|Address Resolution Protocol (ARP)]] and, in the past, the Reverse Address Resolution Protocol (RARP).

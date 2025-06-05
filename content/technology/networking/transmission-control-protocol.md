@@ -6,7 +6,7 @@ tags:
   - knowledge
 ---
 
-A connection-oriented protocol under the [[technology/networking/transport-layer|transport layer of the internet protocol suite]]. Connections made by the TCP are established prior to data transfer, maintained throughout the data exchange, and then terminated at the end of the communication.
+A connection-oriented protocol under the [[transport-layer|transport layer of the internet protocol suite]]. Connections made by the TCP are established prior to data transfer, maintained throughout the data exchange, and then terminated at the end of the communication.
 
 Provides reliable data transfers using acknowledgements, error detection, and recovery.
 

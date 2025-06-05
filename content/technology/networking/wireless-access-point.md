@@ -12,7 +12,7 @@ Usually are fitten with several components, including:
 - antennae;
 - radio frequency transmitters;
 - radio frequency receivers;
-- RJ45 wired network interface (typically using [[technology/networking/ethernet|Ethernet]]); and a 
+- RJ45 wired network interface (typically using [[ethernet|Ethernet]]); and a 
 - power supply.
 	- Most modern APs support Power over Ethernet, a standard or ad hoc system that passes electric power along with data in the Ethernet cabling
 

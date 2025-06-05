@@ -6,4 +6,4 @@ tags:
   - knowledge
 ---
 
-A network layer communications protocol in the [[technology/networking/internet-protocol-suite]] for relaying datagrams across network boundaries. Provides a packet delivery service between end hosts, also known as routing.
+A network layer communications protocol in the [[internet-protocol-suite]] for relaying datagrams across network boundaries. Provides a packet delivery service between end hosts, also known as routing.

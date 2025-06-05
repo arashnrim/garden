@@ -10,12 +10,12 @@ The method of transmitting data through physical means. Is ubiquitous even in to
 
 The two common types of wired transmission medium include:
 
-- [[technology/networking/twisted-pair-cable|twisted pair cables]]; and
+- [[twisted-pair-cable|twisted pair cables]]; and
 - [[#Optical fibre cables|optical fibre cables]].
 
 # Optical fibre cables
 
-Often used in [[technology/networking/area-networks#Local area network|LANs]] and especially used in cases where electromagnetic interference is an issue. A more modern format compared to twisted pair cables, offering better bandwidth, transmission distance, and resistance as well as lower maintenance.
+Often used in [[area-networks#Local area network|LANs]] and especially used in cases where electromagnetic interference is an issue. A more modern format compared to twisted pair cables, offering better bandwidth, transmission distance, and resistance as well as lower maintenance.
 
 There are two types of optical fibre cables:
 - single-mode optical fibre, in which a laser light source is used for transmission; and

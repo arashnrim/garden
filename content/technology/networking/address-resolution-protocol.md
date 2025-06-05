@@ -6,7 +6,7 @@ tags:
   - knowledge
 ---
 
-Used to discover the [[technology/networking/media-access-control-address|MAC address]] of a device given its [[technology/networking/internet-protocol-address|IP address]]. There are particularly two parts to the ARP protocol, namely the request and response.
+Used to discover the [[media-access-control-address|MAC address]] of a device given its [[internet-protocol-address|IP address]]. There are particularly two parts to the ARP protocol, namely the request and response.
 
 # Process
 

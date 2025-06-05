@@ -6,11 +6,11 @@ tags:
   - knowledge
 ---
 
-A [[technology/networking/wired-transmission-medium|wired transmission]] family of technologies frequently adapted for data transfer across the internet. Exists in the physical layer of the [[technology/networking/open-systems-interconnection-model|OSI model]]. Has two main implementations: Fast Ethernet (obsolete) and Gigabit Ethernet (current).
+A [[wired-transmission-medium|wired transmission]] family of technologies frequently adapted for data transfer across the internet. Exists in the physical layer of the [[open-systems-interconnection-model|OSI model]]. Has two main implementations: Fast Ethernet (obsolete) and Gigabit Ethernet (current).
 
 # Standards
 
-Ethernet has different classifications for the cabling used, in line with that of the cable types associated with [[technology/networking/twisted-pair-cable|twisted pair cables]]. The table below summarises the main differences:
+Ethernet has different classifications for the cabling used, in line with that of the cable types associated with [[twisted-pair-cable|twisted pair cables]]. The table below summarises the main differences:
 
 | Fast Ethernet layer |  Transmission rate | Cable type | Maximum distance |
 |:-:|:-:|:-:|:-:|
@@ -48,11 +48,11 @@ where:
 
 # Type II Ethernet Frame
 
-![[images/type-ii-ethernet-frame.png]]
+![[type-ii-ethernet-frame.png]]
 
-A [[technology/networking/open-systems-interconnection-model|data link]] protocol data unit that includes information about a particular packet. Spans between 64 and 1518 bytes. Has three primary components to it, namely the:
+A [[open-systems-interconnection-model|data link]] protocol data unit that includes information about a particular packet. Spans between 64 and 1518 bytes. Has three primary components to it, namely the:
 - [[media-access-control|MAC]] header spanning 14 bytes (6 + 6 + 2), including the:
-	- destination [[technology/networking/media-access-control-address|MAC address]];
+	- destination [[media-access-control-address|MAC address]];
 	- source MAC address; and
 	- EtherType (used to indicate which protocol is encapsulated in the payload);
 - payload spanning 46 to 1500 bytes; and
