@@ -12,18 +12,16 @@ function setupCallout() {
     `callout is-collapsible`,
   ) as HTMLCollectionOf<HTMLElement>
   for (const div of collapsible) {
-    const title = div.firstElementChild
+    const title = div.getElementsByClassName("callout-title")[0] as HTMLElement
+    const content = div.getElementsByClassName("callout-content")[0] as HTMLElement
+    if (!title || !content) continue
 
-    if (title) {
-      title.addEventListener("click", toggleCallout)
-      window.addCleanup(() => title.removeEventListener("click", toggleCallout))
+    title.addEventListener("click", toggleCallout)
+    window.addCleanup(() => title.removeEventListener("click", toggleCallout))
 
-      const collapsed = div.classList.contains("is-collapsed")
-      const height = collapsed ? title.scrollHeight : div.scrollHeight
-      div.style.maxHeight = height + "px"
-    }
+    const collapsed = div.classList.contains("is-collapsed")
+    content.style.gridTemplateRows = collapsed ? "0fr" : "1fr"
   }
 }
 
 document.addEventListener("nav", setupCallout)
-window.addEventListener("resize", setupCallout)
