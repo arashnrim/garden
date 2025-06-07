@@ -16,6 +16,11 @@ Digital gardens are exciting because there's no proper starting point. To move a
 * [[spark|✨ Sparks]] — these are notes that are brand-new and have the least time spent on writing. They're due for more work and writing, but they're exciting starts that will grow with more time spent.
 * [[ember|🔥 Embers]] — these are notes that have progressed since being sparks with some time and effort put in. They're not that complete just yet and require more time and elaboration to work on them.
 
+Alternatively, feel free to check this manually-curated list of the things I've been up to now:
+
+- [[homelabbing|Exploring homelabbing]], where I try to bring together different devices for a nice experimental sandbox
+- Seeing how potent LLMs can be in surfacing manipulative language packed in a [[semantica|browser extension]]
+
 Have fun exploring my garden!
 
 [^1]: Yes, I know this technically says "delta Delta". Let me be cool.

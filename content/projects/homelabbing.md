@@ -14,20 +14,20 @@ I currently have an extremely basic homelab, with plans to expand even further a
 # Setup
 
 * Raspberry Pi 4 Model B (active)
-	* 64-bit ARM Cortex-A72
-	* 4 GB LPDDR4-3200 SDRAM
+	* 64-bit ARM Cortex-A72 [[central-processing-unit|CPU]]
+	* 4 GB LPDDR4-3200 SD[[random-access-memory|RAM]]
 	* 32 GB microSD internal storage; 1 TB HDD external storage
 * Mac mini (not onboarded)
-	* 64-bit Apple M2
-	* 16 GB LPDDR5-6400 SDRAM
+	* 64-bit Apple M2 [[central-processing-unit|CPU]]
+	* 16 GB LPDDR5-6400 SD[[random-access-memory|RAM]]
 	* 256 GB SSD internal storage
 * Lenovo ThinkCentre M910q (not onboarded)
-	* 64-bit Intel Core i5-6500T
-	* 8 GB PC4-2400T (DDR4-2400) RAM
+	* 64-bit Intel Core i5-6500T [[central-processing-unit|CPU]]
+	* 8 GB PC4-2400T (DDR4-2400) [[random-access-memory|RAM]]
 	* 256 GB SSD internal storage
 * Custom-built PC (primary device)
-	* 64-bit Intel Core i5-13500
-	* 32 GB DDR4-3600 RAM
+	* 64-bit Intel Core i5-13500 [[central-processing-unit|CPU]]
+	* 32 GB DDR4-3600 [[random-access-memory|RAM]]
 	* 1 TB + 1 TB SSD internal storage
 	* 8 GB NVIDIA RTX 3070 Ti
 
