@@ -86,13 +86,15 @@ $$
 ## Exponential functions
 $$
 \frac d {dx} e^{f(x)} = f'(x) \space e^{f(x)} \space ln(e) = f'(x) \space e^{f(x)}
-$$$$
+$$
+$$
 \frac d {dx} a^{f(x)} = f'(x) \space a^{f(x)} \space ln(a)
 $$
 ## Logarithmic functions
 $$
 \frac d {dx} ln[f(x)] = \frac {f'(x)} {f(x)}
 $$
+
 $$
 \frac d {dx} log_a[f(x)] = \frac {f'(x)} {ln(a) \space f(x)}
 $$
@@ -117,12 +119,13 @@ Derivative tests are used in the first ($f'(x)$) and second ($f''(x)$) of a deri
 4. Construct a table to determine the shape of the derived equation.
 
 A table like below could be used:
-| $x < a$ | $x = a$ | $x > a$ | Nature of stationary point |
-|:-:|:-:|:-:|:-:|
-| Positive | 0 | Negative | Maximum point |
-| Negative | 0 | Positive | Minimum point |
-| Positive | 0 | Positive | Inflexion point |
-| Negative | 0 | Negative | Inflexion point |
+
+| $x < a$  | $x = a$ | $x > a$  | Nature of stationary point |
+| :------: | :-----: | :------: | :------------------------: |
+| Positive |    0    | Negative |       Maximum point        |
+| Negative |    0    | Positive |       Minimum point        |
+| Positive |    0    | Positive |      Inflexion point       |
+| Negative |    0    | Negative |      Inflexion point       |
 
 ### Second derivative test
 1. Determine the second derivative (i.e., $f''(x)$).

@@ -3,7 +3,7 @@ title: Semantica
 date: 2025-06-02
 tags:
   - spark
-  - works
+  - projects
 ---
 A browser extension and digital literacy tool to help you scrutinise and understand the media you consume better.
 
