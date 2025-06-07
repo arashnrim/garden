@@ -26,6 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
+    Component.MobileOnly(Component.TableOfContents()),
   ],
   left: [
     Component.PageTitle(),
@@ -37,38 +38,48 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         // { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+        { Component: Component.DesktopOnly(Component.ReaderMode()) },
       ],
     }),
     Component.DesktopOnly(Component.Explorer()),
     Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Latest thought",
-        filter: (f) => {
-          return f.frontmatter?.tags?.includes("thoughts") || false
-        },
-        limit: 1,
-        linkToMore: "/tags/thoughts" as SimpleSlug,
-      }),
-    ),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Latest knowledge",
-        filter: (f) => {
-          return f.frontmatter?.tags?.includes("knowledge") || false
-        },
-        limit: 1,
-        linkToMore: "/tags/knowledge" as SimpleSlug,
-      }),
-    ),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Latest work",
-        filter: (f) => {
-          return f.frontmatter?.tags?.includes("works") || false
-        },
-        limit: 1,
-        linkToMore: "/tags/works" as SimpleSlug,
+      Component.Flex({
+        direction: "column",
+        components: [
+          {
+            Component: Component.RecentNotes({
+              title: "Latest thought",
+              filter: (f) => {
+                return f.frontmatter?.tags?.includes("thoughts") || false
+              },
+              limit: 1,
+              linkToMore: "/tags/thoughts" as SimpleSlug,
+            }),
+            align: "start",
+          },
+          {
+            Component: Component.RecentNotes({
+              title: "Latest knowledge",
+              filter: (f) => {
+                return f.frontmatter?.tags?.includes("knowledge") || false
+              },
+              limit: 1,
+              linkToMore: "/tags/knowledge" as SimpleSlug,
+            }),
+            align: "start",
+          },
+          {
+            Component: Component.RecentNotes({
+              title: "Latest project",
+              filter: (f) => {
+                return f.frontmatter?.tags?.includes("projects") || false
+              },
+              limit: 1,
+              linkToMore: "/tags/works" as SimpleSlug,
+            }),
+            align: "start",
+          },
+        ],
       }),
     ),
   ],
@@ -76,35 +87,45 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.TableOfContents()),
     Component.DesktopOnly(Component.Graph()),
     Component.Backlinks(),
-    Component.DesktopOnly(Component.Backlinks()),
     Component.MobileOnly(
-      Component.RecentNotes({
-        title: "Latest thought",
-        filter: (f) => {
-          return f.frontmatter?.tags?.includes("thoughts") || false
-        },
-        limit: 1,
-        linkToMore: "/tags/thoughts" as SimpleSlug,
-      }),
-    ),
-    Component.MobileOnly(
-      Component.RecentNotes({
-        title: "Latest knowledge",
-        filter: (f) => {
-          return f.frontmatter?.tags?.includes("knowledge") || false
-        },
-        limit: 1,
-        linkToMore: "/tags/knowledge" as SimpleSlug,
-      }),
-    ),
-    Component.MobileOnly(
-      Component.RecentNotes({
-        title: "Latest work",
-        filter: (f) => {
-          return f.frontmatter?.tags?.includes("works") || false
-        },
-        limit: 1,
-        linkToMore: "/tags/works" as SimpleSlug,
+      Component.Flex({
+        direction: "row",
+        wrap: "wrap",
+        components: [
+          {
+            Component: Component.RecentNotes({
+              title: "Latest thought",
+              filter: (f) => {
+                return f.frontmatter?.tags?.includes("thoughts") || false
+              },
+              limit: 1,
+              linkToMore: "/tags/thoughts" as SimpleSlug,
+            }),
+            align: "start",
+          },
+          {
+            Component: Component.RecentNotes({
+              title: "Latest knowledge",
+              filter: (f) => {
+                return f.frontmatter?.tags?.includes("knowledge") || false
+              },
+              limit: 1,
+              linkToMore: "/tags/knowledge" as SimpleSlug,
+            }),
+            align: "start",
+          },
+          {
+            Component: Component.RecentNotes({
+              title: "Latest project",
+              filter: (f) => {
+                return f.frontmatter?.tags?.includes("projects") || false
+              },
+              limit: 1,
+              linkToMore: "/tags/works" as SimpleSlug,
+            }),
+            align: "start",
+          },
+        ],
       }),
     ),
   ],

@@ -54,11 +54,33 @@ h1, h2, h3, h4, h5, h6 {
     line-height: normal;
 }
 
+article li {
+    margin-bottom: 0.75rem;
+}
+
+article li li {
+    margin-top: 0.75rem;
+}
+
 article *:not(h1, h2, h3, h4, h5, h6) {
-    font-size: clamp(1rem, 5vw, 1.125rem);
+    font-size: 1.1rem;
     line-height: 1.6;
 }
 
 .article-title {
     font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
+
+@media screen and (min-width: 768px) {
+    article li {
+        margin-bottom: 0.5rem;
+    }
+
+    article li li {
+        margin-top: 0.5rem;
+    }
+
+    article *:not(h1, h2, h3, h4, h5, h6) {
+        font-size: 1.125rem;
+    }
 }
