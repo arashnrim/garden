@@ -75,7 +75,7 @@ export const defaultContentPageLayout: PageLayout = {
                 return f.frontmatter?.tags?.includes("projects") || false
               },
               limit: 1,
-              linkToMore: "/tags/works" as SimpleSlug,
+              linkToMore: "/tags/projects" as SimpleSlug,
             }),
             align: "start",
           },
@@ -121,7 +121,7 @@ export const defaultContentPageLayout: PageLayout = {
                 return f.frontmatter?.tags?.includes("projects") || false
               },
               limit: 1,
-              linkToMore: "/tags/works" as SimpleSlug,
+              linkToMore: "/tags/projects" as SimpleSlug,
             }),
             align: "start",
           },

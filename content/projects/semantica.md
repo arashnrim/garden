@@ -16,6 +16,14 @@ A browser extension and digital literacy tool to help you scrutinise and underst
 
 # Devlog
 
+## 9 June 2025
+
+- Started on the pop-up UI for displaying analyses
+- Identified an issue where the analysis displayed on the extension popup is essentially a race — the tab that gets loaded last will have its analysis (i.e. the latest analysis) being displayed
+	- I entirely forgot that I haven't implemented any caching for the analyses. In other words, if you have multiple tabs open, the tab that loads the latest will override all other tabs to be analysed
+	- Implemented temporary caching of analyses under a [Record](https://www.typescriptlang.org/docs/handbook/utility-types.html#recordkeys-type), but more work needs to be done to actually properly save the analyses under local storage
+- Identified an issue where the popup content won't be changed if the popup is open; the popup has to be re-opened for the updated content to populate
+
 ## 5 June 2025
 
 * Trying to understand the core concepts of browser extensions that seem to be applicable to both Chrome and Firefox:

@@ -31,6 +31,19 @@ I currently have an extremely basic homelab, with plans to expand even further a
 	* 1 TB + 1 TB SSD internal storage
 	* 8 GB NVIDIA RTX 3070 Ti
 
+## Current services
+
+| Application                                                     | Usage                   | Tech           | Host         | Status                 |
+| :-------------------------------------------------------------- | :---------------------- | :------------- | :----------- | :--------------------- |
+| Joplin Server                                                   | Note-taking             | Docker Compose | Raspberry Pi | Active (in use)        |
+| Shlink                                                          | Link shortening         | Docker Compose | Raspberry Pi | Active (in use)        |
+| Paperless-ngx                                                   | Physical paper scanning | Docker Compose | Raspberry Pi | Active (experimenting) |
+| [5.0 GPA Student](https://github.com/arashnrim/5.0-gpa-student) | Discord bot             | Docker         | Raspberry Pi | Active (in use)        |
+| Portainer Agent                                                 | Docker management       | Docker         | Raspberry Pi | Active (in use)        |
+| Open WebUI                                                      | LLM interaction         | Docker         | PC           | Active (in use)        |
+| Portainer                                                       | Docker management       | Docker         | PC           | Active (in use)        |
+| Watchtower                                                      | Docker management       | Docker         | PC           | Active (in use)        |
+
 # Current plans
 
 1. Onboard Mac mini into setup
