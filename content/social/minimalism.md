@@ -7,7 +7,7 @@ tags:
 ---
 It's generally easy to define what it is — a focus around having *less* — but what's more important and intriguing is the philosophy that some people can have behind it.
 
-There seems to be a few repeating ideas w.r.t. minimalism:
+There seems to be a few repeating ideas with regards to minimalism:
 
 * intentionality — that what you're keeping and doing aligns with what we hope to do; removing distractions, ensuring that the environment is right for us to be clear about what we're doing
 
@@ -20,3 +20,5 @@ There seems to be a few repeating ideas w.r.t. minimalism:
 	> Minimalism is about more than just possessions, though. Minimalism is focusing on and committing to the fundamentals, instead of wasting time, money, or energy on details.
 	> 
 	> [Minimalism, James Clear](https://jamesclear.com/minimalism)
+	
+* a rejection of a consumeristic mindset — not necessarily being extremely frugal and doing everything we can to prolong something's lifespan, but to actively reject the urge of having to have the latest thing without proper reason

@@ -7,8 +7,19 @@ tags:
   - thoughts
 ---
 
-An extension of [[building in public]], where the individual opens up their learning process for the public to view.[^1]
+The process of actively maintaining and documenting one's learnings in a publicly-accessible manner. It's where the individual opens up their learning process for the public to view.[^1]
 
+> [!todo] Sources to evaluate
+> 
+> - [Learn in Public](https://www.swyx.io/learn-in-public)
+
+> Whatever your thing is, make the thing you wish you had found when you were learning. Don't judge your results by "claps" or retweets or starts or upvotes - just talk to yourself from 3 months ago. I keep an almost-daily dev blog written for no one else but me.
+> 
+> Guess what? It's not about reaching as many people as possible with your content. If you can do that, great, remember me when you're famous. But chances are that by far the biggest beneficiary of you trying to keep past you is future you. If others benefit, that's icing.
+> 
+> [Learn in Public, Shawn "swyx" Wang](https://www.swyx.io/learn-in-public)
+
+swyx brings up the idea that learning in public is, primarily, something self-driven and self-beneficial: you document your own findings now such that future you might benefit when looking back. If others come across what you have come across, that's an added bonus, not necessarily a necessity part of the design.
 # Why do I want to learn in public?
 
 I think that learning in public has been something eye-catching for me for one particular reason: transparency. There's something I find comfortable when interacting with people I know are transparent enough to show the ups and downs of their daily lives. As a student myself, I think that one way I can reflect that transparency is to showcase what I've been learning for everyone to see.
