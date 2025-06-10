@@ -11,8 +11,10 @@ A browser extension and digital literacy tool to help you scrutinise and underst
 
 ## Features
 
-- News sources: using a local-based LLM (maybe Ollama?) to highlight phrases that suggest, imply, or carry additional meaning beyond their literal wording (e.g. emotive language)
+- News sources: using a local-based [[large-language-models|LLM]] (maybe Ollama?) to highlight phrases that suggest, imply, or carry additional meaning beyond their literal wording (e.g. emotive language)
 - News sources: fact-checking?
+- Support for thinking models — toggleable?
+	- Ollama might return errors if we ask for thinking on non-thinking models; I'll need to figure out a solution to either identify the model used or [[graceful-degradation|gracefully handle errors]]
 
 # Devlog
 
