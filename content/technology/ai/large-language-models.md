@@ -5,7 +5,7 @@ tags:
   - spark
   - knowledge
 ---
-> [!todo]- Ideas to add on
+> [!todo] Ideas to add on
 > 
 > * What are LLMs?
 > * What's the history behind them?
