@@ -11,6 +11,10 @@ I currently have an extremely basic homelab, with plans to expand even further a
 
 ![[homelab.png]]
 
+> [!info] Additional resources
+> 
+> - [GitHub repo for setup + config files](https://github.com/arashnrim/homelab)
+
 # Setup
 
 * Raspberry Pi 4 Model B (active)
@@ -33,16 +37,18 @@ I currently have an extremely basic homelab, with plans to expand even further a
 
 ## Current services
 
-| Application                                                     | Usage                   | Tech           | Host         | Status                 |
-| :-------------------------------------------------------------- | :---------------------- | :------------- | :----------- | :--------------------- |
-| Joplin Server                                                   | Note-taking             | Docker Compose | Raspberry Pi | Active (in use)        |
-| Shlink                                                          | Link shortening         | Docker Compose | Raspberry Pi | Active (in use)        |
-| [5.0 GPA Student](https://github.com/arashnrim/5.0-gpa-student) | Discord bot             | Docker         | Raspberry Pi | Active (in use)        |
-| Portainer Agent                                                 | Docker management       | Docker         | Raspberry Pi | Active (in use)        |
-| Open WebUI                                                      | LLM interaction         | Docker         | PC           | Active (in use)        |
-| Portainer                                                       | Docker management       | Docker         | PC           | Active (in use)        |
-| Watchtower                                                      | Docker management       | Docker         | PC           | Active (in use)        |
-| Paperless-ngx                                                   | Physical paper scanning | Docker Compose | Mac mini     | Active (experimenting) |
+| Application                                                     | Usage                         | Tech           | Host         | Status                 |
+| :-------------------------------------------------------------- | :---------------------------- | :------------- | :----------- | :--------------------- |
+| Joplin Server                                                   | Note-taking                   | Docker Compose | Raspberry Pi | Active (in use)        |
+| Shlink                                                          | Link shortening               | Docker Compose | Raspberry Pi | Active (in use)        |
+| [5.0 GPA Student](https://github.com/arashnrim/5.0-gpa-student) | Discord bot                   | Docker         | Raspberry Pi | Active (in use)        |
+| Portainer Agent                                                 | Docker management             | Docker         | Raspberry Pi | Active (unused)        |
+| Radicale                                                        | CalDAV and CardDAV management | Docker Compose | Raspberry Pi | Active (in use)        |
+| Portainer                                                       | Docker management             | Docker         | Raspberry Pi | Active (in use)        |
+| Portainer Agent                                                 | Docker management             | Docker         | PC           | Active (in use)        |
+| Portainer Agent                                                 | Docker management             | Docker         | Mac mini     | Active (in use)        |
+| Open WebUI                                                      | LLM interaction               | Docker         | Mac mini     | Active (in use)        |
+| Paperless-ngx                                                   | Physical paper scanning       | Docker Compose | Mac mini     | Active (experimenting) |
 
 # Current plans
 
@@ -55,3 +61,11 @@ I currently have an extremely basic homelab, with plans to expand even further a
 3. Onboard ThinkCentre into setup
 	1. Read more about [Proxmox VE](https://proxmox.com/en/products/proxmox-virtual-environment/overview) and virtualisation
 	2. Prepare and install Proxmox VE as main interface
+
+# Devlog
+
+## 20 June 2025
+
+- Figured out Samba and managed to get a Samba share working from the external 1 TB HDD connected to the Pi (USB) to the other devices in the home network!
+- Came across Radicale and thought it can replace my current contacts + calendar back-up implementation (running on [Wölkli](https://woelkli.com)'s hosted Nextcloud instance)
+	- Managed to get Radicale working and ported over all my contact + calendar information successfully
