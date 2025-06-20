@@ -52,6 +52,13 @@ I currently have an extremely basic homelab, with plans to expand even further a
 
 # Current plans
 
+## Architectural
+
+- Explore container orchestration with either Kubernetes (k8s) or Docker Swarm
+	- Currently, the home lab is preliminarily linked through instances of Portainer Agent and an instance of Portainer Server (running on the Pi) that allows me to interact with the Docker Engine of all three (Pi, PC, and Mac) devices — though somewhat connected this way, each system is still isolated
+
+## Onboarding
+
 - ~~Onboard Mac mini into setup~~ (Done!)
 	- Prepare separate home lab user — still want to be able to use the Mac regularly as a desktop
 		- The setup for doing this seems more complicated such that the technicality overweighs the convenience. I've opted to installing [OrbStack](https://orbstack.dev) alongside the current default user instead of going with a separate home lab user
