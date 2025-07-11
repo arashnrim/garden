@@ -18,6 +18,14 @@ A browser extension and digital literacy tool to help you scrutinise and underst
 
 # Devlog
 
+## 11 July 2025
+
+- Enhanced caching implementation by adding hashing function and cache invalidation if the content has changed
+	- WXT doesn't seem to natively support the built-in `crypto` module from Node, so a nifty custom implementation (totally not from Stack Overflow) was lifted. We aren't implementing anything security-oriented; just implementing a way to detect if the textual content of an article has changed
+- Fixed the issue about later analyses replacing the appropriate one in the pop-up (the race issue raised in 9 June)
+	- The issue was that the background script was indiscriminately sending the `articleProcessed` message which the pop-up picks up on, no matter the tab. If you're on tab A and tab B is open in the background, both will load. If tab B loads later, the analysis comes later — meaning a later `articleProcessed` message that the pop-up will then listen to
+	- The fix is relatively simple — cross-check the URL of the current active tab and the URL of the analysis; only continue replacing the pop-up content if the URLs match
+
 ## 9 June 2025
 
 - Started on the pop-up UI for displaying analyses

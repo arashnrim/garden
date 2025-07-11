@@ -7,6 +7,12 @@ tags:
 ---
 A home lab is an environment consisting of running servers, services, and infrastructure setups at home, usually created as a form of exploration or interest. Homelabbing taps into the personal setups already readily available at home (networks and devices).
 
+> [!abstract] The state of things
+> 
+> **What's the setup like now?** A control plane federation
+> - Portainer Server is running on one device, with Portainer Agents in other devices feeding back to it
+> - The Server instance is able to control the Docker Engines within each other device, but the devices' Engines are not connected
+
 I currently have an extremely basic homelab, with plans to expand even further and explore interesting tech in the time to come!
 
 ![[homelab.png]]
