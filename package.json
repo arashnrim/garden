@@ -86,7 +86,7 @@
     "satori": "^0.18.3",
     "serve-handler": "^6.1.6",
     "sharp": "^0.34.4",
-    "shiki": "^1.26.2",
+    "shiki": "^3.14.0",
     "source-map-support": "^0.5.21",
     "to-vfile": "^8.0.0",
     "toml": "^3.0.0",
@@ -105,11 +105,11 @@
     "@types/pretty-time": "^1.1.5",
     "@types/source-map-support": "^0.5.10",
     "@types/ws": "^8.18.1",
-    "@types/yargs": "^17.0.33",
-    "esbuild": "^0.25.5",
-    "prettier": "^3.5.3",
-    "tsx": "^4.19.4",
-    "typescript": "^5.8.3"
+    "@types/yargs": "^17.0.34",
+    "esbuild": "^0.25.11",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
   },
   "packageManager": "pnpm@10.8.0+sha512.0e82714d1b5b43c74610193cb20734897c1d00de89d0e18420aebc5977fa13d780a9cb05734624e81ebd81cc876cd464794850641c48b9544326b5622ca29971"
 }
