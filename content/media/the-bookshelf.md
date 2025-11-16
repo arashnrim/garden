@@ -10,6 +10,7 @@ This is my collection of books that I'd like to read, am reading, or would like 
 # To read
 
 - When Things Don't Go Your Way by Haemin Sunim
+- On Earth We're Briefly Gorgeous by Ocean Vuong
 
 # Reading
 
