@@ -45,22 +45,26 @@ I currently have an extremely basic homelab, with plans to expand even further a
 
 | Application                                                     | Usage                         | Tech           | Host         | Status                 |
 | :-------------------------------------------------------------- | :---------------------------- | :------------- | :----------- | :--------------------- |
-| Joplin Server                                                   | Note-taking                   | Docker Compose | Raspberry Pi | Active (in use)        |
-| Shlink                                                          | Link shortening               | Docker Compose | Raspberry Pi | Active (in use)        |
-| [5.0 GPA Student](https://github.com/arashnrim/5.0-gpa-student) | Discord bot                   | Docker         | Raspberry Pi | Active (in use)        |
-| Portainer Agent                                                 | Docker management             | Docker         | Raspberry Pi | Active (unused)        |
-| Radicale                                                        | CalDAV and CardDAV management | Docker Compose | Raspberry Pi | Active (in use)        |
-| Portainer                                                       | Docker management             | Docker         | Raspberry Pi | Active (in use)        |
-| Portainer Agent                                                 | Docker management             | Docker         | PC           | Active (in use)        |
 | Portainer Agent                                                 | Docker management             | Docker         | Mac mini     | Active (in use)        |
 | Open WebUI                                                      | LLM interaction               | Docker         | Mac mini     | Active (in use)        |
-| Paperless-ngx                                                   | Physical paper scanning       | Docker Compose | Mac mini     | Active (experimenting) |
+| Paperless-ngx                                                   | Physical paper scanning       | Docker Compose | Mac mini     | Active (in use)        |
+| Umami                                                           | Analytics                     | Docker Compose | Mac mini     | Active (in use)        |
+| n8n                                                             | Workflow automation           | Docker Compose | Mac mini     | Active (experimenting) |
+| Stirling PDF                                                    | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
+| Portainer Agent                                                 | Docker management             | Docker         | PC           | Active (in use)        |
+| Shlink                                                          | Link shortening               | Docker Compose | Raspberry Pi | Inactive (shut down)   |
+| Portainer Agent                                                 | Docker management             | Docker         | Raspberry Pi | Inactive (shut down)   |
+| Joplin Server                                                   | Note-taking                   | Docker Compose | Raspberry Pi | Active (in use)        |
+| [5.0 GPA Student](https://github.com/arashnrim/5.0-gpa-student) | Discord bot                   | Docker         | Raspberry Pi | Active (in use)        |
+| Radicale                                                        | CalDAV and CardDAV management | Docker Compose | Raspberry Pi | Active (in use)        |
+| Portainer                                                       | Docker management             | Docker         | Raspberry Pi | Active (in use)        |
+| Portainer Agent                                                 | Docker management             | Docker         | ThinkCentre  | Active (in use)        |
 
 # Current plans
 
 ## Architectural
 
-- Explore container orchestration with either Kubernetes (k8s) or Docker Swarm
+- ~~Explore container orchestration with either Kubernetes (k8s) or Docker Swarm~~ (scrapped; see [[homelabbing#22 November 2025|below]]
 	- Currently, the home lab is preliminarily linked through instances of Portainer Agent and an instance of Portainer Server (running on the Pi) that allows me to interact with the Docker Engine of all three (Pi, PC, and Mac) devices — though somewhat connected this way, each system is still isolated
 
 ## Onboarding
@@ -71,11 +75,22 @@ I currently have an extremely basic homelab, with plans to expand even further a
 2. Source and install upgraded memory and storage devices for ThinkCentre
 	* 8 GB DDR4-2400 → ~16+ GB DDR4-2400
 	* 256 GB → ~1 TB
-3. Onboard ThinkCentre into setup
-	1. Read more about [Proxmox VE](https://proxmox.com/en/products/proxmox-virtual-environment/overview) and virtualisation
-	2. Prepare and install Proxmox VE as main interface
+3. ~~Onboard ThinkCentre into setup~~ (Done!)
+	1. ~~Read more about [Proxmox VE](https://proxmox.com/en/products/proxmox-virtual-environment/overview) and virtualisation~~
+	2. ~~Prepare and install Proxmox VE as main interface~~
+	- I made a conscious decision to switch to Debian instead of Proxmox; the latter is currently a bit too overkill, and trying to learn it is making my head hurt. Why not stick to something I'm comfortable with for the time being?
+4. Offload services on the Raspberry Pi to the ThinkCentre
 
 # Devlog
+
+## 22 November 2025
+
+- Learnt more about the concept of orchestration with interactions from LLMs, and decided that orchestration isn't the right path for this home lab (booooo, I'll catch any tomatoes you throw at me)
+	- Orchestration frameworks assume fungible compute resources (meaning that it doesn't care *where* things run, just that it *runs*). This clashes with the current infrastructure I have, where each node (device) in the infra is purpose-built — the Pi is the low-power and always-on coordinator, the Mac is the mid-tier workhorse, etc.
+	- Though orchestration is something I'd like to learn *one day*, today might just complicate things more and add more overhead
+	- Orchestration might be incompatible with Cloudflare Tunnels, where routes through tunnels are statically mapped; i.e., `subdomain.example.com` will always be mapped to `device-A:port` — practically incompatible with orchestration frameworks that can spawn replicas on any device in the cluster
+- Curious about [Ansible](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ) and the idea of automating the provisioning (setting up) of devices
+	- Might be handy to always ensure that Docker is installed on future devices with Watchtower set up!
 
 ## 20 June 2025
 
