@@ -32,6 +32,8 @@ On a deeper note, there exists the lore of the game; the true "why"s behind the 
 - the quasi-supernatural family of Verso, Alicia, and Renoir
 - how different people can have vastly different methods to cope with a major loss
 
+# The endgame
+
 > [!danger] Spoilers ahead!
 > 
 > Endgame spoilers below. You've been warned!
@@ -43,3 +45,13 @@ The endgame sets up a deeply human depiction of the Dessendre family, now collap
 - Alicia mirrors Aline; being the last object of sentiment with a slice of Verso's real soul embedded within, Alicia takes the side that the Canvas must be preserved at all costs, especially given the fact that all the lives in the Canvas are *full* lives deserving respect of being left alone to live.
 
 The endings of the game are devastating, leaving you the choice between Alicia — who believes the Canvas must be preserved at all costs — or Painted Verso — who believes that, to move on, one has to let go. Though the game frames one choice in a more positive light than the other, both are valid and *extremely human* ways to cope with loss.
+
+# The masterpiece of a soundtrack
+
+It's crazy to think that the composer for E33's soundtrack was picked up by Sandfall Interactive through *SoundCloud* of all places; if that doesn't show just how indie E33's development was, I'm not sure what else to say.
+
+The soundtrack has such beautiful pieces that altogether fit to tell the story of E33. And they're masterful about it, too: everything has its place in the audio and it all eventually comes together. Might be the same as many others, but my favourite include:
+
+- **Alicia** and **Maelle** — sister tracks that play at the start and end of the game, and you'll soon realise just how incredibly smart it is; they truly are *sister* tracks even in the literal sense. If you make it to the end of the game, you'll learn that Alicia Dessendre and Maelle are one of the same, but separated by a painted boundary; the Alicia who had been painted over became Maelle, but the real Alicia is still there. The tracks reflect that: Alicia starts the game in Occitan, a language we perceive as French-ish but not, then ends with Maelle, in clear French and understandable. It's almost like they're the *same* track, just one understood and the other not (exactly like Alicia and Maelle). You can tell I'm too excited because of how long this paragraph is.
+- **Aline** — a calm but wistful song that perfectly resembles Aline Dessendre. She's lost so much, and she's coping with the grief of that in her own way; to jump into the Canvas and paint another reality to run away from her own.
+- 

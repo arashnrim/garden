@@ -20,6 +20,7 @@ Alternatively, feel free to check this manually-curated list of the things I've 
 
 - [[homelabbing|Exploring homelabbing]], where I try to bring together different devices for a nice experimental sandbox
 - Seeing how potent LLMs can be in surfacing manipulative language packed in a [[semantica|browser extension]]
+- Deepening my relationship with [[digital-minimalism|digital minimalism]] and doing my own thing while spinning down my use of my daily tech
 
 Have fun exploring my garden!
 
