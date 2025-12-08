@@ -1,4 +1,5 @@
 ---
 title: Reflection
 ---
-Notes that are look inward intrinsically, often looking to look back on past events and learn lessons from them
+
+Notes that look inward intrinsically, often looking back on past events and learning lessons from them

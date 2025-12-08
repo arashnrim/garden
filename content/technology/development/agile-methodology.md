@@ -11,20 +11,16 @@ An iterative [[software-development-methodology|methodology]] which condenses th
 # Process
 
 ## Stand-up meetings
-
 Frequent meetings used by development teams to:
-
 - share need-to-know information;
 - keep the team on the same page;
 - disseminate announcements and briefings; and
 - evaluate current work performance.
 
 ## User stories
-
 A short description of a function that the end-user wants told from their perspective. Agile generally involves the creation of user stories and discussion of them among the team.
 
 For a good user story, consider using the mnemonic INVEST:
-
 - independent — stories must not be dependent on each other;
 - negotiable — details of stories must be changeable and agreeable between the client and development team.
 - valuable — stories must have business value to the client;
@@ -35,7 +31,6 @@ For a good user story, consider using the mnemonic INVEST:
 # Evaluation
 
 ## Benefits
-
 - Agile encourages the client to be engaged throughout the project. This increases trust between the team and the client and fosters deep collaboration while ensuring that the requirements are understood.
 - Agile promotes transparency between the team and the client, such that the client can see the work in progress and check in frequently.
 - Agile promote the frequent delivery of progress, whether it's time-boxed or following a fixed schedule. Teams can test in stages, allowing for early release and beta builds for testing.
@@ -46,7 +41,6 @@ For a good user story, consider using the mnemonic INVEST:
 - Agile breaks down tasks into manageable units, making it easier to uphold a higher quality of standard. Each sprint can also find and fix bugs.
 
 ## Detriements
-
 - An initial project with Agile lacks a stable plan, and the final product can look different from what was originally intended.
 - Agile can be a potential threat to business continuity and knowledge transfer as it emphasises less on documentation.
 - An Agile project can easily go off-track due to the client not being clear on the requirements or being unavailable.
