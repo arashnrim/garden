@@ -11,7 +11,7 @@ A home lab is an environment consisting of running servers, services, and infras
 > 
 > **What's the setup like now?** A control plane federation
 > - Portainer Server is running on one device, with Portainer Agents in other devices feeding back to it
-> - The Server instance is able to control the Docker Engines within each other device, but the devices' Engines are not connected
+> - The Server instance is able to control the Docker Engines within each other device, but the devices' Engines are not connected (i.e. in an orchestrated manner, using a stack like Docker Swarm/Kubernetes)
 
 I currently have an extremely basic homelab, with plans to expand even further and explore interesting tech in the time to come!
 
@@ -27,11 +27,11 @@ I currently have an extremely basic homelab, with plans to expand even further a
 	* 64-bit ARM Cortex-A72 [[central-processing-unit|CPU]]
 	* 4 GB LPDDR4-3200 SD[[random-access-memory|RAM]]
 	* 32 GB microSD internal storage; 1 TB HDD external storage
-* Mac mini (not onboarded)
+* Mac mini (active)
 	* 64-bit Apple M2 [[central-processing-unit|CPU]]
 	* 16 GB LPDDR5-6400 SD[[random-access-memory|RAM]]
 	* 256 GB SSD internal storage
-* Lenovo ThinkCentre M910q (not onboarded)
+* Lenovo ThinkCentre M910q (active)
 	* 64-bit Intel Core i5-6500T [[central-processing-unit|CPU]]
 	* 8 GB PC4-2400T (DDR4-2400) [[random-access-memory|RAM]]
 	* 256 GB SSD internal storage
@@ -51,7 +51,6 @@ I currently have an extremely basic homelab, with plans to expand even further a
 | Umami                                                           | Analytics                     | Docker Compose | Mac mini     | Active (in use)        |
 | n8n                                                             | Workflow automation           | Docker Compose | Mac mini     | Active (experimenting) |
 | Stirling PDF                                                    | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
-| Portainer Agent                                                 | Docker management             | Docker         | PC           | Active (in use)        |
 | Shlink                                                          | Link shortening               | Docker Compose | Raspberry Pi | Inactive (shut down)   |
 | Portainer Agent                                                 | Docker management             | Docker         | Raspberry Pi | Inactive (shut down)   |
 | Joplin Server                                                   | Note-taking                   | Docker Compose | Raspberry Pi | Active (in use)        |
@@ -69,19 +68,29 @@ I currently have an extremely basic homelab, with plans to expand even further a
 
 ## Onboarding
 
-- ~~Onboard Mac mini into setup~~ (Done!)
+- ~~Onboard Mac mini into setup~~ (done!)
 	- Prepare separate home lab user — still want to be able to use the Mac regularly as a desktop
 		- The setup for doing this seems more complicated such that the technicality overweighs the convenience. I've opted to installing [OrbStack](https://orbstack.dev) alongside the current default user instead of going with a separate home lab user
 2. Source and install upgraded memory and storage devices for ThinkCentre
 	* 8 GB DDR4-2400 → ~16+ GB DDR4-2400
 	* 256 GB → ~1 TB
-3. ~~Onboard ThinkCentre into setup~~ (Done!)
+3. ~~Onboard ThinkCentre into setup~~ (done!)
 	1. ~~Read more about [Proxmox VE](https://proxmox.com/en/products/proxmox-virtual-environment/overview) and virtualisation~~
 	2. ~~Prepare and install Proxmox VE as main interface~~
 	- I made a conscious decision to switch to Debian instead of Proxmox; the latter is currently a bit too overkill, and trying to learn it is making my head hurt. Why not stick to something I'm comfortable with for the time being?
-4. Offload services on the Raspberry Pi to the ThinkCentre
+4. Offload services on the Raspberry Pi to the ThinkCentre (underway)
 
 # Devlog
+
+## 8 December 2025
+
+- Awkward story, but... I've accidentally nuked my Debian WSL instance off the face of my Windows PC, so I'm currently planning to cut back on the PC's involvement in the home lab for now. Never let a Stack Overflow answer tell you to run the `--unregister` flag before reading the comment belows it that says "yes, this sets up a new instance of Debian"
+	- Docker Desktop is running with the WSL2 integration enabled, meaning that the deletion of the Debian distro entirely messes up Docker. I've currently fixed that problem by pretending Docker doesn't exist and nuking it off my PC, too
+- Since WSL2 is now gone, I've opted to running the main development version of this digital garden on GitHub Codespaces. The main issue now lies with somehow trying to get the source content folder on my Windows PC synced with the Codespaces one
+	- Found a solution that involves using the GitHub CLI — `gh codespace cp` allows us to use `scp` to transfer items; I've used `doskey` to create `delta-sync`, a macro of sorts that copies over the contents of my source content folder onto the Codespace one
+		- Nevermind, `doskey` only somehow persists macros for the current active terminal instance; if you open another one, the macro cannot be called again. I'll need to figure out some alternative for this to work...
+- Realised a solution to a semi-long-term issue that's been plaguing the Open WebUI instance running on the Mac. For the longest time, Open WebUI experiences network connectivity issues reaching out to the Ollama instance running on the Windows PC using the internal IP address (`http://192.168.X.XXX:11434`); a temporary workaround has been to use Cloudflare Tunnels to expose Ollama, but I think some Cloudflare magic places a timeout counter such that the connection will terminate after a while (not ideal for LLM tasks, which usually take a while to complete)
+	- The solution was to allow Local Networks permissions to OrbStack on macOS. This was something I missed out on a while back, and since I hardly access my Mac by remote connecting into it, I couldn't notice the issue sooner
 
 ## 22 November 2025
 
