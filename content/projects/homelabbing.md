@@ -15,7 +15,28 @@ A home lab is an environment consisting of running servers, services, and infras
 
 I currently have an extremely basic homelab, with plans to expand even further and explore interesting tech in the time to come!
 
-![[homelab.png]]
+# Overview
+
+The two diagrams below that show different aspects of the home lab:
+
+![[homelab-service-access-flow.png]]
+
+The **service access diagram** (above) shows the way an externally-connected device, such as my phone on the go, can connect to and access the services running on my home lab through external vendors that help bridge the home lab node to the Internet.
+
+The device can connect to a service through two means: public-facing (accessing a domain like `XXX.arash.codes`) in which the request is routed through Cloudflare's network (including its DNS records resolver and Tunnels) and internally in which the request is routed through Tailscale.
+
+- The consideration for using two different methods lie in security: services that shouldn't or doesn't need to be exposed to the entire internet (e.g. Portainer for handling Docker containers) are exposed internally through Tailscale. Services that should be accessible by other apps or for convenience (e.g. Joplin) will be exposed through Cloudflare.
+
+
+![[homelab-network.png]]
+
+The **network diagram** (above) shows a technical overview of how my home lab nodes are connected to the internet. The flow follows a conventional set up for a home network, with the ISP connected to the household using a fibre optic cable that terminates at an ONT before the rest of the network is connected via Ethernet and Wi-Fi after the router.
+
+- A key highlight in this network configuration is the use of [carrier-grade NAT](https://en.wikipedia.org/wiki/Carrier-grade_NAT) (CGNAT). CGNAT allows internet service providers (ISPs) to share a single public IP address between many customers often with cost- and resource-saving benefits. This causes several issues:
+	- Port forwarding is not supported, meaning conventional means of allowing external internet traffic into the home network is no longer supported. Found this out the hard way a long time ago when trying to set up a Minecraft server to no avail.
+	- Dynamic DNS, an alternative method to port forwarding, also is not supported.
+	- Accessing services within the network becomes harder, and alternatives (e.g. Tailscale and Cloudflare Tunnels) have to be looked into to access services from the internet.
+
 
 > [!info] Additional resources
 > 
@@ -49,15 +70,16 @@ I currently have an extremely basic homelab, with plans to expand even further a
 | Open WebUI                                                      | LLM interaction               | Docker         | Mac mini     | Active (in use)        |
 | Paperless-ngx                                                   | Physical paper scanning       | Docker Compose | Mac mini     | Active (in use)        |
 | Umami                                                           | Analytics                     | Docker Compose | Mac mini     | Active (in use)        |
-| n8n                                                             | Workflow automation           | Docker Compose | Mac mini     | Active (experimenting) |
+| n8n                                                             | Workflow automation           | Docker Compose | Mac mini     | Active (in use)        |
 | Stirling PDF                                                    | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
+| Bento PDF                                                       | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
 | Shlink                                                          | Link shortening               | Docker Compose | Raspberry Pi | Inactive (shut down)   |
-| Portainer Agent                                                 | Docker management             | Docker         | Raspberry Pi | Inactive (shut down)   |
-| Joplin Server                                                   | Note-taking                   | Docker Compose | Raspberry Pi | Active (in use)        |
+| Portainer Agent                                                 | Docker management             | Docker         | Raspberry Pi | Active (in use)        |
 | [5.0 GPA Student](https://github.com/arashnrim/5.0-gpa-student) | Discord bot                   | Docker         | Raspberry Pi | Active (in use)        |
 | Radicale                                                        | CalDAV and CardDAV management | Docker Compose | Raspberry Pi | Active (in use)        |
-| Portainer                                                       | Docker management             | Docker         | Raspberry Pi | Active (in use)        |
-| Portainer Agent                                                 | Docker management             | Docker         | ThinkCentre  | Active (in use)        |
+| Joplin Server                                                   | Note-taking                   | Docker Compose | ThinkCentre  | Active (in use)        |
+| Portainer                                                       | Docker management             | Docker         | ThinkCentre  | Active (in use)        |
+| Portainer Agent                                                 | Docker management             | Docker         | ThinkCentre  | Inactive (shut down)   |
 
 # Current plans
 
@@ -78,7 +100,8 @@ I currently have an extremely basic homelab, with plans to expand even further a
 	1. ~~Read more about [Proxmox VE](https://proxmox.com/en/products/proxmox-virtual-environment/overview) and virtualisation~~
 	2. ~~Prepare and install Proxmox VE as main interface~~
 	- I made a conscious decision to switch to Debian instead of Proxmox; the latter is currently a bit too overkill, and trying to learn it is making my head hurt. Why not stick to something I'm comfortable with for the time being?
-4. Offload services on the Raspberry Pi to the ThinkCentre (underway)
+4. ~~Offload services on the Raspberry Pi to the ThinkCentre~~ (done!)
+	- The only service left that remains is a Dockerised Discord bot that can be safely shut down (no users at this time...)
 
 # Devlog
 
@@ -91,6 +114,7 @@ I currently have an extremely basic homelab, with plans to expand even further a
 		- Nevermind, `doskey` only somehow persists macros for the current active terminal instance; if you open another one, the macro cannot be called again. I'll need to figure out some alternative for this to work...
 - Realised a solution to a semi-long-term issue that's been plaguing the Open WebUI instance running on the Mac. For the longest time, Open WebUI experiences network connectivity issues reaching out to the Ollama instance running on the Windows PC using the internal IP address (`http://192.168.X.XXX:11434`); a temporary workaround has been to use Cloudflare Tunnels to expose Ollama, but I think some Cloudflare magic places a timeout counter such that the connection will terminate after a while (not ideal for LLM tasks, which usually take a while to complete)
 	- The solution was to allow Local Networks permissions to OrbStack on macOS. This was something I missed out on a while back, and since I hardly access my Mac by remote connecting into it, I couldn't notice the issue sooner
+- Finally migrated the main Portainer CE instance from the Raspberry Pi to the ThinkCentre. It was a lot more tedious because of the mismatch in the backup data, but seems like we're all good for now?
 
 ## 22 November 2025
 
