@@ -66,19 +66,24 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 
 | Application                                                     | Usage                         | Tech           | Host         | Status                 |
 | :-------------------------------------------------------------- | :---------------------------- | :------------- | :----------- | :--------------------- |
-| Portainer Agent                                                 | Docker management             | Docker         | Mac mini     | Active (in use)        |
+| Bento PDF                                                       | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
+| Stirling PDF                                                    | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
+| n8n                                                             | Workflow automation           | Docker Compose | Mac mini     | Active (in use)        |
 | Open WebUI                                                      | LLM interaction               | Docker         | Mac mini     | Active (in use)        |
 | Paperless-ngx                                                   | Physical paper scanning       | Docker Compose | Mac mini     | Active (in use)        |
+| Portainer Agent                                                 | Docker management             | Docker         | Mac mini     | Active (in use)        |
 | Umami                                                           | Analytics                     | Docker Compose | Mac mini     | Active (in use)        |
-| n8n                                                             | Workflow automation           | Docker Compose | Mac mini     | Active (in use)        |
-| Stirling PDF                                                    | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
-| Bento PDF                                                       | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
-| Shlink                                                          | Link shortening               | Docker Compose | Raspberry Pi | Inactive (shut down)   |
-| Portainer Agent                                                 | Docker management             | Docker         | Raspberry Pi | Active (in use)        |
 | [5.0 GPA Student](https://github.com/arashnrim/5.0-gpa-student) | Discord bot                   | Docker         | Raspberry Pi | Active (in use)        |
+| Portainer Agent                                                 | Docker management             | Docker         | Raspberry Pi | Active (in use)        |
 | Radicale                                                        | CalDAV and CardDAV management | Docker Compose | Raspberry Pi | Active (in use)        |
+| Shlink                                                          | Link shortening               | Docker Compose | Raspberry Pi | Inactive (shut down)   |
+| Ghostfolio                                                      | Financial planning            | Docker Compose | ThinkCentre  | Active (experimenting) |
+| Linkwarden                                                      | Bookmarks management          | Docker Compose | ThinkCentre  | Active (experimenting) |
+| SearXNG                                                         | Metasearch engine             | Docker Compose | ThinkCentre  | Active (experimenting) |
+| Firefly III                                                     | Financial planning            | Docker Compose | ThinkCentre  | Active (in use)        |
 | Joplin Server                                                   | Note-taking                   | Docker Compose | ThinkCentre  | Active (in use)        |
 | Portainer                                                       | Docker management             | Docker         | ThinkCentre  | Active (in use)        |
+| Uptime Kuma                                                     | Uptime tracking               | Docker Compose | ThinkCentre  | Active (in use)        |
 | Portainer Agent                                                 | Docker management             | Docker         | ThinkCentre  | Inactive (shut down)   |
 
 # Current plans
@@ -104,6 +109,18 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 	- The only service left that remains is a Dockerised Discord bot that can be safely shut down (no users at this time...)
 
 # Devlog
+
+## 13 December 2025
+
+- Came across Pangolin as a potential alternative to Tailscale, and the idea of switching seems pretty promising solely based on what I've been seeing so far:
+	- Increasing adoption within home lab users with a considerable majority saying that their experience has been positive
+	- Another OSS is another win in my books!
+- Also finally started looking at establishing a back up system for all crucial services (i.e. Paperless, Portainer, etc.)
+	- Came across `launchd` as macOS' preferred scheduling system over `cron`, so I'm seeing if I can schedule a back-up script to be run once in a while to automatically copy over files to the Raspberry Pi HDD (which is in itself being backed up to Google Drive using `rclone`). Backing up magic in progress!
+
+## 11 December 2025
+
+- Finally took me a long time, but I finally opted to switch over to using keys instead of password authentication for SSH connections between the devices in my home lab. It makes things a lot more seamless — no more having to enter passwords everywhere anymore once SSH keys are set up!
 
 ## 8 December 2025
 
