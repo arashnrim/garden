@@ -11,7 +11,20 @@ tags:
 > * What's the history behind them?
 > * How are they evolving now?
 > * What implications are there with using LLMs?
+> 	* Environmentally: what's the energy + cooling usage in data centres used to train and run LLMs?
+> 	* Politically: how does the control + proliferation of LLMs influence governmental action and policies?
+> 	* Social: how are LLMs being used within our social circles, and why does that influence us the way they do?
 > * How can LLMs be exploited or hijacked, and what can we (developers, creators, users, etc.) do to safeguard them?
+
+> Large language models (LLMs) are a type of artificial intelligence designed to understand and generate human-like text based on the input they receive. These models are built using deep learning techniques, particularly neural networks with many layers, which allow them to process vast amounts of text data and learn complex patterns in language.
+> 
+> [AI Demystified: Introduction to large language models](https://uit.stanford.edu/service/techtraining/ai-demystified/llm)
+
+Large language models have proliferated into the mainstream internet, becoming something we interact with on the daily. While many of such models exist, general usage typically revolve around a few popular commercial models:
+
+- OpenAI's GPT — initially a trendsetter within the LLM space by first introducing the generative pre-trained transformer
+- Google's Gemini — initially called Bard then later renamed to Gemini, Google leveraged its data and knowledge of search at scale to supercharge its models and become a key player within the space
+- Anthropic's Claude — focused on human-safe AI and research, Anthropic has a reputation for producing generations of human-sounding LLMs skilled to perform and reason
 # Interesting terms
 
 * **Catastrophic interference/forgetting** — the tendency for knowledge of the previously learned task(s) to be abruptly lost as information relevant to the current task is incorporated[^1].

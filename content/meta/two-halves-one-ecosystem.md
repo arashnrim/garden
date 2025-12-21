@@ -35,3 +35,7 @@ The truth is that there probably won't be any code wizardry bringing these toget
 1. **A cohesive identity** — as a start, I plan to bring the look and feel of function() to Δ Delta. That way, the interactions between each feel more *natural* and less obvious. Instead of moving from one website to another, I want the experience to feel like you're moving to an *extension* of the same page.
 2. **Including tidbits of both within each other** — for starters, having simple embeds of Δ Delta in function() and vice versa can already do a considerable amount in bringing these two places together. I'm thinking of adding something at the end of blog posts that leads to notes here, and something at the root page of here that brings up the latest blog posts from there.
 3. **Seamless flows from one place to another.** — I'm still figuring out the details here as I dabble more with [Quartz](https://quartz.jzhao.xyz), but I'm thinking along the lines of this: where `A -> B`, there should be as little interruptions as possible.
+
+# Current limitations
+
+- There's still distinct mindsets when it comes to the blog and this garden, and it makes it hard to merge the two together. It might be possible to have different purposes for them altogether — the blog could, perhaps, hold long prose that come from a single stream of consciousness, while this garden can be iterative and embracing change.

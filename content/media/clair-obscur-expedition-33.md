@@ -2,12 +2,12 @@
 title: "Clair Obscur: Expedition 33"
 created: 2025-11-16
 tags:
-  - spark
   - thoughts
+  - ember
 ---
 > [!warning] Spoilers ahead!
 > 
-> *Clair Obscur: Expedition 33* is a deeply thoughtful game that I recommend playing at least once. You should experience this work of art for yourself first!
+> *Clair Obscur: Expedition 33* is a deeply reflective game that I recommend playing at least once for yourself. It handles topics with such deep nuance and care that, by the end, everything is laid clear.
 
 ![[clair-obscur-expedition-33-lumiere.webp]]
 
@@ -40,11 +40,13 @@ On a deeper note, there exists the lore of the game; the true "why"s behind the 
 
 The endgame sets up a deeply human depiction of the Dessendre family, now collapsed years after the fire incident that claimed the life of Verso Dessendre. Each family member represents an immense version of pain, and they each tackle the loss in their own ways:
 
-- Aline dives into Verso's Canvas and becomes the Paintress, running away from the pain of the real world and Painting a copy of her family — one seemingly unaffected by pain. She represents **bargaining**; in her grief, she attempts to lessen it by painting a new reality at the cost of herself in the real one.
-- Renoir dives into Verso's Canvas in an effort to save his wife, who spends ever more time lost in her grief within it. Where Aline paints within the Canvas to commemorate memory, Renoir erases in a desperate bid to push her out of it. Renoir roots his pain in reality, forcing others to realise that hiding in fantasy is not the way to be.
-- Alicia mirrors Aline; being the last object of sentiment with a slice of Verso's real soul embedded within, Alicia takes the side that the Canvas must be preserved at all costs, especially given the fact that all the lives in the Canvas are *full* lives deserving respect of being left alone to live.
+- **Aline** dives into Verso's Canvas and becomes the Paintress, running away from the pain of the real world and Painting a copy of her family — one seemingly unaffected by pain. She represents **bargaining**; in her grief, she attempts to lessen it by painting a new reality at the cost of herself in the real one.
+- **Renoir** dives into Verso's Canvas in an effort to save his wife, who spends ever more time lost in her grief within it. Where Aline paints within the Canvas to commemorate memory, Renoir erases in a desperate bid to push her out of it. Renoir roots his pain in reality, forcing others to realise that hiding in fantasy is not the way to be.
+- **Alicia** mirrors Aline; being the last object of sentiment with a slice of Verso's real soul embedded within, Alicia takes the side that the Canvas must be preserved at all costs, especially given the fact that all the lives in the Canvas are *full* lives deserving respect of being left alone to live.
 
 The endings of the game are devastating, leaving you the choice between Alicia — who believes the Canvas must be preserved at all costs — or Painted Verso — who believes that, to move on, one has to let go. Though the game frames one choice in a more positive light than the other, both are valid and *extremely human* ways to cope with loss.
+
+I've come to agree with the perspective that the way the endings are presented sets up a "good" and "bad" ending. Maelle's ending ends in a jumpscare while Verso's ends with a heartbreaking wave of a goodbye. It's still not as clear-cut, though, because each path still shows the flipside of your action: the inevitable revival or farewell of Lumière and its residents.
 
 # The masterpiece of a soundtrack
 
@@ -55,3 +57,4 @@ The soundtrack has such beautiful pieces that altogether fit to tell the story o
 - **Alicia** and **Maelle** — sister tracks that play at the start and end of the game, and you'll soon realise just how incredibly smart it is; they truly are *sister* tracks even in the literal sense. If you make it to the end of the game, you'll learn that Alicia Dessendre and Maelle are one of the same, but separated by a painted boundary; the Alicia who had been painted over became Maelle, but the real Alicia is still there. The tracks reflect that: Alicia starts the game in Occitan, a language we perceive as French-ish but not, then ends with Maelle, in clear French and understandable. It's almost like they're the *same* track, just one understood and the other not (exactly like Alicia and Maelle). You can tell I'm too excited because of how long this paragraph is.
 - **Aline** — a calm but wistful song that perfectly resembles Aline Dessendre. She's lost so much, and she's coping with the grief of that in her own way; to jump into the Canvas and paint another reality to run away from her own.
 - **Une vie à t'aimer** — goes _full_ hard in French, and it basically tells you the entire story if your ears are perked enough and you understand French (I don't). The song is an argument with two voices: Aline doubling down her position to preserve and remain in the Canvas, and Renoir who pleads with her with the opinion that salvation lies in letting go. I don't even know which to describe my favourite part of the song as, and I'll still listen to the entire 11 minutes (which, if you consider the other "Une vie" songs all add up to 33 minutes, btw) and remain awe-struck throughout.
+- **Une vie à rêver** — took me a while to get around to liking it, but ultimately this stuck because the melody feels so deeply touching. If the other two "Une vie" tracks represent the two endings of the game, this one represents the third that never existed; one where a middle ground was reached, and maybe one where the dream world can continue at the same time of the Dessendre family's healing. The choral echo before moving melodies and hard rock is a nice blend to listen too — makes it easy to listen to the full 11 minutes!
