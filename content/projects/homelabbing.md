@@ -80,6 +80,7 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 | Ghostfolio                                                      | Financial planning            | Docker Compose | ThinkCentre  | Active (experimenting) |
 | Linkwarden                                                      | Bookmarks management          | Docker Compose | ThinkCentre  | Active (experimenting) |
 | SearXNG                                                         | Metasearch engine             | Docker Compose | ThinkCentre  | Active (experimenting) |
+| Wakapi                                                          | Time tracking for coding      | Docker Compose | ThinkCentre  | Active (experimenting) |
 | Firefly III                                                     | Financial planning            | Docker Compose | ThinkCentre  | Active (in use)        |
 | Joplin Server                                                   | Note-taking                   | Docker Compose | ThinkCentre  | Active (in use)        |
 | Portainer                                                       | Docker management             | Docker         | ThinkCentre  | Active (in use)        |
@@ -109,6 +110,11 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 	- The only service left that remains is a Dockerised Discord bot that can be safely shut down (no users at this time...)
 
 # Devlog
+
+## 21 December 2025
+
+- Came across a video from Tailscale that shows a working implementation of Cloudflare DNS with a tailnet, effectively creating a private intranet of public domain names accessible only by authenticated devices connected to the tailnet ([video here](https://youtu.be/Vt4PDUXB_fg?si=uLMY1mb1eWwqBFtk)). Seems pretty interesting, will give it a try!
+	- I walk away with my head low as some networking issue throws itself at me once again. I'll try it again when I have the time!
 
 ## 13 December 2025
 
