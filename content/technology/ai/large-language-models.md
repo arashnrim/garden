@@ -15,6 +15,9 @@ tags:
 > 	* Politically: how does the control + proliferation of LLMs influence governmental action and policies?
 > 	* Social: how are LLMs being used within our social circles, and why does that influence us the way they do?
 > * How can LLMs be exploited or hijacked, and what can we (developers, creators, users, etc.) do to safeguard them?
+> * Why do we tend to forget that LLMs work based off probability instead of emotion? Is this vulnerability known by the organisations that develop such LLMs?
+> 	* Do these organisations finetune their LLMs to maximise user emotional engagement with LLMs?
+> * What influence do LLMs have on our use of cognitive abilities?
 
 > Large language models (LLMs) are a type of artificial intelligence designed to understand and generate human-like text based on the input they receive. These models are built using deep learning techniques, particularly neural networks with many layers, which allow them to process vast amounts of text data and learn complex patterns in language.
 > 

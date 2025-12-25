@@ -111,6 +111,15 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 
 # Devlog
 
+## 26 December 2025
+
+- I must admit that I've been falling down an n8n rabbit hole ever since I truly started playing with it last weekend. I'm now combining many different sub-workflows with an LLM agent to make a cute yet helpful assistant that can do loads of things, from:
+	- Checking up on the state of my home lab (including pinging, seeing if they're connected to the Tailnet, and checking the uptime status of some services)
+	- Searching up up-to-date information on the internet using SearXNG and "factual" (enough) information from Wikipedia
+	- Interacting with my saved links in Linkwarden, giving an overview on my ever-growing pile of links to read through and give insights/suggestions on what to read next
+	- Fetching my calendar and viewing events from there (not really full CRUD yet though!)
+- And there surely will be more to come in the next few days. RIP to my sleep schedule.
+
 ## 21 December 2025
 
 - Came across a video from Tailscale that shows a working implementation of Cloudflare DNS with a tailnet, effectively creating a private intranet of public domain names accessible only by authenticated devices connected to the tailnet ([video here](https://youtu.be/Vt4PDUXB_fg?si=uLMY1mb1eWwqBFtk)). Seems pretty interesting, will give it a try!
