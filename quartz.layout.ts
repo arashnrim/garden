@@ -88,9 +88,37 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Graph()),
     Component.Backlinks(),
     Component.MobileOnly(
+      Component.RecentNotes({
+        title: "Latest notes",
+        limit: 3,
+      }),
+    ),
+  ],
+  // afterBody: [
+  //   Component.MobileOnly(Component.TableOfContents()),
+  //   Component.MobileOnly(Component.Graph()),
+  // ],
+}
+
+// components for pages that display lists of pages  (e.g. tags or folders)
+export const defaultListPageLayout: PageLayout = {
+  beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        // { Component: Component.Darkmode() },
+      ],
+    }),
+    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(
       Component.Flex({
-        direction: "row",
-        wrap: "wrap",
+        direction: "column",
         components: [
           {
             Component: Component.RecentNotes({
@@ -129,29 +157,12 @@ export const defaultContentPageLayout: PageLayout = {
       }),
     ),
   ],
-  // afterBody: [
-  //   Component.MobileOnly(Component.TableOfContents()),
-  //   Component.MobileOnly(Component.Graph()),
-  // ],
-}
-
-// components for pages that display lists of pages  (e.g. tags or folders)
-export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        // { Component: Component.Darkmode() },
-      ],
-    }),
-    Component.DesktopOnly(Component.Explorer()),
-    Component.DesktopOnly(Component.RecentNotes()),
+  right: [
+    Component.MobileOnly(
+      Component.RecentNotes({
+        title: "Latest notes",
+        limit: 3,
+      }),
+    ),
   ],
-  right: [],
 }

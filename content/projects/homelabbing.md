@@ -13,6 +13,10 @@ A home lab is an environment consisting of running servers, services, and infras
 > - Portainer Server is running on one device, with Portainer Agents in other devices feeding back to it
 > - The Server instance is able to control the Docker Engines within each other device, but the devices' Engines are not connected (i.e. in an orchestrated manner, using a stack like Docker Swarm/Kubernetes)
 
+> [!info] I'm just an email away!
+> 
+> If you're curious about something in here that you'd like some clarification about, feel free to [reach out](https://arash.codes/#connect)! I'm more than happy to reply or even just say hi. :)
+
 I currently have an extremely basic homelab, with plans to expand even further and explore interesting tech in the time to come!
 
 # Overview
