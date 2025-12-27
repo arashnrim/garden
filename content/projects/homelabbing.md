@@ -115,6 +115,10 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 
 # Devlog
 
+## 27 December 2025
+
+- I'm now switching over Uptime Kuma to Checkmate as my primary uptime monitoring tool, mostly because Checkmate exposes an API that's easy to interface with in other places (e.g. my n8n Telegram bot!)
+
 ## 26 December 2025
 
 - I must admit that I've been falling down an n8n rabbit hole ever since I truly started playing with it last weekend. I'm now combining many different sub-workflows with an LLM agent to make a cute yet helpful assistant that can do loads of things, from:
