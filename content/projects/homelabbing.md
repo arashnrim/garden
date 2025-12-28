@@ -85,9 +85,11 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 | Linkwarden                                                      | Bookmarks management          | Docker Compose | ThinkCentre  | Active (experimenting) |
 | SearXNG                                                         | Metasearch engine             | Docker Compose | ThinkCentre  | Active (experimenting) |
 | Wakapi                                                          | Time tracking for coding      | Docker Compose | ThinkCentre  | Active (experimenting) |
+| wger                                                            | Fitness management            | Docker Compose | ThinkCentre  | Active (experimenting) |
 | Firefly III                                                     | Financial planning            | Docker Compose | ThinkCentre  | Active (in use)        |
 | Joplin Server                                                   | Note-taking                   | Docker Compose | ThinkCentre  | Active (in use)        |
 | Portainer                                                       | Docker management             | Docker         | ThinkCentre  | Active (in use)        |
+| Readeck                                                         | Bookmarks management          | Docker Compose | ThinkCentre  | Active (in use)        |
 | Uptime Kuma                                                     | Uptime tracking               | Docker Compose | ThinkCentre  | Active (in use)        |
 | Portainer Agent                                                 | Docker management             | Docker         | ThinkCentre  | Inactive (shut down)   |
 
@@ -115,6 +117,28 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 
 # Devlog
 
+## 28 December 2025
+
+- Finally figured out how to combine Cloudflare DNS and Tailscale to make an internal service available through a public domain! This means that I can connect to a service `XXX` at `XXX.arash.codes`, but only if I'm connected to my tailnet. If you're curious, the steps are here:
+	1. Create an A (if you want to use the IPv4 MagicDNS address) or CNAME (if you want to use the domain MagicDNS address) and point it to your server connected to the tailnet
+		- If you're using a provider like Cloudflare that offers proxying services (that orange cloud next to your record), make sure to disable it — this only works if the provider routes DNS requests only
+	2. Use Caddy (or another web server/reverse proxy service) to route requests coming from `XXX.yourdomain.tld` the local service running on a port on your server
+		   - Since my service also implements a self-signed SSL certificate, I'll need to tell Caddy to ignore insecure TLS versions. My Caddyfile looks something like this:
+		     
+		   ```
+		   XXX.arash.codes {
+			  reverse_proxy https://localhost:PORT {
+			    transport http {
+			      tls
+			      tls_insecure_skip_verify
+			    }
+			  }
+			}
+		   ```
+- Guess 👏 who 👏 ran 👏 `rm -rf /*` 👏 instead 👏 of 👏 `rm -rf ./*`?
+	- This kinda messed up my ThinkCentre, but I'm so glad that I didn't run `sudo` — that might've irrevocably destroyed my ThinkCentre and forced me to reinstall Debian on that poor guy
+	- Lesson learnt: [I've vibe-coded a script](https://github.com/arashnrim/homelab/commit/1fc293199c91d1fc8ae7b9a3b9fc748aa6645f34) that backs up the contents of all the Docker volumes and bind mounts (the important stuff) and throws them to the HDD attached to the Raspberry Pi for safe (enough) storage
+
 ## 27 December 2025
 
 - I'm now switching over Uptime Kuma to Checkmate as my primary uptime monitoring tool, mostly because Checkmate exposes an API that's easy to interface with in other places (e.g. my n8n Telegram bot!)
@@ -128,7 +152,7 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 ## 26 December 2025
 
 - I must admit that I've been falling down an n8n rabbit hole ever since I truly started playing with it last weekend. I'm now combining many different sub-workflows with an LLM agent to make [[pip|a cute yet helpful assistant]] that can do loads of things, from:
-	- Checking up on the state of my home lab (including pinging, seeing if they're connected to the Tailnet, and checking the uptime status of some services)
+	- Checking up on the state of my home lab (including pinging, seeing if they're connected to the tailnet, and checking the uptime status of some services)
 	- Searching up up-to-date information on the internet using SearXNG and "factual" (enough) information from Wikipedia
 	- Interacting with my saved links in Linkwarden, giving an overview on my ever-growing pile of links to read through and give insights/suggestions on what to read next
 	- Fetching my calendar and viewing events from there (not really full CRUD yet though!)
