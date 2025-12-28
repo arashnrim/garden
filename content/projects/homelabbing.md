@@ -118,10 +118,16 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 ## 27 December 2025
 
 - I'm now switching over Uptime Kuma to Checkmate as my primary uptime monitoring tool, mostly because Checkmate exposes an API that's easy to interface with in other places (e.g. my n8n Telegram bot!)
+- My obsession with this n8n Telegram bot project has gotten bad to the point where I can't help but create even more tools for the agent to use, and seeing everything come together just scratches my brain the right way...
+- Finally settled on Readeck as my bookmark tool of choice, migrating over from Linkwarden and Raindrop.io
+	- The primary reason driving this migration is support for highlighting bookmarks on mobile — Readeck's mobile app is pretty solid in this regard, so it does everything I want it to do
+	- I also [forked an Obsidian plugin](https://github.com/arashnrim/obsireadeck) that syncs Readeck bookmarks into a vault, so it reduces the friction from passive to active reading (hopefully!)
+- Learnt that Tailscale has a wrapper around SSH called [Tailscale SSH](https://tailscale.com/kb/1193/tailscale-ssh) that abstracts the authentication component. In other words, once Tailscale SSH has been configured on a remote device on the tailnet, calling ssh username@magicdns-hostname will cause Tailscale to intercept and approve the authentication automatically. No more passwords or SSH keys!
+	- A small caveat with this is that [there doesn't seem to be Windows support](https://tailscale.com/kb/1193/tailscale-ssh#prerequisites) just yet and that you'll need to install [the right version of Tailscale on macOS](https://tailscale.com/kb/1065/macos-variants#which-should-i-choose)
 
 ## 26 December 2025
 
-- I must admit that I've been falling down an n8n rabbit hole ever since I truly started playing with it last weekend. I'm now combining many different sub-workflows with an LLM agent to make a cute yet helpful assistant that can do loads of things, from:
+- I must admit that I've been falling down an n8n rabbit hole ever since I truly started playing with it last weekend. I'm now combining many different sub-workflows with an LLM agent to make [[pip|a cute yet helpful assistant]] that can do loads of things, from:
 	- Checking up on the state of my home lab (including pinging, seeing if they're connected to the Tailnet, and checking the uptime status of some services)
 	- Searching up up-to-date information on the internet using SearXNG and "factual" (enough) information from Wikipedia
 	- Interacting with my saved links in Linkwarden, giving an overview on my ever-growing pile of links to read through and give insights/suggestions on what to read next

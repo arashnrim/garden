@@ -7,6 +7,9 @@ tags: [living]
 ---
 [Visit the original here](https://caitlynrichardson.substack.com/p/the-quiet-rebellion-of-a-little-life)
 
+Relevant notes:
+- [[a-little-life|A little life]]
+
 # Annotations
 
 > sisyphus doesn’t find meaning in reaching the summit—he finds it in the act of pushing the boulder. his happiness isn’t in escaping the climb but rather, embracing it, despite the inevitable struggle that comes with work of any kind.

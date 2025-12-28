@@ -7,6 +7,9 @@ tags: [living, productivity]
 ---
 [Visit the original here](https://www.tommydixon.ca/p/how-to-end-your-extremely-online)
 
+Relevant notes:
+- [[digital-minimalism|Digital minimalism]]
+
 # Annotations
 
 > We live in a culture of watchers and appearers, of watchers and approvers, a culture where it feels distinctively hard to be a real human being. It’s like some sort of Orwellian nightmare, but worse, since we are being watched, but we have also employed ourselves as the watchers, as big brother, looking in at a projected image of everyone’s life, which isn’t that real but we, for some reason, pretend it is.
