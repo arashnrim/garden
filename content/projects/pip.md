@@ -11,7 +11,7 @@ A helpful assistant that runs on a Telegram interface. Started out as a branch f
 
 # The system
 
-At its core, n8n is a workflow tool just like any other — it listens for an input, does a process defined by the user, and ends with an output or closure. Pip isn't any different; its input are either webhooks or listening for a Telegram message, the process an agentic AI system powered by tools, and the output a response to the webhooks or a reply on Telegram.
+At its core, n8n is a workflow tool just like any other — it listens for an input, does a process defined by the user, and ends with an output or closure. Pip isn't any different; its input are either webhooks or listening for a Telegram message, the process an [[agentic-systems|agentic AI system]] powered by tools, and the output a response to the webhooks or a reply on Telegram.
 
 What's fun are the tools that supercharge the agent's abilities to do things. All of them are custom-made for the services and things I use, so they seem *somewhat* arbitrary but very personally useful. These tools include:
 

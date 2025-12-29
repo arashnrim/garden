@@ -7,6 +7,9 @@ tags: [home lab, tech]
 ---
 [Visit the original here](https://www.redhat.com/en/blog/ansible-vs.-terraform-demystified)
 
+Relevant notes:
+- [[homelabbing|Homelabbing]]
+
 # Annotations
 
 > Spoiler: The two tools are better together and can work in harmony to create a better experience for developers and operations teams.
