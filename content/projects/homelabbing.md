@@ -117,6 +117,13 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 
 # Devlog
 
+## 30 December 2025
+
+- I saw a Reddit post about [someone setting up Renovate, Forgejo, and Komodo together](https://www.reddit.com/r/selfhosted/comments/1pywu5v/i_finally_setup_komodo_forgejo_renovate_for/). Seems pretty enticing — would be really nice to have an auto-updatable home lab stack with my Git repo of Compose files!
+- I finally upgraded n8n to v2.0+, which [fixes a super annoying issue](https://docs.n8n.io/2-0-breaking-changes/#return-expected-sub-workflow-data-when-the-sub-workflow-resumes-from-waiting-waiting-for-webhook-forms-hitl-etc) that bricked an important custom tool for Pip. I'm glad that the devs managed to identify and solve the issue!
+	- The gist of it is this: before v2.0, AI agents that call other n8n subflows that have some asynchronous task (e.g. asking and waiting for human approval) may obtain an unexpected output: the input itself!
+	- If my tool is to run a shell command, given the input of the command to run, the AI agent will see the output of the command to run again instead of seeing the exit code, standard output, and standard error as expected
+
 ## 28 December 2025
 
 - Finally figured out how to combine Cloudflare DNS and Tailscale to make an internal service available through a public domain! This means that I can connect to a service `XXX` at `XXX.arash.codes`, but only if I'm connected to my tailnet. If you're curious, the steps are here:
