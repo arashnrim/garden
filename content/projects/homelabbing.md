@@ -117,6 +117,27 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 
 # Devlog
 
+## 31 December 2025
+
+- After the disaster that was [[#28 December 2025|running `rm -rf /*`]], I decided to reinstall Debian on the ThinkCentre. The backup scripts I vibe-coded really came in clutch — it restored all but one of my services running on Docker, and I'm pretty happy with how that turned out!
+- Tailscale might encounter an issue where it has to fight other services in overwriting the `/etc/resolv.conf` file. [Tailscale discusses this in their docs](https://tailscale.com/kb/1188/linux-dns?q=dns+fighting#dhcp-dhclient-overwriting-etcresolvconf), but it's pretty short and I couldn't find much info besides the clue of installing `systemd-resolved`. Here's what you need to do after installing it:
+	1. Enable and start the system service.
+	   ```
+	   sudo systemctl enable systemd-resolved
+	   sudo systemctl start systemd-resolved
+	    ```
+	2. Edit `/etc/systemd/resolved.conf` and add a preferred DNS server of your choice. This will apply to all interfaces globally.
+	3. Restart the system service and check its status.
+	   ```
+	   sudo systemctl restart systemd-resolved
+	   resolvectl status
+	   ```
+	   4. If MagicDNS is still not working as expected, disable and re-enable MagicDNS on the server again.
+	    ```
+	    sudo tailscale set --allow-dns=false
+	    sudo tailscale set --allow-dns
+	    ```
+
 ## 30 December 2025
 
 - I saw a Reddit post about [someone setting up Renovate, Forgejo, and Komodo together](https://www.reddit.com/r/selfhosted/comments/1pywu5v/i_finally_setup_komodo_forgejo_renovate_for/). Seems pretty enticing — would be really nice to have an auto-updatable home lab stack with my Git repo of Compose files!
