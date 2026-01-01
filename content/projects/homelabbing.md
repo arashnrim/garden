@@ -137,6 +137,14 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 	    sudo tailscale set --allow-dns=false
 	    sudo tailscale set --allow-dns
 	    ```
+- Goodbye Portainer, hello Komodo! I've finally ported over all my Docker containers + Compose files over. I did this for several reasons:
+	- I liked the idea that Komodo is fully open-source, compared to Portainer that has some business/enterprise offerings and feature paywalls
+	- I found Komodo's interface a lot easier to navigate than Portainer's, and it's easy to configure stacks and containers
+	- Komodo has built-in support for webhooks and Git-centralised Compose files (yes, Portainer has this too)
+	- Komodo has an exposed API that I can interact with. I can probably hook Pip up to this!
+- Happy new year, btw 🤩
+- I think I've configured a flow between Renovate, GitHub, and Komodo that allows the semi-auto-updating (still needs my review to merge the PR) of my home lab's services. It's not exactly the same as the Reddit post I saw yesterday, because it has a small catch that I'm not as satisfied with
+	- Instead of using webhooks and redeploying when the Docker Compose files get updated, I run a cron job every midnight that pulls the repository and updates the files if there are any updates. The main reason behind this is that the Kodomo instance is only available behind Tailscale, and GitHub won't be able to call the webhook because the instance is unreachable from the public :(
 
 ## 30 December 2025
 
