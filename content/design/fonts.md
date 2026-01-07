@@ -16,12 +16,15 @@ Thank you to these people for sharing their lists: [Mutammim](https://mutammim.c
 * [Google Fonts](https://fonts.google.com)
 * [Hanken Design Co.](https://hanken.co/collections/free)
 * [WELTKERN](https://weltkern.com/typefaces)
+* [UNCUT.wtf](https://uncut.wtf/)
+* [Open Foundry](https://open-foundry.com)
 
 # Individual fonts
 
 ## Sans serif
 
 * [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont/)
+* [Barnebok](https://backpacker.gr/fonts/56)
 
 ## Serif
 
