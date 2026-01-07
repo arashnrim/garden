@@ -65,6 +65,10 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 	* 32 GB DDR4-3600 [[random-access-memory|RAM]]
 	* 1 TB + 1 TB SSD internal storage
 	* 8 GB NVIDIA RTX 3070 Ti
+* VPS
+	* 64-bit 2 vCPU cores
+	* 2048 MiB [[random-access-memory|RAM]]
+	* 64 GiB internal storage
 
 ## Current services
 
@@ -72,7 +76,6 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 | :-------------------------------------------------------------- | :---------------------------- | :------------- | :----------- | :--------------------- |
 | Bento PDF                                                       | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
 | Stirling PDF                                                    | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
-| n8n                                                             | Workflow automation           | Docker Compose | Mac mini     | Active (in use)        |
 | Open WebUI                                                      | LLM interaction               | Docker         | Mac mini     | Active (in use)        |
 | Paperless-ngx                                                   | Physical paper scanning       | Docker Compose | Mac mini     | Active (in use)        |
 | Portainer Agent                                                 | Docker management             | Docker         | Mac mini     | Active (in use)        |
@@ -85,13 +88,15 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 | Linkwarden                                                      | Bookmarks management          | Docker Compose | ThinkCentre  | Active (experimenting) |
 | SearXNG                                                         | Metasearch engine             | Docker Compose | ThinkCentre  | Active (experimenting) |
 | Wakapi                                                          | Time tracking for coding      | Docker Compose | ThinkCentre  | Active (experimenting) |
-| wger                                                            | Fitness management            | Docker Compose | ThinkCentre  | Active (experimenting) |
 | Firefly III                                                     | Financial planning            | Docker Compose | ThinkCentre  | Active (in use)        |
 | Joplin Server                                                   | Note-taking                   | Docker Compose | ThinkCentre  | Active (in use)        |
+| n8n                                                             | Workflow automation           | Docker Compose | ThinkCentre  | Active (in use)        |
 | Portainer                                                       | Docker management             | Docker         | ThinkCentre  | Active (in use)        |
 | Readeck                                                         | Bookmarks management          | Docker Compose | ThinkCentre  | Active (in use)        |
-| Uptime Kuma                                                     | Uptime tracking               | Docker Compose | ThinkCentre  | Active (in use)        |
 | Portainer Agent                                                 | Docker management             | Docker         | ThinkCentre  | Inactive (shut down)   |
+| Uptime Kuma                                                     | Uptime tracking               | Docker Compose | ThinkCentre  | Inactive (shut down)   |
+| wger                                                            | Fitness management            | Docker Compose | ThinkCentre  | Inactive (shut down)   |
+| Checkmate                                                       | Uptime tracking               | Docker Compose | VPS          | Active (in use)        |
 
 # Current plans
 
@@ -117,6 +122,22 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 
 # Devlog
 
+## 3 January 2025
+
+- Made the switch to `ufw` from `firewalld` because of one certain issue where Docker keeps complaining about IPv4. I can't really explain what the error is because I don't really understand it, but I know that it has to do with `firewalld` and `nftables` instead of the native `iptables` that Docker is comfortable with
+
+## 2 January 2025
+
+- Continued work on migrating over things to the VPS and further securing it
+	- My home lab now no longer has any dependence on Cloudflare Tunnels; everything's been migrated over to the VPS now with Caddy handling the routing!
+	- I've adopted `firewalld` to secure the VPS' ports to try to mitigate attacks on the public IP address of the VPS
+	- I've played around with Caddy even more and learnt a lot about what it can do. One of the most exciting things is implementing a redirect for any subdomain (`*.arash.codes`) to the root domain `arash.codes` 
+
+## 1 January 2025
+
+- I might've made a rash decision to throw money for a VPS... but can I *really* say that it was a rash decision if I've been thinking about it for a while?
+	- Having access to a VPS now means that I can work around all my CGNAT issues, and that means I can play around with networking on a more intricate manner
+- Pangolin seems like a good thing to try out, but might it conflict with the Tailscale implementation I already have going on now?
 ## 31 December 2025
 
 - After the disaster that was [[#28 December 2025|running `rm -rf /*`]], I decided to reinstall Debian on the ThinkCentre. The backup scripts I vibe-coded really came in clutch — it restored all but one of my services running on Docker, and I'm pretty happy with how that turned out!

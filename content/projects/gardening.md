@@ -15,8 +15,8 @@ My family has some plants at home that I'm curious to learn how to take good car
 
 Meet the plants here:
 
-|         Plant 1         |         Plant 2         |         Plant 3         |      Plant 4      |
-| :---------------------: | :---------------------: | :---------------------: | :---------------: |
+|         Plant 1         |         Plant 2         |         Plant 3         |         Plant 4         |
+| :---------------------: | :---------------------: | :---------------------: | :---------------------: |
 | ![[coleus_plant_1.jpg]] | ![[coleus_plant_2.jpg]] | ![[coleus_plant_3.jpg]] | ![[coleus_plant_4.jpg]] |
 
 I'm still not entirely sure which genus of plants these are, but my current working guess from plant identification websites is [the ***Coleus* genus**](https://en.wikipedia.org/wiki/Coleus). Some notes about this genus:
@@ -25,6 +25,13 @@ I'm still not entirely sure which genus of plants these are, but my current work
 - Prefers consistently moist soil
 
 # Growthlog
+
+## 3 January 2026
+
+- The soil of the plants is still pretty moist, so I'm holding back from watering right now
+- I'm a bit worried if we have a root rot situation here — I haven't seen the plants "perk up" as most places online said they would after being watered
+- Trimmed a little bit more of Plant 2, removing the stem that grows out of the pot and those flowering stems
+- I'm only able to look after the plants when I'm here, and that's a problem when I'll be staying in camp for most of my time (this week was special because of New Year's!). I'll need my family's help to keep an eye on them
 
 ## 1 January 2026
 
