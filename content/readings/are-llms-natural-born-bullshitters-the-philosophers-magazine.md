@@ -7,6 +7,8 @@ tags: []
 ---
 [Visit the original here](https://philosophersmag.com/large-language-models-and-the-concept-of-bullshit/)
 
+Relevant notes:
+- [[large-language-models|Large language models]]
 # Annotations
 
 > The mental state attribution question in the philosophy of mind asks: which mental states, if any, can humans coherently attribute to non-human entities? The question applies to a wide range of entities and mental states. For example, philosophers of mind ask whether species further away from humans in the phylogenetic tree, like oaks and bees, or closer to us, like apes and dolphins, have the capacity for consciousness, thought, rationality, emotions, or pain.
