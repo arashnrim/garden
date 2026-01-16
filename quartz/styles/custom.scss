@@ -3,84 +3,77 @@
 // put your custom CSS here!
 
 @font-face {
-    font-family: "General Sans";
-    src: url("/static/fonts/GeneralSans-Medium.woff") format("woff"), url("/static/fonts/GeneralSans-Medium.woff2") format("woff2");
-    font-weight: 500;
-    font-style: normal;
-    display: swap;
+  font-family: "General Sans";
+  src: url("/static/fonts/GeneralSans-Variable.woff2") format("woff2-variations");
+  src: url("/static/fonts/GeneralSans-Variable.woff2") format("woff2") tech("variations");
+  font-weight: 500 700;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "General Sans";
-    src: url("/static/fonts/GeneralSans-Semibold.woff") format("woff"), url("/static/fonts/GeneralSans-Semibold.woff2") format("woff2");
-    font-weight: 600;
-    font-style: normal;
-    display: swap;
+  font-family: "General Sans";
+  src: url("/static/fonts/GeneralSans-VariableItalic.woff2") format("woff2-variations");
+  src: url("/static/fonts/GeneralSans-VariableItalic.woff2") format("woff2") tech("variations");
+  font-weight: 500 700;
+  font-display: swap;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: "JetBrains Mono";
-    src: url("/static/fonts/JetBrainsMono-Regular.woff2") format("woff2");
-    font-weight: 400;
-    font-style: normal;
-    display: swap;
+  font-family: "JetBrains Mono";
+  src: url("/static/fonts/JetBrainsMono-Variable.woff2") format("woff2-variations");
+  src: url("/static/fonts/JetBrainsMono-Variable.woff2") format("woff2") tech("variations");
+  font-weight: 400 800;
+  font-display: swap;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: "Redaction";
-    src: url("/static/fonts/Redaction_20-Bold.woff2") format("woff2");
-    font-weight: bold;
-    font-style: normal;
-    display: swap;
+  font-family: "JetBrains Mono";
+  src: url("/static/fonts/JetBrainsMono-VariableItalic.woff2") format("woff2-variations");
+  src: url("/static/fonts/JetBrainsMono-VariableItalic.woff2") format("woff2") tech("variations");
+  font-weight: 400 800;
+  font-display: swap;
+  font-style: italic;
 }
 
-@font-face {
-    font-family: "Redaction";
-    src: url("/static/fonts/Redaction_20-Italic.woff2") format("woff2");
-    font-weight: normal;
-    font-style: italic;
-    display: swap;
-}
-
-@font-face {
-    font-family: "Redaction";
-    src: url("/static/fonts/Redaction_20-Regular.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
-    display: swap;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    line-height: normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
 }
 
 article li {
-    margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 article li li {
-    margin-top: 0.75rem;
+  margin-top: 0.75rem;
 }
 
 article *:not(h1, h2, h3, h4, h5, h6) {
-    font-size: 1.1rem;
-    line-height: 1.6;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 .article-title {
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
 }
 
 @media screen and (min-width: 768px) {
-    article li {
-        margin-bottom: 0.5rem;
-    }
+  article li {
+    margin-bottom: 0.5rem;
+  }
 
-    article li li {
-        margin-top: 0.5rem;
-    }
+  article li li {
+    margin-top: 0.5rem;
+  }
 
-    article *:not(h1, h2, h3, h4, h5, h6) {
-        font-size: 1.125rem;
-    }
+  article *:not(h1, h2, h3, h4, h5, h6) {
+    font-size: 1.125rem;
+  }
 }

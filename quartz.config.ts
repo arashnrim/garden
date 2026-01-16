@@ -21,7 +21,7 @@ const config: QuartzConfig = {
       fontOrigin: "local",
       cdnCaching: false,
       typography: {
-        header: "Redaction",
+        header: "General Sans",
         body: "General Sans",
         code: "JetBrains Mono",
       },
