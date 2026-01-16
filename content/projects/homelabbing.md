@@ -122,6 +122,11 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 
 # Devlog
 
+## 16 January 2025
+
+- I'm playing around with the idea of giving this home lab the name *Nusantara* ("archipelago" in Malay). It just feels so perfect in many ways, and I think I'm going to commit to using that as a name moving forward
+	- It fits exactly with how this home lab is set up: a federation of separate devices working in unison, exactly like a collection of islands in an archipelago!
+
 ## 3 January 2025
 
 - Made the switch to `ufw` from `firewalld` because of one certain issue where Docker keeps complaining about IPv4. I can't really explain what the error is because I don't really understand it, but I know that it has to do with `firewalld` and `nftables` instead of the native `iptables` that Docker is comfortable with

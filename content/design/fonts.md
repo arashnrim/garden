@@ -18,6 +18,11 @@ Thank you to these people for sharing their lists: [Mutammim](https://mutammim.c
 * [WELTKERN](https://weltkern.com/typefaces)
 * [UNCUT.wtf](https://uncut.wtf/)
 * [Open Foundry](https://open-foundry.com)
+* [Velvetyne](https://velvetyne.fr/)
+* [The League of Movable Type](https://www.theleagueofmoveabletype.com/)
+* [Collletttivo](https://www.collletttivo.it/)
+* [Tunera Type Foundry](https://www.tunera.xyz/)
+* [Awwwards' free fonts collection](https://www.awwwards.com/awwwards/collections/free-fonts/)
 
 # Individual fonts
 
