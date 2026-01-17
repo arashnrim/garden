@@ -10,14 +10,16 @@ A home lab is an environment consisting of running servers, services, and infras
 > [!abstract] The state of things
 > 
 > **What's the setup like now?** A control plane federation
-> - Portainer Server is running on one device, with Portainer Agents in other devices feeding back to it
-> - The Server instance is able to control the Docker Engines within each other device, but the devices' Engines are not connected (i.e. in an orchestrated manner, using a stack like Docker Swarm/Kubernetes)
+>
+> - Komodo is running on one device, with the Periphery agents in other devices feeding back to it
+> - The Server instance is able to control the Docker Engines within each other device, but the devices' Engines are not connected (i.e. in an orchestrated manner à la Docker Swarm/Kubernetes)
+> - The devices are usually frequently connected to one another via Tailscale
 
 > [!info] I'm just an email away!
 > 
 > If you're curious about something in here that you'd like some clarification about, feel free to [reach out](https://arash.codes/#connect)! I'm more than happy to reply or even just say hi. :)
 
-I currently have an extremely basic homelab, with plans to expand even further and explore interesting tech in the time to come!
+I currently have an extremely basic homelab with the working name *Nusantara* — archipelago in Malay — with plans to expand even further and explore interesting tech in the time to come!
 
 # Overview
 
@@ -76,7 +78,7 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 | :-------------------------------------------------------------- | :---------------------------- | :------------- | :----------- | :--------------------- |
 | Bento PDF                                                       | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
 | Stirling PDF                                                    | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
-| Open WebUI                                                      | LLM interaction               | Docker         | Mac mini     | Active (in use)        |
+| Open WebUI                                                      | LLM interaction               | Docker Compose | ThinkCentre  | Active (in use)        |
 | Paperless-ngx                                                   | Physical paper scanning       | Docker Compose | Mac mini     | Active (in use)        |
 | Portainer Agent                                                 | Docker management             | Docker         | Mac mini     | Active (in use)        |
 | Umami                                                           | Analytics                     | Docker Compose | Mac mini     | Active (in use)        |
