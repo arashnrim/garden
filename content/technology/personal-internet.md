@@ -23,7 +23,7 @@ A personal internet has been in my circle for a while already, and [I've even wr
 
 ## Lina's sharing
 
-[Visit Lina's site!]([https://](https://Linalai.github.io/precipice/)) There's so much to explore there alone.
+[Visit Lina's site!](https://amalinalai.github.io/precipice) There's so much to explore there alone.
 
 - Using the web as a way to share what you're curious + passionate about
 - 404 pages: liminal spaces, how can we reimagine them?
