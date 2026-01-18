@@ -3,9 +3,9 @@ title: Welcome!
 enableToc: false
 ---
 
-👋 Welcome to Δ Delta[^1], [Arash’s](https://arash.codes) digital garden!
+👋 Welcome to Δ Delta[^1], [Arash’s](https://arash.codes) [[digital-gardening|digital garden]]!
 
-Learning in public has always been the theoretical spark for this garden, but the rationale has eventually spread to curating a personal space where I can gather and share knowledge vulnerably — free from performativeness and embracing imperfection.
+[[learning-in-public|Learning in public]] has always been the theoretical spark for this garden, but the rationale has eventually spread to curating [[personal-internet|a personal space]] where I can gather and share knowledge vulnerably — free from performativeness and embracing imperfection.
 
 > [!info]
 > 
@@ -19,7 +19,6 @@ Digital gardens are exciting because there's no proper starting point. To move a
 Alternatively, feel free to check this hand-curated list of the things I've been up to now:
 
 - [[homelabbing|Exploring homelabbing]], where I try to bring together different devices for a nice experimental sandbox
-- Seeing how potent [[large-language-models|LLMs]] can be in surfacing manipulative language packed in a [[semantica|browser extension]]
 - Deepening my relationship with [[digital-minimalism|digital minimalism]] and doing my own thing while spinning down my use of my daily tech
 - Experiencing major post-game depression with the masterpiece that is [[clair-obscur-expedition-33|Clair Obscur: Expedition 33]]
 
