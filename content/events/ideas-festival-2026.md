@@ -1,5 +1,5 @@
 ---
-title: Ideas Fedtival 2026
+title: Ideas Festival 2026
 created: 2026-01-19
 tags:
   - spark
