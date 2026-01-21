@@ -34,7 +34,7 @@ Beyond Text: The Handmade Web: Reclaiming Digital Spaces was a panel discussion 
 	- Age of You — radical engineering of human experience by digital interfaces
 	- The Age of Earthquakes
 - Collapse of binaries: public vs private (feelings once private now very public and online); real vs fake; individual vs crowd
-- Post-naïve internet era: new movement of creators looking at the internet with a new lens — see https://co-matter.com/project/welcome-to-the-post-naive-internet
+- Post-naive internet era: new movement of creators looking at the internet with a new lens — see https://co-matter.com/project/welcome-to-the-post-naive-internet
 - [Trust](https://trust.support/): turning of tools (e.g. Twitch for live streaming) into productive non-money-making experiences
 - Decentralised communities — forum boards, then converted to centralised platforms with decentralised communities (e.g. Discord)
 - Dark forest analogy again — the idea that a civilisation keeps to itself in a "dark forest", preventing communication w/ other civilisations
