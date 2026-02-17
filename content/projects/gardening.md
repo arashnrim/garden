@@ -3,7 +3,7 @@ title: Gardening
 created: 2026-01-01
 tags:
   - spark
-  - projects
+  - project
 ---
 My family has some plants at home that I'm curious to learn how to take good care of. This will be a nice little venture into gardening — I'm excited to see how things go!
 

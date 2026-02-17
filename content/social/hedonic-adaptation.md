@@ -9,7 +9,7 @@ tags:
 > 
 > [Hedonic Adaptation, Science Direct](https://www.sciencedirect.com/topics/psychology/hedonic-adaptation)
 
-This term generally describes how we perceive to return back to a normalised baseline of happiness even after major positive or negative events in our lives. Some instances of this happening include:
+This term, also known as the hedonic treadmill, generally describes how we perceive to return back to a normalised baseline of happiness even after major positive or negative events in our lives. Some instances of this happening include:
 
 - Winning lotteries — where the initial high of the thrill eventually gets lowered back down to the baseline
 - Academic or work-related achievements
@@ -19,3 +19,6 @@ This term generally describes how we perceive to return back to a normalised bas
 > - Why is hedonic adaptation a thing within humans?
 > - How does hedonic adaptation play a role in general self-perception and one's level of happiness in life?
 
+# The Gen Z difference
+
+The hedonic treadmill isn't broken per se for Gen Z, but accelerated — a lot of which can be attributed to social media. Through introducing many new novel ideas in the span of seconds and the gesture of a swipe, it is now much more difficult to experience the highs of experiencing something new.

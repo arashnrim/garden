@@ -3,7 +3,7 @@ title: Homelabbing
 date: 2025-06-06
 tags:
   - spark
-  - projects
+  - project
 ---
 A home lab is an environment consisting of running servers, services, and infrastructure setups at home, usually created as a form of exploration or interest. Homelabbing taps into the personal setups already readily available at home (networks and devices).
 

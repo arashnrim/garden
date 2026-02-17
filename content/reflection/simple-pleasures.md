@@ -15,3 +15,4 @@ There's a lot to life that I tend to forget about, but there are always the litt
 - Golden hours
 - Waking up early, not knowing what time it is, and enjoying the time you have left until you have to wake up
 - Being woken up gently at a good time by something in your surroundings
+- Big puffy clouds that span across a blue sky
