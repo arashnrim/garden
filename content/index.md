@@ -23,6 +23,7 @@ If you're curious about what I've been up to now:
 - [[homelabbing|Exploring homelabbing]], where I try to bring together different devices for a nice experimental sandbox
 - Deepening my relationship with [[digital-minimalism|digital minimalism]] and doing my own thing while spinning down my use of my daily tech
 - Experiencing major post-game depression with the masterpiece that is [[clair-obscur-expedition-33|Clair Obscur: Expedition 33]]
+- Reading Ocean Vuong's *[[on-earth-were-briefly-gorgeous|On Earth We're Briefly Gorgeous]]*
 
 Have fun exploring my garden!
 

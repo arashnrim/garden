@@ -15,6 +15,11 @@ I'm particularly drawn to one of the websites in her collection: [A Website is a
 
 A personal internet has been in my circle for a while already, and [I've even written a bit about it](https://blog.arash.codes/posts/breaking-out-of-prose#reading-widely-refining-taste) (found it only in Jan 2026 after re-reading my blog posts)! Maybe 2026 is the year when I learn more about what a personal internet can look like — and create that own space I've craved for so long on my own.
 
+Some resources I've came across that has this "personal internet" vibe:
+
+- [ooh.directory](https://ooh.directory/)
+- [Blogroll](https://blogroll.org/)
+
 # Discussions from Beyond Text: The Handmade Web: Reclaiming Digital Spaces
 
 The discussions have moved over to [[reclaiming-digital-spaces|its own separate note]] — have a look!
