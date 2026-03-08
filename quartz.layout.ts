@@ -37,47 +37,22 @@ export const defaultContentPageLayout: PageLayout = {
           Component: Component.Search(),
           grow: true,
         },
-        // { Component: Component.Darkmode() },
         { Component: Component.DesktopOnly(Component.ReaderMode()) },
       ],
     }),
-    Component.DesktopOnly(Component.Explorer()),
     Component.DesktopOnly(
       Component.Flex({
         direction: "column",
         components: [
           {
-            Component: Component.RecentNotes({
-              title: "Latest thought",
-              filter: (f) => {
-                return f.frontmatter?.tags?.includes("thoughts") || false
-              },
-              limit: 1,
-              linkToMore: "/tags/thoughts" as SimpleSlug,
-            }),
-            align: "start",
+            Component: Component.Explorer(),
+            grow: true,
           },
           {
             Component: Component.RecentNotes({
-              title: "Latest knowledge",
-              filter: (f) => {
-                return f.frontmatter?.tags?.includes("knowledge") || false
-              },
-              limit: 1,
-              linkToMore: "/tags/knowledge" as SimpleSlug,
+              title: "Recently updated",
+              limit: 3,
             }),
-            align: "start",
-          },
-          {
-            Component: Component.RecentNotes({
-              title: "Latest project",
-              filter: (f) => {
-                return f.frontmatter?.tags?.includes("projects") || false
-              },
-              limit: 1,
-              linkToMore: "/tags/projects" as SimpleSlug,
-            }),
-            align: "start",
           },
         ],
       }),
@@ -89,69 +64,32 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Backlinks(),
     Component.MobileOnly(
       Component.RecentNotes({
-        title: "Latest notes",
+        title: "Recently updated",
         limit: 3,
       }),
     ),
   ],
-  // afterBody: [
-  //   Component.MobileOnly(Component.TableOfContents()),
-  //   Component.MobileOnly(Component.Graph()),
-  // ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [Component.ArticleTitle()],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        // { Component: Component.Darkmode() },
-      ],
-    }),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.Search(),
     Component.DesktopOnly(
       Component.Flex({
         direction: "column",
         components: [
           {
-            Component: Component.RecentNotes({
-              title: "Latest thought",
-              filter: (f) => {
-                return f.frontmatter?.tags?.includes("thoughts") || false
-              },
-              limit: 1,
-              linkToMore: "/tags/thoughts" as SimpleSlug,
-            }),
-            align: "start",
+            Component: Component.Explorer(),
+            grow: true,
           },
           {
             Component: Component.RecentNotes({
-              title: "Latest knowledge",
-              filter: (f) => {
-                return f.frontmatter?.tags?.includes("knowledge") || false
-              },
-              limit: 1,
-              linkToMore: "/tags/knowledge" as SimpleSlug,
+              title: "Recently updated",
+              limit: 3,
             }),
-            align: "start",
-          },
-          {
-            Component: Component.RecentNotes({
-              title: "Latest project",
-              filter: (f) => {
-                return f.frontmatter?.tags?.includes("projects") || false
-              },
-              limit: 1,
-              linkToMore: "/tags/projects" as SimpleSlug,
-            }),
-            align: "start",
           },
         ],
       }),
@@ -160,7 +98,7 @@ export const defaultListPageLayout: PageLayout = {
   right: [
     Component.MobileOnly(
       Component.RecentNotes({
-        title: "Latest notes",
+        title: "Recently updated",
         limit: 3,
       }),
     ),
