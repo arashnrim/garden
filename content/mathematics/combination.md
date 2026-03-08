@@ -5,7 +5,6 @@ tags:
   - spark
   - knowledge
 ---
-
 The arrangement of a given number of items **without the consideration of order**. Not to be confused with [[permutation|permutations]], which is similar but with consideration of order.
 
 Provided:

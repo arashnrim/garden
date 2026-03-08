@@ -7,7 +7,7 @@ tags:
 ---
 ![[pip.png]]
 
-A helpful assistant that runs on a Telegram interface. Started out as a branch from [[homelabbing|my homelabbing project]], Pip emerged as a fun experiment for me to see what n8n is capable of with its AI-first workflow capabilities.
+A helpful assistant that runs on a Telegram interface. Started out as a branch from [[homelabbing|my home labbing project]], Pip emerged as a fun experiment for me to see what n8n is capable of with its AI-first workflow capabilities.
 
 # The system
 

@@ -8,7 +8,7 @@ tags: [home lab, tech]
 [Visit the original here](https://www.redhat.com/en/blog/ansible-vs.-terraform-demystified)
 
 Relevant notes:
-- [[homelabbing|Homelabbing]]
+- [[homelabbing|Nusantara (home lab)]]
 
 # Annotations
 

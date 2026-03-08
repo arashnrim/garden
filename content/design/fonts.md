@@ -6,6 +6,7 @@ tags:
   - knowledge
 ---
 > [!question] Leading question
+> 
 > How might we discover uncommon[^1] fonts that match the aesthetic we're looking for?
 
 # Font foundries and collections

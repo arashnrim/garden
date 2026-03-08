@@ -6,5 +6,5 @@ tags:
   - knowledge
 ---
 
-A network device that receives and forwards data between separate networks using Internet protocols.
+A network device that receives and forwards data between separate networks using [[internet-protocol|internet protocols]].
 

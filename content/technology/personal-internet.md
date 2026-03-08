@@ -7,7 +7,7 @@ tags:
 ---
 > [!question] Leading question
 > 
-> What does it mean to have your own personal space on the Internet? What fits the bill?
+> What does it mean to have your own personal space on the internet? What fits the bill?
 
 I came across an event from the National Library Board about [crafting a handmade web](https://nlb.libcal.com/event/5860046) and signed up for it. In preparation for that chat, I decided to go down a rabbit hole behind [one of the speakers' Are.na pages](https://www.are.na/lina-l/websites-im-perceiving) — and as I dive deeper, the clearer the idea of a personal internet spoke out to me.
 

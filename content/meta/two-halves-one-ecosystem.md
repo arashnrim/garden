@@ -7,7 +7,7 @@ date: 2025-01-31
 ---
 ![](fn-delta-venn-diagram.png)
 
-I've been thinking about how I might transition over to a more "open" digital garden-like way of writing and sharing my thoughts on the Internet. I currently have a rigid and more traditional blog called [function()](https://blog.arash.codes), and I realised that there has been a lot of friction in writing mostly because of how I approach it: I have that rigid structure of prose in mind, and that conflicts with what I'm looking for with a inherently imperfect and incomplete web of ideas and notes.
+I've been thinking about how I might transition over to a more "open" digital garden-like way of writing and sharing my thoughts on the internet. I currently have a rigid and more traditional blog called [function()](https://blog.arash.codes), and I realised that there has been a lot of friction in writing mostly because of how I approach it: I have that rigid structure of prose in mind, and that conflicts with what I'm looking for with a inherently imperfect and incomplete web of ideas and notes.
 
 I'm therefore opting to explore this alternative where I have these two avenues of writing that I'll contribute actively to, but with slightly different purposes:
 

@@ -1,11 +1,11 @@
 ---
-title: Homelabbing
+title: Nusantara (home lab)
 date: 2025-06-06
 tags:
   - spark
   - project
 ---
-A home lab is an environment consisting of running servers, services, and infrastructure setups at home, usually created as a form of exploration or interest. Homelabbing taps into the personal setups already readily available at home (networks and devices).
+A home lab is an environment consisting of running servers, services, and infrastructure setups at home, usually created as a form of exploration or interest. Home labbing taps into the personal setups already readily available at home (networks and devices).
 
 > [!abstract] The state of things
 > 
@@ -19,7 +19,7 @@ A home lab is an environment consisting of running servers, services, and infras
 > 
 > If you're curious about something in here that you'd like some clarification about, feel free to [reach out](https://arash.codes/#connect)! I'm more than happy to reply or even just say hi. :)
 
-I currently have an extremely basic homelab with the working name *Nusantara* — archipelago in Malay — with plans to expand even further and explore interesting tech in the time to come!
+My home lab's name is *Nusantara*, meaning archipelago in Malay. I think it's such an apt descriptor of how things are now — a federation of devices each with their own strengths, doing their own things, but still together nonetheless.
 
 # Overview
 
@@ -27,21 +27,23 @@ The two diagrams below that show different aspects of the home lab:
 
 ![[homelab-service-access-flow.png]]
 
-The **service access diagram** (above) shows the way an externally-connected device, such as my phone on the go, can connect to and access the services running on my home lab through external vendors that help bridge the home lab node to the Internet.
+The **service access diagram** (above) shows the way a client (e.g. my phone on the go), can connect to and access the services running in Nusantara through a chain that bridges it to the internet.
 
-The device can connect to a service through two means: public-facing (accessing a domain like `XXX.arash.codes`) in which the request is routed through Cloudflare's network (including its DNS records resolver and Tunnels) and internally in which the request is routed through Tailscale.
+The client has two means of connecting:
 
-- The consideration for using two different methods lie in security: services that shouldn't or doesn't need to be exposed to the entire internet (e.g. Portainer for handling Docker containers) are exposed internally through Tailscale. Services that should be accessible by other apps or for convenience (e.g. Joplin) will be exposed through Cloudflare.
+- Via a public-facing domain (e.g. `XXX.arash.codes`), through which the request is routed through Cloudflare DNS. In normal cases, the domain points to a public-facing VPS that handles routing using Caddy. If the service is private (i.e. should only be accessed by me), the connection can terminate by having an A record that points to a Tailscale IP (e.g. `100.XXX.XXX.XXX`); in this case, the connection will only go through if the client is connected to the tailnet using a Tailscale client.
+- Directly using Tailscale's MagicDNS (e.g. `100.XXX.XXX.XXX:PORT` or `DEVICE-NAME:PORT`). New or private services are typically connected to this way, until I find the time to update the Caddy configuration on the VPS to include the appropriate subdomain to enable routing. This connection only works if the client is connected to the tailnet using a Tailscale client.
 
 
 ![[homelab-network.png]]
 
-The **network diagram** (above) shows a technical overview of how my home lab nodes are connected to the internet. The flow follows a conventional set up for a home network, with the ISP connected to the household using a fibre optic cable that terminates at an ONT before the rest of the network is connected via Ethernet and Wi-Fi after the router.
+The **network diagram** (above) shows a technical overview of how the nodes in Nusantara are connected to the internet. Like most household networks, my ISP provisions broadband access through optical fibre. From there, through a series of networking devices (an ONT, consumer router, and unmanaged switch), internet connectivity is provisioned to each node in the network via Wi-Fi and/or Ethernet.
 
-- A key highlight in this network configuration is the use of [carrier-grade NAT](https://en.wikipedia.org/wiki/Carrier-grade_NAT) (CGNAT). CGNAT allows internet service providers (ISPs) to share a single public IP address between many customers often with cost- and resource-saving benefits. This causes several issues:
-	- Port forwarding is not supported, meaning conventional means of allowing external internet traffic into the home network is no longer supported. Found this out the hard way a long time ago when trying to set up a Minecraft server to no avail.
-	- Dynamic DNS, an alternative method to port forwarding, also is not supported.
-	- Accessing services within the network becomes harder, and alternatives (e.g. Tailscale and Cloudflare Tunnels) have to be looked into to access services from the internet.
+It's worth noting that my ISP uses [carrier-grade NAT](https://en.wikipedia.org/wiki/Carrier-grade_NAT) (CGNAT), which shares a single public IP address between many customers often with cost- and resource-saving benefits. Unfortunately for me, this implementation causes several issues:
+
+- Port forwarding is not supported, meaning conventional means of allowing external internet traffic into the home network is no longer supported. Found this out the hard way a long time ago when trying to set up a Minecraft server to no avail.
+- Dynamic DNS, an alternative method to port forwarding, also is not supported.
+- Accessing services within the network becomes harder, and alternatives (e.g. Tailscale and Cloudflare Tunnels) have to be looked into to access services from the internet.
 
 
 > [!info] Additional resources
@@ -67,7 +69,7 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 	* 32 GB DDR4-3600 [[random-access-memory|RAM]]
 	* 1 TB + 1 TB SSD internal storage
 	* 8 GB NVIDIA RTX 3070 Ti
-* VPS
+* VPS (active)
 	* 64-bit 2 vCPU cores
 	* 2048 MiB [[random-access-memory|RAM]]
 	* 64 GiB internal storage
@@ -124,47 +126,53 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 
 # Devlog
 
-## 16 January 2025
+**16 January 2026**
 
 - I'm playing around with the idea of giving this home lab the name *Nusantara* ("archipelago" in Malay). It just feels so perfect in many ways, and I think I'm going to commit to using that as a name moving forward
 	- It fits exactly with how this home lab is set up: a federation of separate devices working in unison, exactly like a collection of islands in an archipelago!
 
-## 3 January 2025
+**3 January 2025**
 
 - Made the switch to `ufw` from `firewalld` because of one certain issue where Docker keeps complaining about IPv4. I can't really explain what the error is because I don't really understand it, but I know that it has to do with `firewalld` and `nftables` instead of the native `iptables` that Docker is comfortable with
 
-## 2 January 2025
+**2 January 2025**
 
 - Continued work on migrating over things to the VPS and further securing it
 	- My home lab now no longer has any dependence on Cloudflare Tunnels; everything's been migrated over to the VPS now with Caddy handling the routing!
 	- I've adopted `firewalld` to secure the VPS' ports to try to mitigate attacks on the public IP address of the VPS
 	- I've played around with Caddy even more and learnt a lot about what it can do. One of the most exciting things is implementing a redirect for any subdomain (`*.arash.codes`) to the root domain `arash.codes` 
 
-## 1 January 2025
+**1 January 2026**
 
 - I might've made a rash decision to throw money for a VPS... but can I *really* say that it was a rash decision if I've been thinking about it for a while?
 	- Having access to a VPS now means that I can work around all my CGNAT issues, and that means I can play around with networking on a more intricate manner
 - Pangolin seems like a good thing to try out, but might it conflict with the Tailscale implementation I already have going on now?
-## 31 December 2025
+
+**31 December 2025**
 
 - After the disaster that was [[#28 December 2025|running `rm -rf /*`]], I decided to reinstall Debian on the ThinkCentre. The backup scripts I vibe-coded really came in clutch — it restored all but one of my services running on Docker, and I'm pretty happy with how that turned out!
 - Tailscale might encounter an issue where it has to fight other services in overwriting the `/etc/resolv.conf` file. [Tailscale discusses this in their docs](https://tailscale.com/kb/1188/linux-dns?q=dns+fighting#dhcp-dhclient-overwriting-etcresolvconf), but it's pretty short and I couldn't find much info besides the clue of installing `systemd-resolved`. Here's what you need to do after installing it:
+  
 	1. Enable and start the system service.
 	   ```
 	   sudo systemctl enable systemd-resolved
 	   sudo systemctl start systemd-resolved
-	    ```
+	   ```
+
 	2. Edit `/etc/systemd/resolved.conf` and add a preferred DNS server of your choice. This will apply to all interfaces globally.
+	
 	3. Restart the system service and check its status.
 	   ```
 	   sudo systemctl restart systemd-resolved
 	   resolvectl status
 	   ```
-	   4. If MagicDNS is still not working as expected, disable and re-enable MagicDNS on the server again.
-	    ```
-	    sudo tailscale set --allow-dns=false
-	    sudo tailscale set --allow-dns
-	    ```
+
+	4. If MagicDNS is still not working as expected, disable and re-enable MagicDNS on the server again.
+	   ```
+	   sudo tailscale set --allow-dns=false
+	   sudo tailscale set --allow-dns
+	   ```
+
 - Goodbye Portainer, hello Komodo! I've finally ported over all my Docker containers + Compose files over. I did this for several reasons:
 	- I liked the idea that Komodo is fully open-source, compared to Portainer that has some business/enterprise offerings and feature paywalls
 	- I found Komodo's interface a lot easier to navigate than Portainer's, and it's easy to configure stacks and containers
@@ -174,36 +182,38 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 - I think I've configured a flow between Renovate, GitHub, and Komodo that allows the semi-auto-updating (still needs my review to merge the PR) of my home lab's services. It's not exactly the same as the Reddit post I saw yesterday, because it has a small catch that I'm not as satisfied with
 	- Instead of using webhooks and redeploying when the Docker Compose files get updated, I run a cron job every midnight that pulls the repository and updates the files if there are any updates. The main reason behind this is that the Kodomo instance is only available behind Tailscale, and GitHub won't be able to call the webhook because the instance is unreachable from the public :(
 
-## 30 December 2025
+**30 December 2025**
 
 - I saw a Reddit post about [someone setting up Renovate, Forgejo, and Komodo together](https://www.reddit.com/r/selfhosted/comments/1pywu5v/i_finally_setup_komodo_forgejo_renovate_for/). Seems pretty enticing — would be really nice to have an auto-updatable home lab stack with my Git repo of Compose files!
 - I finally upgraded n8n to v2.0+, which [fixes a super annoying issue](https://docs.n8n.io/2-0-breaking-changes/#return-expected-sub-workflow-data-when-the-sub-workflow-resumes-from-waiting-waiting-for-webhook-forms-hitl-etc) that bricked an important custom tool for Pip. I'm glad that the devs managed to identify and solve the issue!
 	- The gist of it is this: before v2.0, AI agents that call other n8n subflows that have some asynchronous task (e.g. asking and waiting for human approval) may obtain an unexpected output: the input itself!
 	- If my tool is to run a shell command, given the input of the command to run, the AI agent will see the output of the command to run again instead of seeing the exit code, standard output, and standard error as expected
 
-## 28 December 2025
+**28 December 2025**
 
 - Finally figured out how to combine Cloudflare DNS and Tailscale to make an internal service available through a public domain! This means that I can connect to a service `XXX` at `XXX.arash.codes`, but only if I'm connected to my tailnet. If you're curious, the steps are here:
+
 	1. Create an A (if you want to use the IPv4 MagicDNS address) or CNAME (if you want to use the domain MagicDNS address) and point it to your server connected to the tailnet
 		- If you're using a provider like Cloudflare that offers proxying services (that orange cloud next to your record), make sure to disable it — this only works if the provider routes DNS requests only
-	2. Use Caddy (or another web server/reverse proxy service) to route requests coming from `XXX.yourdomain.tld` the local service running on a port on your server
-		   - Since my service also implements a self-signed SSL certificate, I'll need to tell Caddy to ignore insecure TLS versions. My Caddyfile looks something like this:
-		     
-		   ```
-		   XXX.arash.codes {
-			  reverse_proxy https://localhost:PORT {
-			    transport http {
-			      tls
-			      tls_insecure_skip_verify
-			    }
-			  }
+
+	2. Use Caddy (or another web server/reverse proxy service) to route requests coming from `XXX.yourdomain.tld` the local service running on a port on your server. Since my service also implements a self-signed SSL certificate, I'll need to tell Caddy to ignore insecure TLS versions. My Caddyfile looks something like this:
+	   
+	   ```
+	   XXX.arash.codes {
+		  reverse_proxy https://localhost:PORT {
+			transport http {
+			  tls
+			  tls_insecure_skip_verify
 			}
-		   ```
+		  }
+		}
+	   ```
+
 - Guess 👏 who 👏 ran 👏 `rm -rf /*` 👏 instead 👏 of 👏 `rm -rf ./*`?
 	- This kinda messed up my ThinkCentre, but I'm so glad that I didn't run `sudo` — that might've irrevocably destroyed my ThinkCentre and forced me to reinstall Debian on that poor guy
 	- Lesson learnt: [I've vibe-coded a script](https://github.com/arashnrim/homelab/commit/1fc293199c91d1fc8ae7b9a3b9fc748aa6645f34) that backs up the contents of all the Docker volumes and bind mounts (the important stuff) and throws them to the HDD attached to the Raspberry Pi for safe (enough) storage
 
-## 27 December 2025
+**27 December 2025**
 
 - I'm now switching over Uptime Kuma to Checkmate as my primary uptime monitoring tool, mostly because Checkmate exposes an API that's easy to interface with in other places (e.g. my n8n Telegram bot!)
 - My obsession with this n8n Telegram bot project has gotten bad to the point where I can't help but create even more tools for the agent to use, and seeing everything come together just scratches my brain the right way...
@@ -213,7 +223,7 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 - Learnt that Tailscale has a wrapper around SSH called [Tailscale SSH](https://tailscale.com/kb/1193/tailscale-ssh) that abstracts the authentication component. In other words, once Tailscale SSH has been configured on a remote device on the tailnet, calling ssh username@magicdns-hostname will cause Tailscale to intercept and approve the authentication automatically. No more passwords or SSH keys!
 	- A small caveat with this is that [there doesn't seem to be Windows support](https://tailscale.com/kb/1193/tailscale-ssh#prerequisites) just yet and that you'll need to install [the right version of Tailscale on macOS](https://tailscale.com/kb/1065/macos-variants#which-should-i-choose)
 
-## 26 December 2025
+**26 December 2025**
 
 - I must admit that I've been falling down an n8n rabbit hole ever since I truly started playing with it last weekend. I'm now combining many different sub-workflows with an LLM agent to make [[pip|a cute yet helpful assistant]] that can do loads of things, from:
 	- Checking up on the state of my home lab (including pinging, seeing if they're connected to the tailnet, and checking the uptime status of some services)
@@ -222,12 +232,12 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 	- Fetching my calendar and viewing events from there (not really full CRUD yet though!)
 - And there surely will be more to come in the next few days. RIP to my sleep schedule.
 
-## 21 December 2025
+**21 December 2025**
 
 - Came across a video from Tailscale that shows a working implementation of Cloudflare DNS with a tailnet, effectively creating a private intranet of public domain names accessible only by authenticated devices connected to the tailnet ([video here](https://youtu.be/Vt4PDUXB_fg?si=uLMY1mb1eWwqBFtk)). Seems pretty interesting, will give it a try!
 	- I walk away with my head low as some networking issue throws itself at me once again. I'll try it again when I have the time!
 
-## 13 December 2025
+**13 December 2025**
 
 - Came across Pangolin as a potential alternative to Tailscale, and the idea of switching seems pretty promising solely based on what I've been seeing so far:
 	- Increasing adoption within home lab users with a considerable majority saying that their experience has been positive
@@ -235,11 +245,11 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 - Also finally started looking at establishing a back up system for all crucial services (i.e. Paperless, Portainer, etc.)
 	- Came across `launchd` as macOS' preferred scheduling system over `cron`, so I'm seeing if I can schedule a back-up script to be run once in a while to automatically copy over files to the Raspberry Pi HDD (which is in itself being backed up to Google Drive using `rclone`). Backing up magic in progress!
 
-## 11 December 2025
+**11 December 2025**
 
 - Finally took me a long time, but I finally opted to switch over to using keys instead of password authentication for SSH connections between the devices in my home lab. It makes things a lot more seamless — no more having to enter passwords everywhere anymore once SSH keys are set up!
 
-## 8 December 2025
+**8 December 2025**
 
 - Awkward story, but... I've accidentally nuked my Debian WSL instance off the face of my Windows PC, so I'm currently planning to cut back on the PC's involvement in the home lab for now. Never let a Stack Overflow answer tell you to run the `--unregister` flag before reading the comment belows it that says "yes, this sets up a new instance of Debian"
 	- Docker Desktop is running with the WSL2 integration enabled, meaning that the deletion of the Debian distro entirely messes up Docker. I've currently fixed that problem by pretending Docker doesn't exist and nuking it off my PC, too
@@ -250,7 +260,7 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 	- The solution was to allow Local Networks permissions to OrbStack on macOS. This was something I missed out on a while back, and since I hardly access my Mac by remote connecting into it, I couldn't notice the issue sooner
 - Finally migrated the main Portainer CE instance from the Raspberry Pi to the ThinkCentre. It was a lot more tedious because of the mismatch in the backup data, but seems like we're all good for now?
 
-## 22 November 2025
+**22 November 2025**
 
 - Learnt more about the concept of orchestration with interactions from LLMs, and decided that orchestration isn't the right path for this home lab (booooo, I'll catch any tomatoes you throw at me)
 	- Orchestration frameworks assume fungible compute resources (meaning that it doesn't care *where* things run, just that it *runs*). This clashes with the current infrastructure I have, where each node (device) in the infra is purpose-built — the Pi is the low-power and always-on coordinator, the Mac is the mid-tier workhorse, etc.
@@ -259,7 +269,7 @@ The **network diagram** (above) shows a technical overview of how my home lab no
 - Curious about [Ansible](https://www.redhat.com/en/ansible-collaborative?intcmp=7015Y000003t7aWQAQ) and the idea of automating the provisioning (setting up) of devices
 	- Might be handy to always ensure that Docker is installed on future devices with Watchtower set up!
 
-## 20 June 2025
+**20 June 2025**
 
 - Figured out Samba and managed to get a Samba share working from the external 1 TB HDD connected to the Pi (USB) to the other devices in the home network!
 - Came across Radicale and thought it can replace my current contacts + calendar back-up implementation (running on [Wölkli](https://woelkli.com)'s hosted Nextcloud instance)
