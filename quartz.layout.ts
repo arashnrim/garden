@@ -40,21 +40,14 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.DesktopOnly(Component.ReaderMode()) },
       ],
     }),
+    Component.DesktopOnly(Component.Explorer()),
     Component.DesktopOnly(
-      Component.Flex({
-        direction: "column",
-        components: [
-          {
-            Component: Component.Explorer(),
-            grow: true,
-          },
-          {
-            Component: Component.RecentNotes({
-              title: "Recently updated",
-              limit: 3,
-            }),
-          },
-        ],
+      Component.RecentNotes({
+        title: "Recently updated",
+        limit: 3,
+        filter: (note) => {
+          return !(note.filePath ?? "").includes("readings/")
+        },
       }),
     ),
   ],
@@ -66,6 +59,9 @@ export const defaultContentPageLayout: PageLayout = {
       Component.RecentNotes({
         title: "Recently updated",
         limit: 3,
+        filter: (note) => {
+          return !(note.filePath ?? "").includes("readings/")
+        },
       }),
     ),
   ],
@@ -89,6 +85,9 @@ export const defaultListPageLayout: PageLayout = {
             Component: Component.RecentNotes({
               title: "Recently updated",
               limit: 3,
+              filter: (note) => {
+                return !(note.filePath ?? "").includes("readings/")
+              },
             }),
           },
         ],
@@ -100,6 +99,9 @@ export const defaultListPageLayout: PageLayout = {
       Component.RecentNotes({
         title: "Recently updated",
         limit: 3,
+        filter: (note) => {
+          return !(note.filePath ?? "").includes("readings/")
+        },
       }),
     ),
   ],
