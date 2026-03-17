@@ -1,5 +1,5 @@
 ---
-title: "It’s hard to justify Tahoe icons @ tonsky.me"
+title: "It’s hard to justify Tahoe icons"
 description: "Looking at the first principles of icon design—and how Apple failed to apply all of them in macOS Tahoe"
 date: "2026-01-06"
 authors: ["Nikita Prokopov"]

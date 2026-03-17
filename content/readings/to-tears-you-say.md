@@ -1,5 +1,5 @@
 ---
-title: "to tears, you say? | arielle lok"
+title: "to tears, you say?"
 description: ""
 date: "2025-12-12"
 authors: []

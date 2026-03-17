@@ -1,5 +1,5 @@
 ---
-title: "Make better documents. - Anil Dash"
+title: "Make better documents."
 description: "A blog about making culture. Since 1999."
 date: "2025-12-12"
 authors: ["Anil Dash"]

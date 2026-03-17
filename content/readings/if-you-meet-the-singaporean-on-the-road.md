@@ -1,5 +1,5 @@
 ---
-title: "if you meet the singaporean on the road - eigenmoomin"
+title: "if you meet the singaporean on the road"
 description: "thoughts on why the smartest country in the world has never shipped anything that matters, and why only you can fix it."
 date: "2025-12-24"
 authors: ["eigenmoomin"]

@@ -1,5 +1,5 @@
 ---
-title: "Are LLMs Natural Born Bullshitters? - The Philosophers' Magazine"
+title: "Are LLMs Natural Born Bullshitters?"
 description: "Anand Vaidya considers whether LLMs, such as ChatGPT, care about the truth."
 date: "2025-12-24"
 authors: ["Anand Jayprakash Vaidya"]
