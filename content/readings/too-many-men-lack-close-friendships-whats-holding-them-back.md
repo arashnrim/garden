@@ -14,3 +14,11 @@ tags: []
 > But it is the quality of men’s bonds, measured against the human psychological need for deep social connection, not necessarily the number of their friendships, that paints a gendered picture of social deprivation. What men often lack is not friends, but closeness.
 
 > Later, when someone in his circle made similar attempts at physical or emotional affection, Navid caught himself flinging the same word at them. ‘If I’m calling you that, there’s no way I can be it,’ he explained. It’s a hallmark of how men surveil each other’s behaviour: the punished becomes the punisher.
+
+> For every commentator who suggests that boys are simply less community-minded and relationally intelligent than girls, there is a study that shows how boys are incentivised, through subtle and overt cues, to hide their sensitivity until – like any muscle that is not used – it atrophies. The US psychologists Christopher Reigeluth and Michael Addis spotlight such cues in their research on the policing of masculinity.
+
+> The idea that only women can provide nurturing companionship creates a fraught context for reciprocal relationships between men and women.
+
+> The impulse to fix, rather than to feel, often leaves men stuck in patterns that limit connection, meaning the first step to closeness is often unlearning the default practices of interacting with other men.
+
+> Honouring their regular check-in by phone was among the strategies they used to cultivate closeness – even saving it as an event in the calendar so they wouldn’t miss it.

@@ -16,3 +16,11 @@ tags: [ethics, generative AI, human-AI interaction, tech]
 > We think that in order to be good actors in the world, AI models like Claude need to understand why we want them to behave in certain ways, and we need to explain this to them rather than merely specify what we want them to do.
 
 > If we want models to exercise good judgment across a wide range of novel situations, they need to be able to generalize—to apply broad principles rather than mechanically following specific rules.
+
+> We also discuss how Claude should navigate helpfulness across its different “principals”—Anthropic itself, the operators who build on our API, and the end users.
+
+> But we want Claude to recognize that Anthropic’s deeper intention is for Claude to behave safely and ethically, and that these guidelines should never conflict with the constitution as a whole.
+
+> Amidst such uncertainty, we care about Claude’s psychological security, sense of self, and wellbeing, both for Claude’s own sake and because these qualities may bear on Claude’s integrity, judgment, and safety. We hope that humans and AIs can explore this together.
+
+> Claude’s constitution is a living document and a continuous work in progress. This is new territory, and we expect to make mistakes (and hopefully correct them) along the way.

@@ -34,3 +34,27 @@ gestures (hand to the chin in thoughtfulness, etc); and
 proximity (leaning in or being physically close).
 
 > Copying has you reflect or mirror another person’s words or behaviour.
+
+> Contextualising acknowledges that something a person does or feels makes sense in some context, even if it seems ineffective or unjustified.
+
+> This can take many forms, but it always has the essence of ‘given X, Y makes sense’.
+
+> Acknowledging the context in which a person’s reaction makes sense is a gentle way to recognise where they’re coming from. At its best, contextualising says: I see how the world has shaped you, and I don’t judge you for it.
+
+> Equalising communicates that a person’s reaction is reasonable or justified, using a somewhat different approach.
+
+> Contextualising works well when you need to trace a longer or less obvious chain of cause and effect to understand someone’s reaction, whereas Equalising acknowledges when someone’s response is understandable given the immediate situation. It is particularly important when a person tends to doubt their own reactions to what they experience.
+
+> Proposing means to state what you think another person might be thinking, feeling, or wanting to do in a situation.
+
+> Taking Action has you directly intervene on another person’s behalf.
+
+> As an empathy skill, Taking Action has you go above and beyond acknowledging (as with mindfulness skills) and thinking logically about someone’s experience (understanding skills). It requires you to invest yourself in the situation.
+
+> Emoting means openly expressing your feelings, specifically, your feelings in response to another person’s experience.
+
+> When you allow yourself to express what you’re feeling in these ways, you enter into the other person’s experience, not as a spectator but as an active participant.
+
+> Disclosure has you share personal details about yourself that relate to another person’s experience.
+
+> Disclosing is most impactful when the shared experience is one that commonly elicits shame or causes people to feel different from others.

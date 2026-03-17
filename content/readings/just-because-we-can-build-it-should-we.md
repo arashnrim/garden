@@ -7,8 +7,6 @@ tags: [ethics, tech]
 ---
 [Visit the original here](https://www.linkedin.com/pulse/just-because-we-can-build-should-amon-s-kaneko-x4cae)
 
-Relevant notes:
-- [[ethics|Ethics]]
 # Annotations
 
 > If a self-driving car crashes, who is responsible? The engineer who wrote the algorithm? The company that deployed it? Or the person in the driver’s seat, who isn’t technically in control?
