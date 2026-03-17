@@ -25,7 +25,9 @@ A personal internet has been in my circle for a while already, and [I've even wr
 
 # Good places to start
 
-Some resources I've came across that has this "personal internet" vibe:
+## Inspiration
+
+Some resources I've came across that has this "personal internet" vibe. Great if you'd love to go down a rabbit hole:
 
 - [ooh.directory](https://ooh.directory/)
 - [Blogroll](https://blogroll.org/)
@@ -33,6 +35,12 @@ Some resources I've came across that has this "personal internet" vibe:
 - [Neocities](https://neocities.org/)
 - [Winbows](https://winbows.neocities.org/)
 - [Jacky Zhao's site](https://jzhao.xyz), which has always been a deeply intriguing personal "north star" that led me to exploring the personal internet deeper
+
+## Technical resources
+
+Some help I've found that helps to implement the personal internet on a technical level:
+
+- [The Webmention protocol](https://indieweb.org/webmention), developed by IndieWeb to power conversations and interactions across the web
 
 # Some dissonances to answer
 
