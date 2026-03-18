@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    "**/content": true
+  },
+  "git.repositoryScanIgnoredFolders": ["node_modules", "content"]
+}

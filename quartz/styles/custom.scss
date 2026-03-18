@@ -38,42 +38,43 @@
   font-style: italic;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: normal;
+$subtitle: clamp(1.5rem, 5vw, 2.5rem);
+$title: clamp(2rem, 5vw, 3rem);
+$body: clamp(1rem, 5vw, 1.1rem);
+
+html {
+  font-size: $body;
 }
 
-article li {
-  margin-bottom: 0.75rem;
-}
-
-article li li {
-  margin-top: 0.75rem;
-}
-
-article *:not(h1, h2, h3, h4, h5, h6) {
-  font-size: 1.1rem;
-  line-height: 1.6;
+*::selection {
+  background-color: #333;
 }
 
 .article-title {
-  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  font-size: $subtitle;
 }
 
-@media screen and (min-width: 768px) {
-  article li {
-    margin-bottom: 0.5rem;
+article {
+  a.external {
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    padding: 0 2.5px;
+    font-weight: 600;
   }
 
-  article li li {
-    margin-top: 0.5rem;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
   }
 
-  article *:not(h1, h2, h3, h4, h5, h6) {
-    font-size: 1.125rem;
+  p,
+  span,
+  ol,
+  ul {
+    line-height: 1.5;
   }
 }

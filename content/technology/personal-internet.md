@@ -35,6 +35,7 @@ Some resources I've came across that has this "personal internet" vibe. Great if
 - [Neocities](https://neocities.org/)
 - [Winbows](https://winbows.neocities.org/)
 - [Jacky Zhao's site](https://jzhao.xyz), which has always been a deeply intriguing personal "north star" that led me to exploring the personal internet deeper
+- [Eilleen's Everything Notebook](https://quartz.eilleeenz.com/)
 
 ## Technical resources
 
@@ -46,7 +47,7 @@ Some help I've found that helps to implement the personal internet on a technica
 
 - Most, if not all, of what I've seen in the personal internet seems to mimic the style of a '90s to '00s internet. Do we *have* to follow this aesthetic if we want to "fit in"? How did this aesthetic come to be in this space?
 
-# Discussions from *Beyond Text: The Handmade Web: Reclaiming Digital Spaces*
+# Discussions from Beyond Text: The Handmade Web: Reclaiming Digital Spaces
 
 The discussions have moved over to [[reclaiming-digital-spaces|its own separate note]] — have a look!
 
