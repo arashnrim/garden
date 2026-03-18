@@ -49,3 +49,7 @@ Some help I've found that helps to implement the personal internet on a technica
 # Discussions from *Beyond Text: The Handmade Web: Reclaiming Digital Spaces*
 
 The discussions have moved over to [[reclaiming-digital-spaces|its own separate note]] — have a look!
+
+# Readings
+
+- [[against-an-increasingly-user-hostile-web|Against an Increasingly User-Hostile Web]]

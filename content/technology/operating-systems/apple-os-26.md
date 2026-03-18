@@ -9,3 +9,7 @@ The all-encompassing unification of Apple's [[operating-system|OSes]] — iOS, m
 
 - Interesting that they chose to unify their OS version numbering back to the pre-iOS 7 days, where the version number indicates the year the version is landing _towards_ (26 for 2026, meaning next year's WWDC will unveil 27)
 - The introduction of the Liquid Glass design has sparked a lot of debate online, and I've been personally on the fence about how things look. Should accessibility really take a small step back for 'nice' visuals? How will this affect the devices' performance?
+
+# Readings
+
+- [[its-hard-to-justify-tahoe-icons|It’s hard to justify Tahoe icons]]

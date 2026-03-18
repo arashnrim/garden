@@ -16,3 +16,8 @@ A little life is one that breaks the norm of superficiality, and one where meani
 > [the quiet rebellion of a little life, milk fed](https://open.substack.com/pub/caitlynrichardson/p/the-quiet-rebellion-of-a-little-life)
 
 Okay, fine — maybe it isn't *that* credible to quote a personal Substack post, but it deeply relates to what I make of it. I think this kind of life has an inherent sense of [[minimalism|minimalism]] to it. There are parallels about rejecting the idea of proving your worth to others and achieving goals for such things; rather, it is more introspective, personal, and private.
+
+# Readings
+
+- [[searching-for-your-lifes-work-is-a-multi-turn-endeavor|searching for your life's work is a multi-turn endeavor]]
+- [[the-quiet-rebellion-of-a-little-life|the quiet rebellion of a little life]]
