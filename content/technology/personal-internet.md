@@ -54,3 +54,4 @@ The discussions have moved over to [[reclaiming-digital-spaces|its own separate 
 # Readings
 
 - [[against-an-increasingly-user-hostile-web|Against an Increasingly User-Hostile Web]]
+- [[the-internets-hidden-creative-renaissance-and-how-to-find-it|🧶✏️👩🏽‍💻 The internet’s hidden creative renaissance (and how to find it)]]

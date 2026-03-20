@@ -18,3 +18,8 @@ Digital minimalism is important to me in an age where we begin to see the influe
 > [How to end your extremely online era](https://www.tommydixon.ca/p/how-to-end-your-extremely-online)
 
 The fact that it takes *reasonable*, *tangible* effort to intentionally lead a day without our devices shows how much digital tech has infiltrated our day-to-day lives. Digital minimalism seeks to make you reflect on that: how much time do you spend on your devices on the daily? Are you using them healthily?
+
+# Readings
+
+- [[diva-you-forgot-to-take-the-surveillance-state-out-of-your-analog-bag|Diva, You Forgot to Take the Surveillance State Out of Your Analog Bag?]]
+- [[the-kids-forgotten-by-calls-to-ban-phones|The kids forgotten by calls to ban phones]]
