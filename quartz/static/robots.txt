@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /readings/
+
+Sitemap: https://garden.arash.codes/sitemap.xml
