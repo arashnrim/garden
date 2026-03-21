@@ -17,7 +17,7 @@ Here's a hand-curated list of what I've been up to so far right now:
 
 - [[homelabbing|Creating Nusantara]] — my home lab — where I try to bring together different devices for a nice experimental sandbox
 - Deepening my relationship with [[digital-minimalism|digital minimalism]] and doing my own thing while spinning down my use of my daily tech
-- Understanding [[personal-internet|a personal internet]] and what it means in a centralised internet
+- Understanding [[personal-internet|a personal internet]] and what it means in a centralised internet (see also [[an-internet-directory|An Internet Directory]]!)
 - Reading Ocean Vuong's *[[on-earth-were-briefly-gorgeous|On Earth We're Briefly Gorgeous]]*
 
 Have fun exploring my garden!
