@@ -35,7 +35,7 @@ Some resources I've came across that has this "personal internet" vibe. Great if
 - [Neocities](https://neocities.org/)
 - [Winbows](https://winbows.neocities.org/)
 - [Jacky Zhao's site](https://jzhao.xyz), which has always been a deeply intriguing personal "north star" that led me to exploring the personal internet deeper
-- [Eilleen's Everything Notebook](https://quartz.eilleeenz.com/)
+- See [[an-internet-directory|An Internet Directory]] for more!
 
 ## Technical resources
 
