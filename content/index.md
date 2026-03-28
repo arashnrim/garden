@@ -20,7 +20,7 @@ Here's a hand-curated list of what I've been up to so far right now:
 - Understanding [[personal-internet|a personal internet]] and what it means in a centralised internet (see also [[an-internet-directory|An Internet Directory]]!)
 - Reading Ocean Vuong's *[[on-earth-were-briefly-gorgeous|On Earth We're Briefly Gorgeous]]*
 
-Have fun exploring my garden!
+If you'd like, feel free to [sign my guestbook](https://guestbook.arash.codes) before you leave. Have fun exploring my garden!
 
 [^1]: Yes, I know this technically says "delta Delta". Let me be cool.
 
