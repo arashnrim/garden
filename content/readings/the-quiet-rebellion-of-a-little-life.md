@@ -3,7 +3,6 @@ title: "the quiet rebellion of a little life"
 description: "Explore the beauty of simplicity and the quiet defiance of living a little life. Reflect on Kierkegaard, Camus, and Simone de Beauvoir to redefine success and embrace meaning in the mundane."
 date: "2025-12-27"
 authors: ["caitlyn"]
-tags: [living]
 ---
 [Visit the original here](https://caitlynrichardson.substack.com/p/the-quiet-rebellion-of-a-little-life)
 

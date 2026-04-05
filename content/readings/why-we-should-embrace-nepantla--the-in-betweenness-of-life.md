@@ -3,7 +3,6 @@ title: "Why we should embrace ‘nepantla’ – the in-betweenness of life"
 description: "In an age of strong political commitments, a Nahuatl word encapsulates the freedom to let go of what has become oppressive"
 date: "2026-02-21"
 authors: ["Carlos Alberto Sánchez"]
-tags: []
 ---
 [Visit the original here](https://psyche.co/ideas/why-we-should-embrace-nepantla-the-in-betweenness-of-life)
 

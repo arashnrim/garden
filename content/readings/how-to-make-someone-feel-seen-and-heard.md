@@ -3,7 +3,6 @@ title: "How to make someone feel seen and heard"
 description: "Validation skills are not only useful for therapists. Learn them and you’ll improve your personal and work relationships"
 date: "2025-12-12"
 authors: ["Caroline Fleck"]
-tags: []
 ---
 [Visit the original here](https://psyche.co/guides/learn-to-validate-others-and-transform-your-relationships)
 

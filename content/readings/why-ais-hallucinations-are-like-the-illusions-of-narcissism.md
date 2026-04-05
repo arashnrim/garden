@@ -3,7 +3,6 @@ title: "Why AI’s hallucinations are like the illusions of narcissism"
 description: "Unable to handle uncertainty, AI mimics the narcissistic compulsion to fill voids with plausible but false narratives"
 date: "2025-12-12"
 authors: ["Jennine Gates"]
-tags: [generative AI]
 ---
 [Visit the original here](https://psyche.co/ideas/why-ais-hallucinations-are-like-the-illusions-of-narcissism?utm_source=Psyche+Magazine&utm_campaign=3e84d5173b-EMAIL_CAMPAIGN_2025_11_07&utm_medium=email&utm_term=0_-8e23a7006c-72258860)
 

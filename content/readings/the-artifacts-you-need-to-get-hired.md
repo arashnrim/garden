@@ -1,9 +1,8 @@
 ---
 title: "The artifacts you need to get hired"
 description: "On websites, portfolios, and resumes as storytelling tools"
-date: "2026-03-20"
+date: "2026-03-19"
 authors: ["Carly Ayres", "Sebastian Speier"]
-tags: [branding, professional]
 ---
 [Visit the original here](https://carly.substack.com/p/the-artifacts-you-need-to-get-hired)
 

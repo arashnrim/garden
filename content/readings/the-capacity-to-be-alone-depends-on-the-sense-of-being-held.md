@@ -3,7 +3,6 @@ title: "The capacity to be alone depends on the sense of being held"
 description: "The overwhelm of grief and parenthood showed me what psychoanalysis assumes – we need to be held to feel safe in solitude"
 date: "2026-03-28"
 authors: ["Elizabeth Burns Dyer"]
-tags: [living]
 ---
 [Visit the original here](https://psyche.co/ideas/the-capacity-to-be-alone-depends-on-the-sense-of-being-held)
 

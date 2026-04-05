@@ -3,7 +3,6 @@ title: "How to cultivate collective intellectual humility"
 description: "Being smart is knowing what you don’t know. From work meetings to book clubs, use these tips to boost your group’s thinking"
 date: "2025-12-12"
 authors: ["Elizabeth Krumrei-Mancuso", "Mark Alfano"]
-tags: [productivity]
 ---
 [Visit the original here](https://psyche.co/guides/how-to-cultivate-intellectual-humility-for-better-group-thinking)
 

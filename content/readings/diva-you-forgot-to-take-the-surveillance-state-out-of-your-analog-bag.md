@@ -3,7 +3,6 @@ title: "Diva, You Forgot to Take the Surveillance State Out of Your Analog Bag?"
 description: "Analog is selling us more things than ever, and we're not even talking about the real problem with our phones"
 date: "2026-03-19"
 authors: ["lindsey louise"]
-tags: [living, tech]
 ---
 [Visit the original here](https://lindseylouise.substack.com/p/diva-you-forgot-to-take-the-surveillance)
 

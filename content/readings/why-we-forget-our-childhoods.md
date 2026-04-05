@@ -3,7 +3,6 @@ title: "Why we forget our childhoods"
 description: "Childhood amnesia makes the memories formed before age 7 a blur. Scientists are trying to figure out why and if they're gone forever."
 date: "2025-12-12"
 authors: ["RJ Mackenzie"]
-tags: []
 ---
 [Visit the original here](https://www.popsci.com/health/why-we-forget-our-childhoods/)
 

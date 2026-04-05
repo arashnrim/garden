@@ -3,7 +3,6 @@ title: "Too many men lack close friendships. What’s holding them back?"
 description: "Some masculine norms are a straightjacket, depriving men of the connections they need. It takes bravery to leave them behind"
 date: "2025-12-12"
 authors: ["Angelica Puzio Ferrara"]
-tags: []
 ---
 [Visit the original here](https://psyche.co/ideas/too-many-men-lack-close-friendships-whats-holding-them-back)
 

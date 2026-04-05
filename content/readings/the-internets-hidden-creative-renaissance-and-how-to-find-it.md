@@ -1,9 +1,8 @@
 ---
-title: "🧶✏️👩🏽‍💻 The internet’s hidden creative renaissance (and how to find it)"
+title: "The internet’s hidden creative renaissance (and how to find it)"
 description: "The indie web means the return of gifs, funky cursors, and personal websites"
 date: "2026-03-18"
 authors: ["BlogTherapy", "Josh Kramer"]
-tags: [personal internet, tech]
 ---
 [Visit the original here](https://newpublic.substack.com/p/the-handmade-internet-is-making-a)
 

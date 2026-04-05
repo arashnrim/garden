@@ -3,7 +3,6 @@ title: "Make better documents."
 description: "A blog about making culture. Since 1999."
 date: "2025-12-12"
 authors: ["Anil Dash"]
-tags: [productivity]
 ---
 [Visit the original here](https://www.anildash.com//2024/03/10/make-better-documents/)
 

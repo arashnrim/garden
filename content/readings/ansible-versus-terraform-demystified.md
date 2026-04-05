@@ -3,7 +3,6 @@ title: "Ansible versus Terraform Demystified"
 description: "Sean is a Principal Technical Marketing Manager, Ansible, where he brings over 10 years of experience building and automating computer networks. Sean previously worked for both Cumulus Networks (acquired by Nvidia) and Cisco Systems where he helped customers deploy, manage and automate their network infrastructure. He resides in Chapel Hill, NC with his wife and children and tweets from @IPvSean..."
 date: "2025-12-28"
 authors: ["Sean Cavanaugh"]
-tags: [home lab, tech]
 ---
 [Visit the original here](https://www.redhat.com/en/blog/ansible-vs.-terraform-demystified)
 

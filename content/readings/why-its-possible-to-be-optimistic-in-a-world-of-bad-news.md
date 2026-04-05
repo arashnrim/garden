@@ -3,7 +3,6 @@ title: "Why it’s possible to be optimistic in a world of bad news"
 description: "The original optimist, Leibniz, was mocked and misunderstood. Centuries later, his worldview can help us navigate modern life"
 date: "2025-12-12"
 authors: ["Sumit Paul-Choudhury"]
-tags: [living, perspective]
 ---
 [Visit the original here](https://psyche.co/ideas/why-its-possible-to-be-optimistic-in-a-world-of-bad-news)
 

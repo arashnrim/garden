@@ -3,7 +3,6 @@ title: "searching for your life's work is a multi-turn endeavor"
 description: "on pivots + an update: blog is changing, because I have changed"
 date: "2026-02-13"
 authors: ["Nix"]
-tags: [living]
 ---
 [Visit the original here](https://www.startingfromnix.com/p/searching-for-your-lifes-work-is)
 

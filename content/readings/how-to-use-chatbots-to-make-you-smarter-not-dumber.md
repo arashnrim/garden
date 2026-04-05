@@ -3,7 +3,6 @@ title: "How to use chatbots to make you smarter, not dumber"
 description: "Use AI thoughtlessly and it dulls your mind. But with a strategic approach and the right prompts, it can be a powerful tool"
 date: "2025-12-12"
 authors: ["Nick Kabrel"]
-tags: [generative AI, human-AI interaction]
 ---
 [Visit the original here](https://psyche.co/guides/how-to-use-chatbots-to-make-you-smarter-not-dumber?utm_source=Psyche+Magazine&utm_campaign=e8919fb885-EMAIL_CAMPAIGN_2025_11_14&utm_medium=email&utm_term=0_-8e23a7006c-72258860)
 

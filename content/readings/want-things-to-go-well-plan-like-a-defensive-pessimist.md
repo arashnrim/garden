@@ -3,7 +3,6 @@ title: "Want things to go well? Plan like a defensive pessimist"
 description: "So often we underestimate the time and effort required to reach our goals. You can avoid that trap with realistic planning"
 date: "2026-02-21"
 authors: ["Julie K Norem"]
-tags: []
 ---
 [Visit the original here](https://psyche.co/guides/want-things-to-go-well-plan-like-a-defensive-pessimist)
 

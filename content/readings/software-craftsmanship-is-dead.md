@@ -3,7 +3,6 @@ title: "Software craftsmanship is dead"
 description: "What the **** does that mean?"
 date: "2026-01-04"
 authors: []
-tags: [tech]
 ---
 [Visit the original here](https://www.pcloadletter.dev/blog/craftsmanship-is-dead/)
 

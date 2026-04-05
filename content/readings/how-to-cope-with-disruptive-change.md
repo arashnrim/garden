@@ -3,7 +3,6 @@ title: "How to cope with disruptive change"
 description: "You can’t stop life from throwing changes your way, big and small. But you can get a lot better at dealing with them"
 date: "2026-01-17"
 authors: ["David A Clark"]
-tags: []
 ---
 [Visit the original here](https://psyche.co/guides/how-to-accept-and-adapt-to-disruptive-changes-in-life)
 

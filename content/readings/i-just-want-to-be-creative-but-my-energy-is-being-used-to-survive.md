@@ -3,7 +3,6 @@ title: "I just want to be creative but my energy is being used to survive"
 description: "I feel guilt of wanting to create when society glorifies hustle and “grind culture.”"
 date: "2026-04-03"
 authors: ["the.search"]
-tags: [living]
 ---
 [Visit the original here](https://floatingonarockk.substack.com/p/i-just-want-to-be-creative-but-my)
 

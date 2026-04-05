@@ -3,7 +3,6 @@ title: "To see your home city anew, try this"
 description: "See a city through a visitor’s eyes to capture feelings you’ve lost, or never had – it’s the vicarious construal effect"
 date: "2025-12-12"
 authors: ["Elena Seymenliyska"]
-tags: []
 ---
 [Visit the original here](https://psyche.co/notes-to-self/to-experience-your-city-anew-use-this-psychological-effect)
 

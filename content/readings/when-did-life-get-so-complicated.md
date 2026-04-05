@@ -3,7 +3,6 @@ title: "When did life get so complicated?"
 description: "Notes and reflections on my 2024"
 date: "2025-12-27"
 authors: ["Aadil"]
-tags: [friendship, relationships]
 ---
 [Visit the original here](https://aadillpickle.substack.com/p/when-did-life-get-so-complicated)
 

@@ -3,7 +3,6 @@ title: "How to reclaim your attention"
 description: "Psychological minimalism is a way to clarify your life by cutting the mental noise from your environment and routines"
 date: "2026-02-28"
 authors: ["Yousri Marzouki"]
-tags: []
 ---
 [Visit the original here](https://psyche.co/guides/how-to-reclaim-your-attention)
 

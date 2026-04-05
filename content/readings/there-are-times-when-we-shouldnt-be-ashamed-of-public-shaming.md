@@ -3,7 +3,6 @@ title: "There are times when we shouldn’t be ashamed of public shaming"
 description: "When our self-respect, status and social identity are threatened, we ought to defend ourselves and shame our wrongdoers"
 date: "2026-02-28"
 authors: ["James Edgar Lim"]
-tags: []
 ---
 [Visit the original here](https://psyche.co/ideas/sometimes-we-shouldnt-be-ashamed-of-public-shaming)
 

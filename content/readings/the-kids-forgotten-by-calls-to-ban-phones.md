@@ -3,7 +3,6 @@ title: "The kids forgotten by calls to ban phones"
 description: "Campaigns calling for smartphone-free childhoods might be well meaning, but the choice is not so simple for all families"
 date: "2025-12-31"
 authors: ["Alice Gregory"]
-tags: [living]
 ---
 [Visit the original here](https://psyche.co/notes-to-self/the-children-forgotten-by-those-who-are-calling-for-phone-bans)
 

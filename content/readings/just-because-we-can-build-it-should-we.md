@@ -3,7 +3,6 @@ title: "Just because we can build it, should we?"
 description: "Thoughts of an Engineering student that likes Philosophy After spending a while in engineering school, I’ve noticed that we are often trained to focus on how to build things better, faster, and cheaper. Yet the question of whether we should build these systems at all is sometimes left unexamined."
 date: "2025-12-28"
 authors: ["Amon S."]
-tags: [ethics, tech]
 ---
 [Visit the original here](https://www.linkedin.com/pulse/just-because-we-can-build-should-amon-s-kaneko-x4cae)
 

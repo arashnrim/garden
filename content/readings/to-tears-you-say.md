@@ -3,7 +3,6 @@ title: "to tears, you say?"
 description: ""
 date: "2025-12-12"
 authors: []
-tags: [reflection]
 ---
 [Visit the original here](https://ariellelok.com/sidepages/blogs/totears.html)
 

@@ -3,7 +3,6 @@ title: "everything ends, even missing you"
 description: "from the archives - summer '24"
 date: "2025-12-27"
 authors: ["julie huynh"]
-tags: [love, relationships]
 ---
 [Visit the original here](https://maysecond.substack.com/p/everything-ends-even-missing-you)
 

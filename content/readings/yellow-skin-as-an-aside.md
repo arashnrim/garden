@@ -3,7 +3,6 @@ title: "yellow skin (as an aside)"
 description: "how to live in a country that isn't yours when no country is"
 date: "2025-12-27"
 authors: ["wenyi xue"]
-tags: [living, race, relationships]
 ---
 [Visit the original here](https://wenyixue.substack.com/p/yellow-skin-as-an-aside)
 

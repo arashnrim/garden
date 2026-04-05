@@ -3,7 +3,6 @@ title: "How to end your extremely online era"
 description: "A somewhat practical guide"
 date: "2025-12-12"
 authors: ["Tommy Dixon"]
-tags: [living, productivity]
 ---
 [Visit the original here](https://www.tommydixon.ca/p/how-to-end-your-extremely-online)
 

@@ -3,7 +3,6 @@ title: "Why we’re falling out of love with our AI confidants"
 description: "Chatbots make us feel uniquely seen and heard, but then the ‘empathy gap’ kicks in and the relationship turns sour"
 date: "2026-02-21"
 authors: ["Joe Mullich"]
-tags: []
 ---
 [Visit the original here](https://psyche.co/ideas/why-were-falling-out-of-love-with-our-ai-confidants)
 

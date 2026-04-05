@@ -3,9 +3,7 @@ title: "Agent Psychosis: Are We Going Insane?"
 description: "What’s going on with the AI builder community right now?"
 date: "2026-01-19"
 authors: ["Armin Ronacher"]
-tags: [generative AI, human-AI interaction, tech]
 ---
-
 [Visit the original here](https://lucumr.pocoo.org/2026/1/18/agent-psychosis/)
 
 # Annotations

@@ -1,9 +1,8 @@
 ---
 title: "Claude's new constitution"
 description: "A new approach to a foundational document that expresses and shapes who Claude is"
-date: "2026-01-22"
+date: "2026-01-21"
 authors: []
-tags: [ethics, generative AI, human-AI interaction, tech]
 ---
 [Visit the original here](https://www.anthropic.com/news/claude-new-constitution)
 

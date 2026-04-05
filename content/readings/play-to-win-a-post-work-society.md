@@ -3,7 +3,6 @@ title: "Play to Win: A Post-Work Society"
 description: "Extension of my thoughts about play and discussions from our Interact Circle on Hackathon Culture and Play. Defining play I’ve spent so much time thinking about how to ‘bring back play’, yet not a lot of thinking about what play is."
 date: "2025-12-12"
 authors: []
-tags: [living]
 ---
 [Visit the original here](https://jzhao.xyz/posts/play)
 

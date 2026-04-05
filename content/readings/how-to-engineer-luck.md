@@ -1,9 +1,8 @@
 ---
 title: "How to engineer luck"
 description: "If you had to double your luck in the next six months, what would you do?"
-date: "2026-03-18"
+date: "2026-03-17"
 authors: ["George Mack"]
-tags: [living, productivity]
 ---
 [Visit the original here](https://essays.highagency.com/p/how-could-you-double-your-luck-in)
 

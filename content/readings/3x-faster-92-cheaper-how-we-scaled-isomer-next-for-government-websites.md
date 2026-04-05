@@ -3,7 +3,6 @@ title: "3x Faster, 92% Cheaper: How We Scaled Isomer Next for Government Website
 description: "Isomer engineer Adrian Goh explains how we reduced the time to publish updates for a huge government site from 30 minutes to 10 minutes, while cutting costs by 92%."
 date: "2026-03-18"
 authors: ["OGP Community", "Open Government Products"]
-tags: [tech, web]
 ---
 [Visit the original here](https://opengovsg.substack.com/p/3x-faster-92-cheaper-how-we-scaled)
 

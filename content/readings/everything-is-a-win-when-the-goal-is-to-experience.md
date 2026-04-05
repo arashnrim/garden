@@ -3,7 +3,6 @@ title: "everything is a win when the goal is to experience"
 description: "last week i was peeling an orange in the kitchen and i didn’t mean for it to become anything."
 date: "2026-03-11"
 authors: ["sentimental being"]
-tags: [living, perspective]
 ---
 [Visit the original here](https://yearlyblues.substack.com/p/everything-is-a-win-when-the-goal)
 

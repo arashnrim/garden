@@ -3,7 +3,6 @@ title: "How to network when you’re socially anxious"
 description: "Do networking events fill you with dread? Here’s how to manage your fears, show up, and take advantage of the opportunities"
 date: "2026-02-21"
 authors: ["Fallon Goodman"]
-tags: []
 ---
 [Visit the original here](https://psyche.co/guides/how-to-network-when-youre-socially-anxious)
 

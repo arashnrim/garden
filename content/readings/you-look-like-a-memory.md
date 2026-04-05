@@ -3,7 +3,6 @@ title: "you look like a memory"
 description: "we won't be friends a year from now but i love you all the same"
 date: "2025-12-27"
 authors: ["wenyi xue"]
-tags: [friendship, relationships]
 ---
 [Visit the original here](https://wenyixue.substack.com/p/you-look-like-a-memory)
 

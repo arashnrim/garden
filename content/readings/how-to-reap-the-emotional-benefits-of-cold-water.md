@@ -3,7 +3,6 @@ title: "How to reap the emotional benefits of cold water"
 description: "There’s growing evidence for the psychological and health benefits of cold-water immersion. Here’s how to get started"
 date: "2025-12-12"
 authors: ["Jenny Favell"]
-tags: []
 ---
 [Visit the original here](https://psyche.co/guides/how-to-take-the-plunge-from-cold-showers-to-icy-swims)
 

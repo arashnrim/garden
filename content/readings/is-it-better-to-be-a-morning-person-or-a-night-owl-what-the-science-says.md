@@ -3,7 +3,6 @@ title: "Is it better to be a morning person or a night owl? What the science say
 description: "The key isn’t waking up early—it’s syncing your life to your natural rhythm."
 date: "2026-03-28"
 authors: ["Laura Kiniry"]
-tags: [living]
 ---
 [Visit the original here](https://www.popsci.com/health/is-morning-person-night-owl-better-science/)
 

@@ -3,7 +3,6 @@ title: "How to rest well"
 description: "Taking a break isn’t lazy – learning to recharge is a skill that will allow you to enjoy a more creative, sustainable life"
 date: "2026-01-03"
 authors: ["Alex Soojung-Kim Pang"]
-tags: []
 ---
 [Visit the original here](https://psyche.co/guides/how-to-rest-well-and-enjoy-a-more-creative-sustainable-life)
 
