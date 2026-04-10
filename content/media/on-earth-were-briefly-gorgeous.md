@@ -64,6 +64,34 @@ The book is a letter written from the main character, Little Dog, to his mother,
 > 
 > *Additional context: This was Little Dog's retrospection when first meeting Trevor, where he uttered an apology instead of a hello at first.*
 
+> What do you call the animal that, finding the hunter, offers itself to be eaten? A martyr? A weakling? No, a beast gaining the rare agency to stop. Yes, the period in the sentence—it's what makes us human, Ma, I swear. It lets us stop in order to keep going.
+
+> He loves me, he loves me not, we are taught to say, as we tear the flower away from its flowerness. To arrive at love, then, is to arrive through obliteration. Eviscerate me, we mean to say, and I'll tell you the truth.
+
+> Soon the Super Nintendo was on. \[...\] On the screen, a tiny red Mario jumped from platform to platform. If Mario fell off, he would have to start the level over, from the beginning. This was also called dying.
+> 
+> *Additional context: This detail was weaved in the description of Little Dog's first relationship with Trevor, which served as an exploration of his own sexuality. I can't help but wonder if Vuong meant for this metaphor to interact with this context, that is to say, spelling out the fact that Mario dies beyond what is obvious (falling off = game over) has parallels to Little Dog's relationship (failed attempt, having to start from the beginning, feels like dying).*
+
+> They say a song can be a bridge, Ma. But I say it's also the ground we stand on. And maybe we sing to keep ourselves from falling. Maybe we sing to keep ourselves.
+
+> Inside a single-use life, there are no second chances. That's a lie but we live it. We live anyway. That's a lie but \[a young Little Dog\] opens his eyes.
+
+> Before the French occupation, our Vietnamese did not have a name for queer bodies—because they were seen, like all bodies, fleshed and of one source—and I didn't want to introduce this part of me using the epithet for criminals.
+> 
+> *Inner thoughts: It's pretty interesting how Vuong has subtly written in the concept of internalised homophobia, or perhaps society's perception of queerness being a wrong and a criminal act.*
+
+> That was the day I learned how dangerous a color can be. That a boy could be knocked off that shade and made to reckon his trespass. Even if color is nothing but what the light reveals, that *nothing* has laws, and a boy on a pink bike must learn, above all else, the law of gravity.
+
+> Sometimes, when I'm careless, I believe the wound is also the place where the skin reencounters itself, asking of each end, where have you been? Where have we been, Ma?
+
+> \[A placenta is\] a disposable organ where nutrients, hormones, and waste are passed between mother and fetus. In this way, the placenta is kind of a language—perhaps our first one, our true mother tongue.
+
+> Maybe we look into mirrors not merely to seek beauty, regardless how illusive, but to make sure, despite the facts, that we are still here. That the hunted body we move in has not yet been annihilated, scraped out. To see yourself still *yourself* is a refuge men who have not been denied cannot know.
+
+> It is no accident, Ma, that the comma resembles a fetus—that curve of continuation. We were all once inside our mothers, saying, with our entire curved and silent selves, more, more, more.
+
+> I read that beauty has historically demanded replication. \[...\] We reproduce \[anything we find aesthetically pleasing\] to keep it, extend it through space and time. \[...\] I want to insist that our being alive is beautiful enough to be worthy of replication. And so what? So what if all I ever made of my life was more of it?
+
 # Reading log
 
 **Chapter 5–7** — 3 Mar 2026
