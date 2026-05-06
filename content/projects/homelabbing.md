@@ -73,35 +73,6 @@ It's worth noting that my ISP uses [carrier-grade NAT](https://en.wikipedia.org/
 	* 64-bit 2 vCPU cores
 	* 2048 MiB [[random-access-memory|RAM]]
 	* 64 GiB internal storage
-
-## Current services
-
-| Application                                                     | Usage                         | Tech           | Host         | Status                 |
-| :-------------------------------------------------------------- | :---------------------------- | :------------- | :----------- | :--------------------- |
-| Bento PDF                                                       | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
-| Stirling PDF                                                    | PDF management suite          | Docker Compose | Mac mini     | Active (experimenting) |
-| Open WebUI                                                      | LLM interaction               | Docker Compose | ThinkCentre  | Active (in use)        |
-| Paperless-ngx                                                   | Physical paper scanning       | Docker Compose | Mac mini     | Active (in use)        |
-| Portainer Agent                                                 | Docker management             | Docker         | Mac mini     | Active (in use)        |
-| Umami                                                           | Analytics                     | Docker Compose | Mac mini     | Active (in use)        |
-| [5.0 GPA Student](https://github.com/arashnrim/5.0-gpa-student) | Discord bot                   | Docker         | Raspberry Pi | Active (in use)        |
-| Portainer Agent                                                 | Docker management             | Docker         | Raspberry Pi | Active (in use)        |
-| Radicale                                                        | CalDAV and CardDAV management | Docker Compose | Raspberry Pi | Active (in use)        |
-| Shlink                                                          | Link shortening               | Docker Compose | Raspberry Pi | Inactive (shut down)   |
-| Ghostfolio                                                      | Financial planning            | Docker Compose | ThinkCentre  | Active (experimenting) |
-| Linkwarden                                                      | Bookmarks management          | Docker Compose | ThinkCentre  | Active (experimenting) |
-| SearXNG                                                         | Metasearch engine             | Docker Compose | ThinkCentre  | Active (experimenting) |
-| Wakapi                                                          | Time tracking for coding      | Docker Compose | ThinkCentre  | Active (experimenting) |
-| Firefly III                                                     | Financial planning            | Docker Compose | ThinkCentre  | Active (in use)        |
-| Joplin Server                                                   | Note-taking                   | Docker Compose | ThinkCentre  | Active (in use)        |
-| n8n                                                             | Workflow automation           | Docker Compose | ThinkCentre  | Active (in use)        |
-| Portainer                                                       | Docker management             | Docker         | ThinkCentre  | Active (in use)        |
-| Readeck                                                         | Bookmarks management          | Docker Compose | ThinkCentre  | Active (in use)        |
-| Portainer Agent                                                 | Docker management             | Docker         | ThinkCentre  | Inactive (shut down)   |
-| Uptime Kuma                                                     | Uptime tracking               | Docker Compose | ThinkCentre  | Inactive (shut down)   |
-| wger                                                            | Fitness management            | Docker Compose | ThinkCentre  | Inactive (shut down)   |
-| Checkmate                                                       | Uptime tracking               | Docker Compose | VPS          | Active (in use)        |
-
 # Current plans
 
 ## Architectural
@@ -125,6 +96,22 @@ It's worth noting that my ISP uses [carrier-grade NAT](https://en.wikipedia.org/
 	- The only service left that remains is a Dockerised Discord bot that can be safely shut down (no users at this time...)
 
 # Devlog
+
+**6 May 2026**
+
+- I finally got off my butt and upgraded Komodo (which includes the Core and Periphery) across all the devices in Nusantara! Took a bit of troubleshooting, but everything worked out well. A major pain point was that I lost the original populated `.env` file for the periphery, so I looked at the documentation and worked backwards (and looked at the upgrade guide) to see what needs to be changed. All in all, though:
+	1. You need to upgrade the Core to v2+ so that you can head into Settings and copy the public key.
+	2. Under Settings > Onboarding, create an onboarding key for each device you'd like to add to Komodo.
+	3. Toggle the "Privileged" switch so that Komodo can update your existing servers.
+	4. Here's the rough `.env` I used for the Periphery nodes:
+	   
+	   ```
+	   PERIPHERY_CORE_ADDRESS=XXX.XXX.XXX
+       PERIPHERY_CONNECT_AS=XXX
+       PERIPHERY_ONBOARDING_KEY=XXX
+       PERIPHERY_CORE_PUBLIC_KEYS=XXX
+       PERIPHERY_INCLUDE_DISK_MOUNTS=/etc/hostname
+	   ```
 
 **11 April 2026**
 

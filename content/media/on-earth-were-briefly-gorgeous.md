@@ -5,6 +5,7 @@ tags:
   - spark
 ---
 - [See Open Library page](https://openlibrary.org/works/OL20783698W/On_Earth_We%27re_Briefly_Gorgeous)
+- 
 
 > *On Earth We’re Briefly Gorgeous* is a letter from a son to a mother who cannot read. Written when the speaker, Little Dog, is in his late twenties, the letter unearths a family’s history that began before he was born — a history whose epicenter is rooted in Vietnam — and serves as a doorway into parts of his life his mother has never known, all of it leading to an unforgettable revelation.
 
@@ -50,11 +51,11 @@ The book is a letter written from the main character, Little Dog, to his mother,
 
 > As we pull away, from the porch, a boy, no older than I am, points a toy pistol at us. The gun jumps and his mouth makes blasting noises. His father turns to yell at him. He shoots once, two more times. From the window of my helicopter, I look at him. I look him dead in the eyes and do what you do. I refuse to die.
 >
-> *Additional context: "helicopter" here meant the family car. In an earlier passage, Little Dog writes about how Lan had been in her own mind, thinking they were on a ride in a helicopter, instead of the car rushing to Mai's previous residence.*
+> *Additional context: "helicopter" here meant the family car. In an earlier passage, Little Dog writes about how Lan had been in her own mind, thinking they were on a ride in a helicopter, instead of the car rushing to Mai's previous residence. The chapter talks about the family rushing to Mai's previous residence with Hong reliving a memory of Mai experiencing domestic abuse.*
 
 > Ma. You once told me that memory is a choice. But if you were god, you'd know it's a flood.
 
-> Because I am your son, what I know of work I know equally of loss. And what I know of both I know of your hands. \[...\] Your hands are hideous—and I hate everything that made then that way. I hate how they are the wreck and reckoning of a dream. \[...\] I hate and love your battered hands for what they can never be.
+> Because I am your son, what I know of work I know equally of loss. And what I know of both I know of your hands. \[...\] Your hands are hideous—and I hate everything that made them that way. I hate how they are the wreck and reckoning of a dream. \[...\] I hate and love your battered hands for what they can never be.
 
 > In the nail salon, *sorry* is a tool one uses to pander until the word itself becomes currency. It no longer merely *apologizes*, but insists, reminds: *I'm here, right here, beneath you*. \[...\] And yet it's not only so in the nail salon, Ma. In those fields, too, we said it. \[...\] The phrase with its sound of a bootstep sinking, then lifted, from mud. The slick muck of it wetting our tongues as we apologized ourselves back to making our living. Again and again.
 
