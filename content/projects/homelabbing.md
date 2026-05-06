@@ -126,6 +126,11 @@ It's worth noting that my ISP uses [carrier-grade NAT](https://en.wikipedia.org/
 
 # Devlog
 
+**11 April 2026**
+
+- Something went terribly wrong with my Raspberry Pi one day after performing a full upgrade where it just won't wake up anymore. I've decided to format the microSD card, effectively resetting it
+	- This is a good chance to entirely decouple the Raspberry Pi from doing any mission-critical stuff in the home lab besides data storage! It'll make it easier for me to maintain the Samba store since that's all I'm focusing on when working on the Pi
+
 **16 January 2026**
 
 - I'm playing around with the idea of giving this home lab the name *Nusantara* ("archipelago" in Malay). It just feels so perfect in many ways, and I think I'm going to commit to using that as a name moving forward

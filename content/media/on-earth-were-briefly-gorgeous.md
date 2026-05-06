@@ -92,6 +92,23 @@ The book is a letter written from the main character, Little Dog, to his mother,
 
 > I read that beauty has historically demanded replication. \[...\] We reproduce \[anything we find aesthetically pleasing\] to keep it, extend it through space and time. \[...\] I want to insist that our being alive is beautiful enough to be worthy of replication. And so what? So what if all I ever made of my life was more of it?
 
+> It's in these moments, next to you, that I envy words for doing what we can never do—how they can tell all of themselves simply by standing still, simply by *being*. Imagine I could lie down beside you and my whole body, every cell, radiates a clear, singular meaning, not so much a writer as a word pressed down beside you.
+
+> The thing is, I don't want my sadness to be othered from me just as I don't want my happiness to be othered. They're both mine. I made them, dammit. What if the elation I feel is not another "bipolar episode" but something I fought hard for?
+
+> In Vietnamese, the word for missing someone and remembering them is the same: nhớ. Sometimes, when you ask me over the phone, *Con nhớ mẹ không?* I flinch, thinking you meant, *Do you remember me?*
+> 
+> I miss you more than I remember you.
+
+> In the Hartford I grew up in and the one you grow old in, we greet one another not with "Hello" or "How are you?" but by asking, our chins jabbing the air, "What's good?"
+> \[...\]
+> Because being knocked down was already understood, already a *given*, it was the skin you wore. To ask *What's good?* was to move, right away, to joy. It was pushing aside what was inevitable to reach the exceptional. Not great or well or wonderful, but simply *good*. Because good was more often enough, was a precious spark we sought and harvested of and for one another.
+
+> Only when I utter the word do I realize that rose is also the past tense of rise. That in calling your name I am also telling you to get up. I say it as if it is the only answer to your question—as if a name is also a sound we can be found in. Where am I? Where am I? You're Rose, Ma. You have risen.
+
+> If, relative to the history of our planet, an individual life is so short, a blink of an eye, as they say, then to be gorgeous, even from the day you're born to the day you die, is to be gorgeous only briefly.
+> \[...\]
+> Because the sunset, like survival, exists only on the verge of its own disappearing. To be gorgeous, you must first be seen, but to be seen allows you to be hunted.
 # Reading log
 
 **Chapter 5–7** — 3 Mar 2026
