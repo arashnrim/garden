@@ -8,6 +8,14 @@ tags:
 
 > *On Earth We’re Briefly Gorgeous* is a letter from a son to a mother who cannot read. Written when the speaker, Little Dog, is in his late twenties, the letter unearths a family’s history that began before he was born — a history whose epicenter is rooted in Vietnam — and serves as a doorway into parts of his life his mother has never known, all of it leading to an unforgettable revelation.
 
+# Post-read reflection
+
+This was the first book I've picked up with some level of expectation, and it's been a good read! I might not be entirely used to Vuong's poetic style of writing yet, and that meant that a lot of the more intimate prose may have flew over me when reading it.  
+  
+This novel was excellent in challenging where I came from: the notion that reading was purely "analytical". I forget that a part of reading also lies in its emotions and how the structure of words moved you, and I learnt it from reading this novel. Vuong intricately weaves metaphors throughout each chapter — an animal, a behaviour, even memories — and concludes the chapter by ending the metaphor in relation to himself, his sexuality, and his repressed emotions and thoughts that he's confessing to his mother, unable to read.  
+  
+I think this book is worth another re-read down the line; but this was a little challenging to process, so I think my next few books in the short-term should be something easier to comprehend. Not an insult to Vuong at all!
+
 # Context 
 
 The book is a letter written from the main character, Little Dog, to his mother, Hong, who is illiterate in English. The letter therefore serves as a bridge — or canyon, depending on how you see it — between the two, with Little Dog expressing and saying everything he's ever wanted to tell her, but her being unable to comprehend him.
