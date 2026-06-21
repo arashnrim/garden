@@ -16,9 +16,9 @@ There's no place to start here, and I think that that's exciting. You choose how
 Here's a hand-curated list of what I've been up to so far right now:
 
 - [[homelabbing|Creating Nusantara]] — my home lab — where I try to bring together different devices for a nice experimental sandbox
-- Deepening my relationship with [[digital-minimalism|digital minimalism]] and doing my own thing while spinning down my use of my daily tech
 - Understanding [[personal-internet|a personal internet]] and what it means in a centralised internet (see also [[an-internet-directory|An Internet Directory]]!)
-- Reading Ocean Vuong's *[[on-earth-were-briefly-gorgeous|On Earth We're Briefly Gorgeous]]*
+- Learning to enjoy reading again! I'm currently reading Hwang Bo-reum's *[[welcome-to-the-hyunam-dong-bookshop|Welcome to the Hyunam-dong Bookshop]]*
+- Starting to enjoy watching movies again, too — I finished watching [Kane Parsons' *Backrooms*](https://www.imdb.com/title/tt26657236/) recently
 
 If you'd like, feel free to [sign my guestbook](https://guestbook.arash.codes) before you leave. Have fun exploring my garden!
 
