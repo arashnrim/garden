@@ -14,6 +14,8 @@ tags:
 	- Readers — where it talked about how books and taste all depend on the reader individually; that everyone each has different tastes, and they change with time; and that reading is a time-based activity where different tastes will find you at different times
 	- Authors — where it delved about the many different personalities of authors, and how that has influenced the way they write and approach reading
 	- Recommendations, and the power they can have in influencing what and how one sources the books that reach out to them
+- The book really reads like a "slice of life" kind of work: it walks (or, should I describe: gently holds your hand and walks alongside) you through the lives of a small quaint bookshop owner, her barista, and the people in their wider circles (e.g. their coffee bean suppliers)
+	- I'm particularly drawn to the fact that the depiction feels natural and accurate; there isn't the forced feeling that you get when an author writes in a way that feels unauthentic
 
 # Quotes
 
