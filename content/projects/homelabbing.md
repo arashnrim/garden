@@ -12,6 +12,7 @@ A home lab is an environment consisting of running servers, services, and infras
 > **What's the setup like now?** A control plane federation
 >
 > - Komodo is running on one device, with the Periphery agents in other devices feeding back to it
+> - Renovate is paired with Komodo, making automated image updates possible whenever a new version of a service is available
 > - The Server instance is able to control the Docker Engines within each other device, but the devices' Engines are not connected (i.e. in an orchestrated manner à la Docker Swarm/Kubernetes)
 > - The devices are usually frequently connected to one another via Tailscale
 
