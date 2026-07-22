@@ -15,3 +15,7 @@ I'm realising lately that I haven't been remembering all the media I've watched 
 - [The Lord of the Rings: The Return of the King](https://www.imdb.com/title/tt0167260/) (2003)
 - [Obsession](https://www.imdb.com/title/tt37287335/) (2025)
 - [Backrooms](https://www.imdb.com/title/tt26657236/) (2026)
+- [The Matrix](https://www.imdb.com/title/tt0133093/) (1999)
+- [The Matrix Reloaded](https://www.imdb.com/title/tt0234215/) (2003)
+- [The Matrix Revolutions](https://www.imdb.com/title/tt0242653/) (2003)
+- [Undertone](https://www.imdb.com/title/tt35892608/) (2025)
