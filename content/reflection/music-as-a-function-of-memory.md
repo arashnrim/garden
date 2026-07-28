@@ -1,5 +1,7 @@
 ---
 title: Music as a function of memory
+tags:
+  - spark
 ---
 I previously wrote [a blog post](https://blog.arash.codes/posts/music-as-a-function-of-memory) about this. Throughout my life, I've had certain songs that I've been drawn to so much in a recurring manner that they've eventually become "theme songs" for parts of my life. Here's a collection of some of these songs, just for brevity and memory.
 
