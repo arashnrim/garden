@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: ibzus-cghw9
+created: 2025-01-30T18:35:49+08:00
