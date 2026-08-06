@@ -14,6 +14,7 @@ As part of me embracing [[personal-internet|a personal internet]], I've been all
 - [Drive and Listen](https://drivenlisten.com/) — because I love romanticising the driving experience as someone without a driver's license
 - [Neal.fun](https://neal.fun/) — fun games
 - [The HTML Review](https://thehtml.review/about)
+- [clipart studio](https://clipart.studio/) — a fun tool that revives the cut-out magazine trend of the '00s digitally
 
 # People
 
