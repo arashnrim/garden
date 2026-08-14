@@ -15,6 +15,7 @@ As part of me embracing [[personal-internet|a personal internet]], I've been all
 - [Neal.fun](https://neal.fun/) — fun games
 - [The HTML Review](https://thehtml.review/about)
 - [clipart studio](https://clipart.studio/) — a fun tool that revives the cut-out magazine trend of the '00s digitally
+- [Bored Button](https://boredbutton.com) — a place that brings you around fun places on the internet
 
 # People
 
