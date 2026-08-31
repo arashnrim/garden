@@ -98,6 +98,13 @@ It's worth noting that my ISP uses [carrier-grade NAT](https://en.wikipedia.org/
 
 # Devlog
 
+**31 August 2026**
+
+- I'm finally checking out [Ansible](https://docs.ansible.com) as a potential automated orchestrator of actions within Nusantara! This has been on my to-do list for a while, and I've suddenly started work on it on a whim. Let's see if this goes somewhere.
+	- I currently played around and gotten an inventory file (`inventory.ini`) and a basic playbook copied over from the documentation's example that pings the devices and prints a message ("Hello world") to begin with. Considering how things turned out okay, I think it's safe to proceed.
+	- I spent a lot of time figuring out why Ansible "hangs" sometimes when checking your inventory (e.g. by performing a ping test using `ansible <host> -m ping -i inventory.ini`), and chances are that it's likely due to connectivity problems. Setting verbose mode (`-v`) might help.
+	- One of the issues I faced was that Ansible "hangs" when I try pointing to the local IP address of one of the devices. I found out by playing around that using the Tailscale MagicDNS names (e.g. `mac-mini`), it's possible to invoke and refer to them as well. Tailscale saves the day again!
+
 **6 May 2026**
 
 - I finally got off my butt and upgraded Komodo (which includes the Core and Periphery) across all the devices in Nusantara! Took a bit of troubleshooting, but everything worked out well. A major pain point was that I lost the original populated `.env` file for the periphery, so I looked at the documentation and worked backwards (and looked at the upgrade guide) to see what needs to be changed. All in all, though:
