@@ -17,7 +17,7 @@ Here's a hand-curated list of what I've been up to so far right now:
 - Creating [[homelabbing|Nusantara]] — my home lab — where I try to bring together different devices for a nice experimental sandbox
 - Understanding [[personal-internet|a personal internet]] and what it means in a centralised internet (see also [[an-internet-directory|An Internet Directory]]!)
 - Reflecting on what it means to craft a digital garden
-- Starting to [[the-theatre|enjoy watching movies again]], too — I finished watching [Kane Parsons' *Backrooms*](https://www.imdb.com/title/tt26657236/) recently
+- Something new I'm trying out: [[blog|writing stuff]] for my blog in public! If you're curious, [[the-gen-ai-ick|check out the post I'm writing now]].
 
 I have a [guestbook](https://guestbook.arash.codes) that I'd love for you to sign if you're interested. Have fun exploring my garden, and thanks for visiting my corner of the internet!
 

@@ -9,7 +9,7 @@ let newTitle;
 let sluggedNewTitle;
 if (title.startsWith("Untitled")) { 
     newTitle = await tp.system.prompt("Enter note title");
-    sluggedNewTitle = newTitle.replace(" ", "-").toLowerCase();
+    sluggedNewTitle = newTitle.replaceAll(" ", "-").toLowerCase();
     await tp.file.rename(sluggedNewTitle);
 }
 

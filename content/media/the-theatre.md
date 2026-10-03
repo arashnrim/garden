@@ -19,3 +19,4 @@ I'm realising lately that I haven't been remembering all the media I've watched 
 - [The Matrix Reloaded](https://www.imdb.com/title/tt0234215/) (2003)
 - [The Matrix Revolutions](https://www.imdb.com/title/tt0242653/) (2003)
 - [Undertone](https://www.imdb.com/title/tt35892608/) (2025)
+- [Resident Evil](https://www.imdb.com/title/tt35538033/) (2026)
