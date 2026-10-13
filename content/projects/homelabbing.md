@@ -53,10 +53,10 @@ It's worth noting that my ISP uses [carrier-grade NAT](https://en.wikipedia.org/
 
 # Setup
 
-* Raspberry Pi 4 Model B (active)
+* Raspberry Pi 4 Model B (decommissioned)
 	* 64-bit ARM Cortex-A72 [[central-processing-unit|CPU]]
 	* 4 GB LPDDR4-3200 SD[[random-access-memory|RAM]]
-	* 32 GB microSD internal storage; 1 TB HDD external storage
+	* 32 GB microSD internal storage
 * Mac mini (active)
 	* 64-bit Apple M2 [[central-processing-unit|CPU]]
 	* 16 GB LPDDR5-6400 SD[[random-access-memory|RAM]]
