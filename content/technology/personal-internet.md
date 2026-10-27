@@ -46,6 +46,7 @@ Some help I've found that helps to implement the personal internet on a technica
 # Some dissonances to answer
 
 - Most, if not all, of what I've seen in the personal internet seems to mimic the style of a '90s to '00s internet. Do we *have* to follow this aesthetic if we want to "fit in"? How did this aesthetic come to be in this space?
+- Does a personal internet inherently require the notion of pseudonymity? In the early days of the internet, many adopted pseudonyms as a way of distancing their real identities so that they can be free to express anything openly and without fear of retribution. Especially today with [[cancel-culture|cancel culture]] being a thing, it's worth evaluating this perspective even more deeply with greater consideration.
 
 # Discussions from Beyond Text: The Handmade Web: Reclaiming Digital Spaces
 
