@@ -27,7 +27,7 @@ A personal internet has been in my circle for a while already, and [I've even wr
 
 ## Inspiration
 
-Some resources I've came across that has this "personal internet" vibe. Great if you'd love to go down a rabbit hole:
+Some resources I've come across that has this "personal internet" vibe. Great if you'd love to go down a rabbit hole:
 
 - [ooh.directory](https://ooh.directory/)
 - [Blogroll](https://blogroll.org/)
@@ -47,6 +47,7 @@ Some help I've found that helps to implement the personal internet on a technica
 
 - Most, if not all, of what I've seen in the personal internet seems to mimic the style of a '90s to '00s internet. Do we *have* to follow this aesthetic if we want to "fit in"? How did this aesthetic come to be in this space?
 - Does a personal internet inherently require the notion of pseudonymity? In the early days of the internet, many adopted pseudonyms as a way of distancing their real identities so that they can be free to express anything openly and without fear of retribution. Especially today with [[cancel-culture|cancel culture]] being a thing, it's worth evaluating this perspective even more deeply with greater consideration.
+- All along, I've been obsessed with the idea of "informality" — that a personal internet is one that presents you wholly as yourself. But it's important to stay safe on the internet, so how far should you feel comfortable sharing things about yourself, and in a way that doesn't compromise how people may view you negatively?
 
 # Discussions from Beyond Text: The Handmade Web: Reclaiming Digital Spaces
 

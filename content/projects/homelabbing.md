@@ -98,6 +98,11 @@ It's worth noting that my ISP uses [carrier-grade NAT](https://en.wikipedia.org/
 
 # Devlog
 
+**30 October 2026**
+
+- I'm not sure why I haven't done this, but I've finally set up [Fail2Ban](https://github.com/fail2ban/fail2ban) on my VPS as well. I've further solidified the VPS by updating some ufw rules to toughen its security.
+- While I'm at it, I've taken some additional precautions to adopt a more security-oriented approach to my devices, including enforcing SSH key-only authentication for my devices. I think it's a bit over the top, but a good experiment to play around with nonetheless!
+
 **31 August 2026**
 
 - I'm finally checking out [Ansible](https://docs.ansible.com) as a potential automated orchestrator of actions within Nusantara! This has been on my to-do list for a while, and I've suddenly started work on it on a whim. Let's see if this goes somewhere.
