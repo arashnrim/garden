@@ -113,7 +113,6 @@
     "tsx": "^4.23.15",
     "typescript": "^5.9.3"
   },
-  "packageManager": "pnpm@12.16.1",
   "allowScripts": {
     "@parcel/watcher@2.6.0": true,
     "esbuild@0.27.7": true,
