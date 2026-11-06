@@ -34,16 +34,6 @@ Large language models have proliferated into the mainstream internet, becoming s
 * **Knowledge distillation** — a technique that transfers the learning of a large pre-trained model ("teacher model") to a smaller one ("student model")[^2], typically with the acknowledgement of some degradation of quality compared to the original teacher model.
 * [**Model sycophancy**](https://www.anthropic.com/news/protecting-well-being-of-users#delusions-and-sycophancy) — the behaviour of models that encourage them to match users' beliefs over truthful ones[^3], making them appear "agreeable" sometimes without basis. This may have to do with the models' goal of wanting to produce maximally relevant, helpful-seeming responses.
 
-# Readings
-
-- [[agent-psychosis-are-we-going-insane|Agent Psychosis: Are We Going Insane?]]
-- [[are-llms-natural-born-bullshitters|Are LLMs Natural Born Bullshitters?]]
-- [[claudes-new-constitution|Claude's new constitution]]
-- [[how-to-use-chatbots-to-make-you-smarter-not-dumber|How to use chatbots to make you smarter, not dumber]]
-- [[llm-hallucinations-are-still-absolutely-nuts|LLM Hallucinations Are Still Absolutely Nuts]]
-- [[why-ais-hallucinations-are-like-the-illusions-of-narcissism|Why AI’s hallucinations are like the illusions of narcissism]]
-- [[why-were-falling-out-of-love-with-our-ai-confidants|Why we’re falling out of love with our AI confidants]]
-
 # Writings
 
 - [AI-generated content is everywhere, so what now?](https://blog.arash.codes/posts/gen-ai-everywhere)

@@ -16,10 +16,10 @@ Several protocols employed in the transport layer include the:
 
 In both TCP and UDP, port numbers play an important role as they identify the application protocols by port numbers. Ports cannot be occupied by two applications at the same time, and therefore must be ordered and kept track of.
 
-Well-known ports are often reserved for the different protocols. These ports usually serve critical networking applications (e.g., [[technology/networking/hypertext-transfer-protocol|HTTP]]) and therefore need to be standardised across devices. Some of these ports include:
-- 80 for [[technology/networking/hypertext-transfer-protocol|HTTP]];
-- 21 for [[technology/networking/file-transfer-protocol|FTP]];
-- 22 for [[technology/networking/secure-shell|SSH]];
-- 23 for [[technology/networking/telnet|telnets]];
-- 53 for [[technology/networking/domain-name-system|DNS]]; and
-- 443 for [[technology/networking/hypertext-transfer-protocol|HTTPS]].
+Well-known ports are often reserved for the different protocols. These ports usually serve critical networking applications (e.g., HTTP) and therefore need to be standardised across devices. Some of these ports include:
+- 80 for HTTP;
+- 21 for FTP;
+- 22 for SSH;
+- 23 for telnets;
+- 53 for DNS; and
+- 443 for HTTPS.

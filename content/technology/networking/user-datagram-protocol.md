@@ -9,5 +9,5 @@ tags:
 A connectionless protocol under the [[transport-layer|transport layer of the internet protocol suite]]. Starts data transfers without establishing a connection and is therefore less reliable but simple with low overhead.
 
 Often used for transaction-based services such as:
-- [[technology/networking/domain-name-system|DNS systems]]; and
+- DNS systems; and
 - the [[dynamic-host-configuration-protocol|DHCP]].

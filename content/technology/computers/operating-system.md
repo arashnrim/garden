@@ -6,7 +6,7 @@ tags:
   - knowledge
 ---
 
-A collection of software that manages computer hardware resources and provides common services for application software. Designed to support a [[computer|computer]]'s basic functions. Often provides a [[technologies/graphical-user-interface|graphical user interface]] for the user to interact with the OS.
+A collection of software that manages computer hardware resources and provides common services for application software. Designed to support a [[computer|computer]]'s basic functions. Often provides a graphical user interface for the user to interact with the OS.
 
 # Kinds of OSs
 

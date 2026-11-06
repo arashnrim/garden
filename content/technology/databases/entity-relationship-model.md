@@ -76,7 +76,7 @@ Generally has two participation constraints:
 
 # Types
 
-There are two types of entities that can be drawn in an ER model. These are akin to base and derived classes in object-oriented programming:
+There are two types of entities that can be drawn in an ER model. These are akin to base and derived classes in [[object-oriented-programming|object-oriented programming]]:
 - Supertype — generic entity that can be divided into subtypes;
 - Subtype — a subset of a supertype that shares common attributes (inheritance) or relationships distinct from other subsets.
 	- The subtype should not have a primary key, but rather inherit a primary key from its supertype.

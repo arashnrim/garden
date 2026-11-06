@@ -11,11 +11,11 @@ A connection-oriented protocol under the [[transport-layer|transport layer of th
 Provides reliable data transfers using acknowledgements, error detection, and recovery.
 
 Common applications that use the TCP include:
-- the [[technology/networking/hypertext-transfer-protocol|Hypertext Transfer Protocol (HTTP)]];
-- the [[technology/networking/file-transfer-protocol|File Transfer Protocol (FTP)]];
-- [[technology/networking/telnet|telnets]];
-- the [[technology/networking/simple-mail-transfer-protocol|Simple Mail Transfer Protocol (SMTP)]]; and
-- the [[technology/networking/post-office-protocol|Post Office Protocol (POP)]].
+- the Hypertext Transfer Protocol (HTTP);
+- the File Transfer Protocol (FTP);
+- telnets;
+- the Simple Mail Transfer Protocol (SMTP); and
+- the Post Office Protocol (POP).
 
 # Header
 

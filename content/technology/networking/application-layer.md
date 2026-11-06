@@ -14,7 +14,7 @@ In the context of the TCP/IP suite, the application layer provides services to u
 
 Some examples of applicaation protocols in the suite at this layer include:
 - the [[dynamic-host-configuration-protocol|DHCP]];
-- the [[technology/networking/hypertext-transfer-protocol|HTTP]];
-- [[technology/networking/domain-name-system|DNS systems]];
-- the [[technology/networking/simple-mail-transfer-protocol|SMTP]]; and
-- [[technology/networking/secure-shell|SSH]].
+- the HTTP;
+- DNS systems;
+- the SMTP; and
+- SSH.

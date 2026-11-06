@@ -21,7 +21,7 @@ where:
 
 ## Using combinations
 
-In the case where order does not matter, the probability of an event can be calculated using [[mathematics/combination|combinations]. For example, given a question as such:
+In the case where order does not matter, the probability of an event can be calculated using [[mathematics/combination|combinations]]. For example, given a question as such:
 
 > There were 9 pens in a box. 2 were black, 3 were red and 4 were blue. If 3 pens were randomly selected, what is the probability that we would get: 1 black pen and 2 red pens?
 

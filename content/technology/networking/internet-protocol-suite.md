@@ -12,7 +12,7 @@ The suite is somewhat similar to, but is not necessarily the same, as the [[open
 1. network interface layer, including data link and physical interfaces (e.g., [[ethernet|Ethernet]] and [[wireless-transmission-medium#Wireless LAN|wireless LAN]]);
 2. [[internet-layer|internet layer]], including interfaces that connect to the internet (e.g., the [[internet-protocol|IP]]);
 3. [[transport-layer|transport layer]], including interfaces responsible for transport (e.g., [[transmission-control-protocol||TCP]], [[user-datagram-protocol|UDP]], and port numbers); and
-4. application layer, includding applications that use the internet (e.g., [[technology/networking/hypertext-transfer-protocol|HTTP]], [[dynamic-host-configuration-protocol|DHCP]], [[technology/networking/domain-name-system|DNS]] and FTP).
+4. application layer, includding applications that use the internet (e.g., HTTP, [[dynamic-host-configuration-protocol|DHCP]], DNS and FTP).
 
 Modern implementations of the TCP/IP protocol suite extends the model to include one more layer, the physical layer, and amends existing layers. The modern suite has five layers in total, namely the:
 1. physical layer, including how data is physically transmitted (e.g., [[twisted-pair-cable#Categories|UTP cables]], optical fibre cables and radio frequencies);

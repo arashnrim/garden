@@ -7,7 +7,7 @@ tags:
   - thoughts
 ---
 
-A [[markdown|Markdown]]-based note-taking app centred around keeping distinct ideas connected through identifying relationships they share with one another. Marketed as "a second brain, for you, forever". Featuring a vault-like system for organisation with pure Markdown files, assuring that [[data]] won't be lost if Obsidian eventually shuts down (since it's an [[open-source|open source]] service), it is a form of [[personal-knowledge-management|personal knowledge management]].
+A [[markdown|Markdown]]-based note-taking app centred around keeping distinct ideas connected through identifying relationships they share with one another. Marketed as "a second brain, for you, forever". Featuring a vault-like system for organisation with pure Markdown files, assuring that data won't be lost if Obsidian eventually shuts down (since it's an [[open-source|open source]] service), it is a form of [[personal-knowledge-management|personal knowledge management]].
 
 ## How should I use Obsidian?
 

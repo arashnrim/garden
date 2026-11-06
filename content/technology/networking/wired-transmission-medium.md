@@ -8,7 +8,7 @@ tags:
 
 The method of transmitting data through physical means. Is ubiquitous even in today's world, owing to their performance in transmitting data compared to wireless transmission media. 
 
-The two common types of wired transmission medium include:
+The two common types of wired [[transmission-medium|transmission medium]] include:
 
 - [[twisted-pair-cable|twisted pair cables]]; and
 - [[#Optical fibre cables|optical fibre cables]].
