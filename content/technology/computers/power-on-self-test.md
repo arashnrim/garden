@@ -11,7 +11,7 @@ A set of routines performed by firmware or software immediately after a computer
 - verification of CPU registers;
 - verification of the BIOS's code integrity;
 - verification of some basic components (direct memory access, timer, and interrupt controller);
-- initialisation, sizing, and verifiation of system main memory;
+- initialisation, sizing, and verification of system main memory;
 - initialisation of BIOS;
 - passing of control to other specialised extension BIOSs; and
 - identification, organisation, and selection of devices available for booting.

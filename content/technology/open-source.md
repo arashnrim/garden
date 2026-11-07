@@ -12,8 +12,8 @@ A term used to initially refer to software or hardware with source code that is 
 - having open source code, where distribution must be allowed in source code and the compiled form,
 - allowing derived works, where open-source products must be allowed modifications and derived works by other authors, and more.
 
-# Licencing
+# Licensing
 
-Licencing plays a big role in open source; developers who write products must assign a relevant licence to be considered an open-source product. Licences restrict what authors who make derivations from an original open-source product can or cannot do, including governing the use of copyright, distribution ability, and rights.
+Licensing plays a big role in open source; developers who write products must assign a relevant licence to be considered an open-source product. Licences restrict what authors who make derivations from an original open-source product can or cannot do, including governing the use of copyright, distribution ability, and rights.
 
 Common open source licences can be found on [ChooseALicense.com](https://choosealicense.com/), a guide-like website made by GitHub to help developers pick an appropriate licence for their projects.

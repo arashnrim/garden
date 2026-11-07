@@ -17,7 +17,7 @@ The state of managing active processes running in a computer system.
 | Finish time (FT) | The absolute time a process has finished executing |
 | Turnaround time (TT) | The total time between a process's arrival time and finish time ($TT = FT - AT$) |
 | Waiting time (WT) | The total time a process waits to be executed ($WT = TT - BT$) |
-| Throughput | The number of processses completed per unit time |
+| Throughput | The number of processes completed per unit time |
 
 # Scheduling schemes
 
@@ -39,7 +39,7 @@ Different managers will schedule and execute processes in different scheduling s
 | Round robin | A scheduling algorithm similar to first-come first-serve, but rotates across the processes. |
 
 Allocation schemes have a direct impact on the efficiency of the CPU. No single allocation scheme is optimal; each has its own design goals. There are two kinds of allocation schemes:
-- non-preemtive, where a process's execution is not allowed to be interrupted; and
+- non-preemptive, where a process's execution is not allowed to be interrupted; and
 	- example: FCFS
 - preemptive, where a process's execution is allowed to be interrupted.
 	- example: RR
@@ -76,5 +76,5 @@ Processes can exist in four different states:
 
 | Windows | Linux | Description |
 |:-:|:-:|:-|
-| `tasklist` | `ps` | Lists the curerntly running processes in a computer |
+| `tasklist` | `ps` | Lists the currently running processes in a computer |
 | `taskkill` | `kill` | Stops (kills) a running process, usually the given process |

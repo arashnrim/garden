@@ -98,13 +98,13 @@ The wastage of disk space within the cluster due to the actual file size being s
 
 Occurs when a file is divided into pieces scattered around the disk, and of which is usually caused by frequently creating, deleting, and modifying files. Usually caused by the deletion of small files which leaves small sets of contiguous clusters insufficient enough to be filled by a bigger new file.
 
-Fragmentation results in the OS searching the disk for diferent groups of clusters scattered around the disk, degarding system performance of disk operations.
+Fragmentation results in the OS searching the disk for different groups of clusters scattered around the disk, degrading system performance of disk operations.
 
 it is important to note that fragmentation only affects hard disk drives; most if not all solid-state drives do not face the issue of fragmentation.
 
 There are two kinds of fragmentation:
 - external fragmentation is when a process's memory blocks are non-contiguous; and
-- internal fragmentation is when there is the presence of slack space in a a process's memory blocks.
+- internal fragmentation is when there is the presence of slack space in a process's memory blocks.
 
 ## Defragmentation
 The process of consolidating fragmented files on a computer's hard disk by physically reorganising the contents of the disk. In Windows, the [Disk Defragmenter](https://support.microsoft.com/en-us/windows/defragment-your-windows-10-pc-048aefac-7f1f-4632-d48a-9700c4ec702a) is a system utility tool that handles the defragmentation of a hard disk drive.
@@ -117,7 +117,7 @@ The process of splitting a single physical storage into a number of partitions o
 
 The process of preparing a chosen partition of the storage to be used by an OS by deleting all the data and setting up a file system.
 
-In the first sector of the formatted partiton, a boot block is created. The boot block contains the root folder, which contains:
+In the first sector of the formatted partition, a boot block is created. The boot block contains the root folder, which contains:
 - file information, including the file's
 	- name;
 	- start cluster;

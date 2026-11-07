@@ -6,7 +6,7 @@ tags:
   - knowledge
 ---
 
-The method in which data is being transmitted to and from from. There are usually two classifications of transmission media:
+The method in which data is being transmitted to and from. There are usually two classifications of transmission media:
 
 - [[wired-transmission-medium|wired transmission mediums]]; and
 - [[wireless-transmission-medium|wireless transmission mediums]].

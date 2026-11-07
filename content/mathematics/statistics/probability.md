@@ -37,8 +37,8 @@ $$
 
 Given two events, Event A and Event B:
 
-- the probability of **either** (or) event occuring is found by their sum: $P(A \cup B) = P(A) + P(B)$
-- the probability of **both** (and) events occuring is found by their product: $P(A \cap B) = P(A) \times P(B)$
+- the probability of **either** (or) event occurring is found by their sum: $P(A \cup B) = P(A) + P(B)$
+- the probability of **both** (and) events occurring is found by their product: $P(A \cap B) = P(A) \times P(B)$
 
 # Rules
 
@@ -79,7 +79,7 @@ Provided:
 
 # Conditional probability
 
-Conditional probability refers to the probability of an event occuring given that another has already occurred. It is a multi-layered form of probability, if you will. Conditional probability is denoted as $P(E | F)$ and read as "the conditional probability of E, given F".
+Conditional probability refers to the probability of an event occurring given that another has already occurred. It is a multi-layered form of probability, if you will. Conditional probability is denoted as $P(E | F)$ and read as "the conditional probability of E, given F".
 
 To calculate conditional probability, the following formula is used:
 

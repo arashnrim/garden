@@ -108,9 +108,9 @@ Generally, differentiation is used where gradients or rates of changes are invol
 - rates of change.
 
 ## Derivative tests
-Derivative tests are used in the first ($f'(x)$) and second ($f''(x)$) of a derived equation. They are used to determine the nature of stationary points.
-- The first derivative test tests $f'(x)$ by getting the values adjacent to the value of $x$. This method can determine whether the point is a maximum, minimum, or inflexion point.
-- The second derivative test test $f''(x)$ by checking whether the value is greater than or less than zero. This method can only determine whether the point is a maximum or minimum point; otherwise, use the first derivative test.
+Derivative tests are used in the first ($f'(x)$) and second ($f''(x)$) derivatives of a function. They are used to determine the nature of stationary points.
+- The first derivative test evaluates $f'(x)$ by getting the values adjacent to the value of $x$. This method can determine whether the point is a maximum, minimum, or inflexion point.
+- The second derivative test evaluates $f''(x)$ by checking whether the value is greater than or less than zero. This method can only determine whether the point is a maximum or minimum point; otherwise, use the first derivative test.
 
 ### First derivative test
 1. Determine the first derivative (i.e., $f'(x)$).

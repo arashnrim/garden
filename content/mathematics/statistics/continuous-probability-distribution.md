@@ -53,7 +53,7 @@ $$
 
 ## Normal approximation to [[discrete-probability-distribution|discrete probability distributions]]
 
-Since normal distribution is a form of continuous probabiity distribution, while it is possible to approximate it to a discrete probability distribution, continuity correction must be done to convert the discrete random variable into one of continuous nature.
+Since normal distribution is a form of continuous probability distribution, while it is possible to approximate it to a discrete probability distribution, continuity correction must be done to convert the discrete random variable into one of continuous nature.
 
 Generally, to perform continuity correction, each discrete number must be treated as a continuous interval between a $\pm$ 0.5 value.
 

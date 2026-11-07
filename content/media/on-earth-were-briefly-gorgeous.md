@@ -129,7 +129,7 @@ Chapter 6 is short, but lays the groundwork for who I'm suspecting is (was?) one
 
 Chapter 7 details Little Dog's thoughts in viewing his mother in her work performing a pedicure on an elderly lady with an amputated leg. He also describes what he thinks of her and her line of work, and I find myself empathising with what he feels — that pain, somewhat, in seeing your parent having to work a hard job at the promise of an idea life, the American dream.
 
-The same chapter then goes into the summer job that Little Dog worked as in the field as a tabacco farmer. I find it curious that he paints the word "sorry" to mean something ultimately bigger for an immigrant; as if to say "sorry" automatically would mean to be rewarded with something eventually — an extra tip at the nail salon, retaining the job as an undocumented immigrant on the field. It was from his experience here working with immigrants from South America did Little Dog draw parallels with his own mother's experience working in the salon. A similar story, but vastly different backgrounds.
+The same chapter then goes into the summer job that Little Dog worked as in the field as a tobacco farmer. I find it curious that he paints the word "sorry" to mean something ultimately bigger for an immigrant; as if to say "sorry" automatically would mean to be rewarded with something eventually — an extra tip at the nail salon, retaining the job as an undocumented immigrant on the field. It was from his experience here working with immigrants from South America did Little Dog draw parallels with his own mother's experience working in the salon. A similar story, but vastly different backgrounds.
 
 **Chapter 3–4** — 2 Mar 2026
 

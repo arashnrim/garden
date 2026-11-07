@@ -40,7 +40,7 @@ For a good user story, consider using the mnemonic INVEST:
 - Agile is customer-focused, focusing on the development of user stories to define needed product features. Features are also generally tested (beta-tested) after each sprint to get feedback from customers.
 - Agile breaks down tasks into manageable units, making it easier to uphold a higher quality of standard. Each sprint can also find and fix bugs.
 
-## Detriements
+## Detriments
 - An initial project with Agile lacks a stable plan, and the final product can look different from what was originally intended.
 - Agile can be a potential threat to business continuity and knowledge transfer as it emphasises less on documentation.
 - An Agile project can easily go off-track due to the client not being clear on the requirements or being unavailable.

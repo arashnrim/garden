@@ -17,7 +17,7 @@ I feel like digital gardening, in most common implementations, has two avenues i
 - as a personal knowledge base, where the goal is to obtain and retain as much correct information as possible; and
 - as a place of introspection, where the goal is to reflect on your knowledge (what you know of it, and what you make of it); to use it as a place of forming opinions and beliefs.
  
-The idea of gardening as the first point is something I'm erring against, because I believe the goal shouldn't be so much to produce a personal encyclopaedia (Wikipedia and Brittanica exist for that) but to document the relationship you have with knowledge. This is a pretty new realisation, and it's something I'm sure to consider moving forward when I do continue pruning and tending this garden of mine over time.
+The idea of gardening as the first point is something I'm erring against, because I believe the goal shouldn't be so much to produce a personal encyclopaedia (Wikipedia and Britannica exist for that) but to document the relationship you have with knowledge. This is a pretty new realisation, and it's something I'm sure to consider moving forward when I do continue pruning and tending this garden of mine over time.
 
 To me, a pretty good sign of this happening in "the way that I intended" is:
 

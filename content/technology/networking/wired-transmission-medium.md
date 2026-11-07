@@ -24,7 +24,7 @@ There are two types of optical fibre cables:
 There are different kinds of connectors that optical fibre cables can use. Some popular ones include the:
 - ST connector, often used for multimode fibre;
 - SC connector, often used for single-mode fibre; and
-- LC conected, often highly favoured for single-mode fibre.
+- LC connected, often highly favoured for single-mode fibre.
 
 Optical fibre cables are fragile as they contain glass. Should the cables bend, the network can fail entirely.
 

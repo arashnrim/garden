@@ -24,4 +24,4 @@ The Wi-Fi Alliance came up with a consumer-friendly generation numbering scheme 
 
 # IEEE 802.11s
 
-The IEEE 802.11s standard enables wireless devices to conect to each other, creating a mesh network. The Wi-Fi Alliance created Wi-Fi EasyMesh that exists under this standard, bringing interoperability to mesh Wi-Fi hardware.
+The IEEE 802.11s standard enables wireless devices to connect to each other, creating a mesh network. The Wi-Fi Alliance created Wi-Fi EasyMesh that exists under this standard, bringing interoperability to mesh Wi-Fi hardware.

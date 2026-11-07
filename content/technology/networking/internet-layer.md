@@ -10,4 +10,4 @@ The second layer in the [[internet-protocol-suite|internet protocol suite]]. Mai
 
 Several protocols employed in the internet layer include:
 - [[internet-protocol-address|IP addresses]]; and
-- ICMP addreses.
+- ICMP addresses.

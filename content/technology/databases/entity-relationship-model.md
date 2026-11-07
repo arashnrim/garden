@@ -81,10 +81,10 @@ There are two types of entities that can be drawn in an ER model. These are akin
 - Subtype — a subset of a supertype that shares common attributes (inheritance) or relationships distinct from other subsets.
 	- The subtype should not have a primary key, but rather inherit a primary key from its supertype.
 
-The process of defiing a set of subtypes of an entity is known as specialisation. 
+The process of defining a set of subtypes of an entity is known as specialisation. 
 
 The reverse process of abstraction, which involves:
-- supressing differences among entities;
+- suppressing differences among entities;
 - identifying common features; and
 - generalising the entities into a supertype;
 
@@ -99,7 +99,7 @@ An entity must only have one subtype or can have many subtypes according to the 
 When a specialisation consists of only one subtype, there is no need to show the disjoint constraint.
 
 - `d` is used to represent that an entity is disjoint, meaning that the entity can only be one subtype; and
-- `o` is used to represent that an entity overlaps, meaning that the entity can be more than one substype.
+- `o` is used to represent that an entity overlaps, meaning that the entity can be more than one subtype.
 
 ### Participation
 Specifies whether the existence of an entity depends upon it being another entity through the relationship. Shown in the ER diagram as different strokes of lines connecting entities and relationships.

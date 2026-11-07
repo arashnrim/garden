@@ -18,7 +18,7 @@ Usually are fitten with several components, including:
 
 # Multiple-input and multiple-output
 
-A method for multiplying the capacity of a radio link using multiple transmission and receiving antennae, exploiting multipath propogation. APs and end-user devices should both support MIMO for optimal performance and range.
+A method for multiplying the capacity of a radio link using multiple transmission and receiving antennae, exploiting multipath propagation. APs and end-user devices should both support MIMO for optimal performance and range.
 
 Specifications for MIMO APs are given in the following format:
 <div style="text-align: center">

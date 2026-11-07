@@ -39,7 +39,7 @@ Frames refer to compartments brought about due to the *physical* memory's storag
 
 To bridge the link between frames and pages, memory managers often create a page table for each process. Page tables are data structures used by the memory manager to keep track of which page corresponds to which frame.
 
-Page tables include a valid or invalid control bit which is used to tell whether or not a page is in the physical memory. In the case of demand paging, where data can be stored on the secondary storage temporarily, the control bit will be 0 (demarking it as not in the physical memory).
+Page tables include a valid or invalid control bit which is used to tell whether or not a page is in the physical memory. In the case of demand paging, where data can be stored on the secondary storage temporarily, the control bit will be 0 (demarcating it as not in the physical memory).
 
 # Logical and physical memory
 

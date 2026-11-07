@@ -19,7 +19,7 @@ Statistics are often used to infer population parameters.
 
 |    Term    | Definition                                                                         |
 | :--------: | :--------------------------------------------------------------------------------- |
-| Population | An entire group of entites of which data can be collected from                     |
+| Population | An entire group of entities of which data can be collected from                     |
 |   Sample   | A subset of a population; a smaller group of entities selected from the population |
 | Parameter  | A numerical measurement collected from a population                                |
 | Statistic  | A numerical measurement computed from a sample                                     |
@@ -42,7 +42,7 @@ A technique whereby a sample is selected from a population entirely by chance (r
 There are three kinds of random sampling:
 
 - simple random sampling;
-- statified random sampling; and
+- stratified random sampling; and
 - systematic random sampling.
 
 ### Simple random sampling

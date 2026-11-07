@@ -12,7 +12,7 @@ The fourth layer in the [[internet-protocol-suite|internet protocol suite]] and 
 
 In the context of the TCP/IP suite, the application layer provides services to users' applications.
 
-Some examples of applicaation protocols in the suite at this layer include:
+Some examples of application protocols in the suite at this layer include:
 - the [[dynamic-host-configuration-protocol|DHCP]];
 - the HTTP;
 - DNS systems;

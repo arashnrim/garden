@@ -9,5 +9,5 @@ tags:
 A formalised approach to implementing the [[system-development-life-cycle|system development life cycle]]. A set of practices and procedures for creating software, defining a set of rules and conventions as well as a systematical engineering approach for organising software projects.
 
 Some examples of methodologies include:
-- [[waterfall-methdology|Waterfall]]; and
-- [[agile-methdology|Agile]].
+- [[waterfall-methodology|Waterfall]]; and
+- [[agile-methodology|Agile]].

@@ -10,7 +10,7 @@ A random variable can be discrete if it has:
 - a finite number of values; or
 - an infinite but countable number of values.
 
-A discrete probability distribution, therefore, is the probabity distribution of a discrete random variable (one that has a finite number of values). Two common distributions include the:
+A discrete probability distribution, therefore, is the probability distribution of a discrete random variable (one that has a finite number of values). Two common distributions include the:
 - binomial distribution; and
 - Poisson distribution.
 

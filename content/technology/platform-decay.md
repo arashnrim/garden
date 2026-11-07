@@ -4,7 +4,7 @@ created: 2026-01-18
 tags:
   - spark
 ---
-Also more popularly known as enshitification, platform decay refers to the gradual decay of online platforms as they shift from benefitting users to extracting maximum profit. There are generally three discernible stages to this:
+Also more popularly known as enshittification, platform decay refers to the gradual decay of online platforms as they shift from benefitting users to extracting maximum profit. There are generally three discernible stages to this:
 
 1. Vendors create high-quality offerings that attract users.
 2. Vendors move to degrade the offerings for general consumers to prioritise and serve business customers.
