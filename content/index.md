@@ -15,6 +15,7 @@ There's no set path for you to follow here, and I think that's exciting. You cho
 Here's a hand-curated list of what I've been up to so far right now:
 
 - Creating [[homelabbing|Nusantara]] — my home lab — where I try to bring together different devices for a nice experimental sandbox
+- Chatting with [[pip|Pip]], a personal assistant powered by an agentic system
 - Understanding [[personal-internet|a personal internet]] and what it means in a centralised internet (see also [[an-internet-directory|An Internet Directory]]!)
 - Reflecting on what it means to craft a digital garden
 - Something new I'm trying out: [[blog|writing stuff]] for my blog in public!

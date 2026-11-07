@@ -11,7 +11,7 @@ tags:
 
 I came across an event from the National Library Board about [crafting a handmade web](https://nlb.libcal.com/event/5860046) and signed up for it. In preparation for that chat, I decided to go down a rabbit hole behind [one of the speakers' Are.na pages](https://www.are.na/lina-l/websites-im-perceiving) — and as I dive deeper, the clearer the idea of a personal internet spoke out to me.
 
-I'm particularly drawn to one of the websites in her collection: [A Website is a Room](https://a-website-is-a-room.net/). It acts as a directory that points to other sites that contains some quality of "slowness, quiet, and/or gathering". **So is a personal internet one that contains *soul*?**
+I'm particularly drawn to one of the websites in her collection: [A Website is a Room](https://a-website-is-a-room.net/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=personal-internet). It acts as a directory that points to other sites that contains some quality of "slowness, quiet, and/or gathering". **So is a personal internet one that contains *soul*?**
 
 A personal internet has been in my circle for a while already, and [I've even written a bit about it](https://blog.arash.codes/posts/breaking-out-of-prose#reading-widely-refining-taste) (found it only in Jan 2026 after re-reading my blog posts)! Maybe 2026 is the year when I learn more about what a personal internet can look like — and create that own space I've craved for so long on my own.
 
@@ -31,10 +31,10 @@ Some resources I've come across that has this "personal internet" vibe. Great if
 
 - [ooh.directory](https://ooh.directory/)
 - [Blogroll](https://blogroll.org/)
-- [Onio.Club](https://onio.club/) (and [their YouTube channel](https://www.youtube.com/@onionboots)!)
+- [Onio.Club](https://onio.club/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=personal-internet) (and [their YouTube channel](https://www.youtube.com/@onionboots)!)
 - [Neocities](https://neocities.org/)
-- [Winbows](https://winbows.neocities.org/)
-- [Jacky Zhao's site](https://jzhao.xyz), which has always been a deeply intriguing personal "north star" that led me to exploring the personal internet deeper
+- [Winbows](https://winbows.neocities.org/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=personal-internet)
+- [Jacky Zhao's site](https://jzhao.xyz?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=personal-internet), which has always been a deeply intriguing personal "north star" that led me to exploring the personal internet deeper
 - See [[an-internet-directory|An Internet Directory]] for more!
 
 ## Technical resources

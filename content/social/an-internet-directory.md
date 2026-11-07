@@ -8,21 +8,21 @@ As part of me embracing [[personal-internet|a personal internet]], I've been all
 
 # Places
 
-- [Radio Garden](https://radio.garden/)
-- [AC Mail](https://acmail.idreesinc.com/) — for Animal Crossing fans wanting to write cards to send
-- [Window Swap](https://www.window-swap.com/) — for those, like me, who believe that windows shape your environment and mood
-- [Drive and Listen](https://drivenlisten.com/) — because I love romanticising the driving experience as someone without a driver's license
-- [Neal.fun](https://neal.fun/) — fun games
-- [The HTML Review](https://thehtml.review/about)
-- [clipart studio](https://clipart.studio/) — a fun tool that revives the cut-out magazine trend of the '00s digitally
-- [Bored Button](https://boredbutton.com) — a place that brings you around fun places on the internet
-- [quxnet](https://quxnet.net/login) — a small community designed after the old web
+- [Radio Garden](https://radio.garden/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory)
+- [AC Mail](https://acmail.idreesinc.com/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory) — for Animal Crossing fans wanting to write cards to send
+- [Window Swap](https://www.window-swap.com/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory) — for those, like me, who believe that windows shape your environment and mood
+- [Drive and Listen](https://drivenlisten.com/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory) — because I love romanticising the driving experience as someone without a driver's license
+- [Neal.fun](https://neal.fun/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory) — fun games
+- [The HTML Review](https://thehtml.review/about?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory)
+- [clipart studio](https://clipart.studio/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory) — a fun tool that revives the cut-out magazine trend of the '00s digitally
+- [Bored Button](https://boredbutton.com?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory) — a place that brings you around fun places on the internet
+- [quxnet](https://quxnet.net/login?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory) — a small community designed after the old web
 
 # People
 
 As I come across a new person's website, I don't really want to make it an ephemeral experience that I'll eventually forget; so hopefully this is an updatable list of people's websites that I've visited over time!
 
-- [Lina](https://amalinalai.github.io/precipice/) — who I also had the chance to catch [[reclaiming-digital-spaces#Lina's sharing|a sharing of hers about the handmade web]]
-- [Ethan](https://pocketnotebook.neocities.org/) (discovered from Lina's guestbook)
-- [Onio.Club](https://onio.club/) — [[personal-internet#Plesionyms of a personal internet|whose YouTube channel]] is super entertaining to watch and insightful about the personal web
-- [Eilleen's Everything Notebook](https://quartz.eilleeenz.com/) (discovered from [Quartz's community showcase](https://quartz.jzhao.xyz/showcase))
+- [Lina](https://amalinalai.github.io/precipice/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory) — who I also had the chance to catch [[reclaiming-digital-spaces#Lina's sharing|a sharing of hers about the handmade web]]
+- [Ethan](https://pocketnotebook.neocities.org/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory) (discovered from Lina's guestbook)
+- [Onio.Club](https://onio.club/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory) — [[personal-internet#Plesionyms of a personal internet|whose YouTube channel]] is super entertaining to watch and insightful about the personal web
+- [Eilleen's Everything Notebook](https://quartz.eilleeenz.com/?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=an-internet-directory) (discovered from [Quartz's community showcase](https://quartz.jzhao.xyz/showcase))
