@@ -119,5 +119,12 @@
     "esbuild@0.28.2": true,
     "sharp@0.34.5": true,
     "fsevents@2.3.3": true
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "26.13.0",
+      "onFail": "download"
+    }
   }
 }
