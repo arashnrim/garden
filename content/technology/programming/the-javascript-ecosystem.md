@@ -2,13 +2,15 @@
 created: 2026-11-07
 tags:
   - spark
-title: Node.js
+title: The JavaScript ecosystem
 ---
-[Node.js](https://nodejs.org) (also Node) is a JavaScript runtime environment aimed at creating servers, web applications, command line tools, and scripts. In modern development, it's become ubiquitous throughout a multitude of use cases.
+While [JavaScript](https://ecma-international.org/publications-and-standards/standards/ecma-262/) is renowned for being a language most beginner developers rage at coming from relatively easier languages (i.e., [Python](https://www.python.org/)), it's ubiquitous in modern development and has applicability across a wide range of uses and stacks.
+
+It's pretty interesting to learn more about how a language created exclusively for injecting interactivity in the web became much bigger in the decades that followed. Today, it exists as an ecosystem with many tools and millions of projects created using it.
 
 # Layers
 
-While colloquially believed to be synonymous, Node contains multiple conceptual layers that many developers often interact with simultaneously, hence contributing to the confusion and synonymisation of the different layers within Node. While each layer traditionally served a distinct purpose, modern tools have since began to blur the boundaries between the layers for a more integrated tooling and development experience.
+While colloquially believed to be synonymous, the ecosystem contains multiple conceptual layers that many developers often interact with simultaneously, hence contributing to the confusion and synonymisation of the different layers. While each layer traditionally served a distinct purpose, modern tools have since began to blur the boundaries between the layers for a more integrated tooling and development experience.
 
 ```mermaid
 flowchart TB
@@ -92,7 +94,7 @@ Package managers can interact with registries — distribution services that hos
 
 Historically, Node.js bundled npm as its default package manager. Alternative managers like Yarn and pnpm were often installed separately. While this wasn't an issue for most developers, who often used the same version of their package manager of choice globally, some projects required different versions of the same package manager — for example, when Yarn migrated to v2, its v1 files (including the lockfile and configuration) were incompatible, forcing developers to manage both versions of the same manager.
 
-Corepack was introduced to attempt solving that — it allowed individual projects (via their `package.json` files) to declare their preferred package manager and version. Corepack would then intercept with the relevant package manager and provision the requested version.
+[Corepack](https://github.com/nodejs/corepack) was introduced to attempt solving that — it allowed individual projects (via their `package.json` files) to declare their preferred package manager and version. Corepack would then intercept with the relevant package manager and provision the requested version.
 
 While it isn't deprecated now, Corepack has since been removed from the Node.js distributed from Node.js 25; previously, it had been bundled together, making it the most convenient way to manage and handle different package managers.
 

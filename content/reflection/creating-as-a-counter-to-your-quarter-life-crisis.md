@@ -3,8 +3,18 @@ created: 2026-10-11
 tags:
   - spark
   - blog
-title: Create in a world of consumption
+title: Creating as a counter to your quarter-life crisis
 ---
+I've since revised the angle this post aims to cover; instead of that adage, I'm emphasising more about the benefits that can come about with creating and what it meant to me as an individual.
+
+- Within the post, I covered things like different perspectives in which creating can help you as an individual — to put yourself out there; to remember yourself; to grow.
+- The shift in my thinking as I wrote and planned this draft live. It's fascinating reading back about my own line of thinking and how it has gradually shifted to unveil the more inner thoughts that I had going on.
+	- For example: in a first brain dump, I had thought I wanted to talk a bit about those young adult influencers who document their "process of becoming"; I believed I lacked the confidence or what it took to create, but then suddenly came to a realisation as I was writing that I have already been participating in a process of creating!
+
+---
+
+Original working title: **Create in a world of consumption**
+
 In the cadence of today's world, it can get easy to feel swept up by the pace at which everything's going. You can sometimes feel like your life is passing you by because you're so occupied with trying to consume as much as you can — with the bandwidth, capability, and storage that you aren't necessarily prepared to handle.
 
 - I guess this is where I came across the saying that exerts that, in a world of consumption, you should try to create. I'm still grappling personally with what exactly I should create, and more importantly through what medium.

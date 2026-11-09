@@ -14,13 +14,15 @@ A home lab is an environment consisting of running servers, services, and infras
 > - Komodo is running on one device, with the Periphery agents in other devices feeding back to it
 > - Renovate is paired with Komodo, making automated image updates possible whenever a new version of a service is available
 > - The Server instance is able to control the Docker Engines within each other device, but the devices' Engines are not connected (i.e. in an orchestrated manner à la Docker Swarm/Kubernetes)
-> - The devices are usually frequently connected to one another via Tailscale
+> - The devices are connected to each other another and usually accessible over  Tailscale
+> - I'm currently experimenting with [[pip|Pip]] to see its capability and safety in handling dangerous tasks in a recoverable manner. Check out the devlog in that note!
+
 
 > [!info] I'm just an email away!
 > 
 > If you're curious about something in here that you'd like some clarification about, feel free to [reach out](https://arash.codes/#connect)! I'm more than happy to reply or even just say hi. :)
 
-My home lab's name is *Nusantara*, meaning archipelago in Malay. I think it's such an apt descriptor of how things are now — a federation of devices each with their own strengths, doing their own things, but still together nonetheless.
+My home lab's name is *Nusantara*, meaning archipelago[^1] in Malay. I think it's such an apt descriptor of how things are now — a federation of devices each with their own strengths, doing their own things, but still connected together nonetheless.
 
 # Overview
 
@@ -32,8 +34,8 @@ The **service access diagram** (above) shows the way a client (e.g. my phone on 
 
 The client has two means of connecting:
 
-- Via a public-facing domain (e.g. `XXX.arash.codes`), through which the request is routed through Cloudflare DNS. In normal cases, the domain points to a public-facing VPS that handles routing using Caddy. If the service is private (i.e. should only be accessed by me), the connection can terminate by having an A record that points to a Tailscale IP (e.g. `100.XXX.XXX.XXX`); in this case, the connection will only go through if the client is connected to the tailnet using a Tailscale client.
-- Directly using Tailscale's MagicDNS (e.g. `100.XXX.XXX.XXX:PORT` or `DEVICE-NAME:PORT`). New or private services are typically connected to this way, until I find the time to update the Caddy configuration on the VPS to include the appropriate subdomain to enable routing. This connection only works if the client is connected to the tailnet using a Tailscale client.
+- Via a public-facing domain (e.g. `XXX.arash.codes`), through which the request is routed through Cloudflare DNS. The subdomains are routed via A records to a public-facing VPS that handles routing using Caddy. If the service is meant to be private, the A record points to an internal IP used by Tailscale, meaning only a device connected to the tailnet can resolve and connect to it.
+- Directly using Tailscale's MagicDNS (e.g. `100.XXX.XXX.XXX:PORT` or `DEVICE-NAME:PORT`). New or private services are typically connected to this way, until I find the time to update the Caddy configuration on the VPS to include the appropriate subdomain to enable routing. This connection only works if the client is connected to the tailnet using a Tailscale client. Unfortunately, iOS makes this a headache since the `http://` scheme has to also be typed out entirely.
 
 
 ![[homelab-network.png]]
@@ -78,17 +80,18 @@ It's worth noting that my ISP uses [carrier-grade NAT](https://en.wikipedia.org/
 
 ## Architectural
 
-- ~~Explore container orchestration with either Kubernetes (k8s) or Docker Swarm~~ (scrapped; see [[homelabbing#22 November 2025|below]]
-	- Currently, the home lab is preliminarily linked through instances of Portainer Agent and an instance of Portainer Server (running on the Pi) that allows me to interact with the Docker Engine of all three (Pi, PC, and Mac) devices — though somewhat connected this way, each system is still isolated
+- ~~Explore container orchestration with either Kubernetes (k8s) or Docker Swarm~~ (scrapped; see the [[#Devlog|devlog]] on 22 November 2025)
+	- Currently, the home lab is preliminarily linked through instances of the Komodo Periphery agent and an instance of the Komodo Core agent (running on the VPS) that allows me to interact with the Docker Engine of all three (ThinkCentre, Pi, and Mac) devices — though still isolated, they are all connected to one console
 
 ## Onboarding
 
 - ~~Onboard Mac mini into setup~~ (done!)
-	- Prepare separate home lab user — still want to be able to use the Mac regularly as a desktop
+	- Prepare a separate home lab user — I still want to be able to use the Mac regularly as a desktop
 		- The setup for doing this seems more complicated such that the technicality overweighs the convenience. I've opted to installing [OrbStack](https://orbstack.dev) alongside the current default user instead of going with a separate home lab user
 2. Source and install upgraded memory and storage devices for ThinkCentre
 	* 8 GB DDR4-2400 → ~16+ GB DDR4-2400
 	* 256 GB → ~1 TB
+	* The memory crisis is not going away anytime soon, therefore so will the shelving of this step 🤡
 3. ~~Onboard ThinkCentre into setup~~ (done!)
 	1. ~~Read more about [Proxmox VE](https://proxmox.com/en/products/proxmox-virtual-environment/overview) and virtualisation~~
 	2. ~~Prepare and install Proxmox VE as main interface~~
@@ -97,6 +100,11 @@ It's worth noting that my ISP uses [carrier-grade NAT](https://en.wikipedia.org/
 	- The only service left that remains is a Dockerised Discord bot that can be safely shut down (no users at this time...)
 
 # Devlog
+
+**8 November 2026**
+
+- I've given [[pip|Pip]] a rather sweeping mandate to manage this home lab, but I'm eyeing its progress very closely. Surely nothing bad will come out of this, right?
+- I'm looking further into enhancing my backup process and also consolidating common services — particularly back-end services like databses that can have multiple containers of the same version running on the same device.
 
 **30 October 2026**
 
@@ -279,3 +287,5 @@ It's worth noting that my ISP uses [carrier-grade NAT](https://en.wikipedia.org/
 - Figured out Samba and managed to get a Samba share working from the external 1 TB HDD connected to the Pi (USB) to the other devices in the home network!
 - Came across Radicale and thought it can replace my current contacts + calendar back-up implementation (running on [Wölkli](https://woelkli.com)'s hosted Nextcloud instance)
 	- Managed to get Radicale working and ported over all my contact + calendar information successfully
+
+[^1]: If you'd like to be semantic, I'm pretty sure that the etymology of this term is rooted in Javanese and used to refer to the narrower Indonesian archipelago of Majapahit in times past. It's now broadly adopted to refer to the wider Malay Archipelago too!
