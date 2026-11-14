@@ -5,8 +5,7 @@ tags:
   - spark
   - knowledge
 ---
-
-The reverse process of [[differentiation]], where a derived equation is restored to its original equation. There is a loss when differentiating an equation (i.e., constants are stripped away), which is why integration is only able to add an arbitrary constant $C$ or $K$ to the restored equation.
+Integration is seen as the reverse process of [[differentiation]], where a derived equation is restored to its original equation. There is a loss when differentiating an equation (i.e., constants are stripped away), which is why integration is only able to add an arbitrary constant $C$ or $K$ to the restored equation.
 
 Has a notation of $\int f(x) \space dx$, read as "the integral of $f(x)$ with respect to $x$". 
 - $f(x)$ is known as the integrand;

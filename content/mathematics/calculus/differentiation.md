@@ -5,8 +5,7 @@ tags:
   - spark
   - knowledge
 ---
-
-The process of finding the rate of change of one variable compared to another. Useful when the rate of change is non-linear. Given a function $f(x)$, its derivative can be denoted by either:
+Differentiation is the process of finding the rate of change of one variable compared to another. Useful when the rate of change is non-linear. Given a function $f(x)$, its derivative can be denoted by either:
 - $\frac {dy} {dx}$, and the derivative $y'$ (y prime); or
 - $\frac {d} {dx} f(x)$, and the derivative $f'$ (f prime).
 

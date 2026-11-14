@@ -5,8 +5,7 @@ tags:
   - spark
   - knowledge
 ---
-
-A branch of mathematics that examines the possibility of an event to happen. Events are assigned values between 0 (impossible) to 1 (always); many events in real life range in this spectrum.
+Probability is a branch of mathematics that examines the possibility of an event to happen. Events are assigned values between 0 (impossible) to 1 (always); many events in real life range in this spectrum.
 
 The probability of a particular event, $E$, can be calculated through the following formula:
 

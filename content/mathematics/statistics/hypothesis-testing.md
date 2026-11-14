@@ -5,8 +5,7 @@ tags:
   - spark
   - knowledge
 ---
-
-Refers to the process involved in accepting or rejecting statements about a population's parameters. These parameters usually are the mean ($\mu$) or a proportion ($p$).
+In statistics, hypothesis testing refers to the process involved in accepting or rejecting statements about a population's parameters. These parameters usually are the mean ($\mu$) or a proportion ($p$).
 
 In hypothesis testing, there are two hypotheses that are formulated in a particular test:
 - The null hypothesis ($H_0$) is the statement about the parameter formulated for the purpose of testing whether it is to be accepted or rejected.

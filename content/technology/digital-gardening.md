@@ -26,7 +26,7 @@ To me, a pretty good sign of this happening in "the way that I intended" is:
 
 I'm starting to realise now that digital gardening could be a deeply personal and vulnerable thing to do, but the idea that it remains ever malleable seems comforting to me in a way. You tend to your garden as you grow.
 
-## On supercharging gardens with AI
+# On supercharging gardens with AI
 
 I remain ambivalent about this, because it really depends on how AI is being used here. From my own observations, there are two ways people have been supercharging their digital gardens with AIs — particularly [[large-language-models|LLMs]]:
 
@@ -34,3 +34,9 @@ I remain ambivalent about this, because it really depends on how AI is being use
 - As replacements: LLMs are tasked to rewrite content, replacing and bypassing the person's thought processes.
 
 Given how I lean greatly into the idea that a garden is a place for a person to evaluate their relationship with thinking and knowledge, the latter usage of it might seem like a betrayal. I'm pretty meh about the first use case as well, because there are both boons (helping to bring a person clarity between different notes and ideas) and banes (doing the hard work for them) to doing so. I'll have to keep reading, watching, and experimenting on my part to have a more concrete idea!
+
+**9 November 2026** — opinion
+
+Given how ubiquitous [[agentic-systems|agentic systems]] have become today, there's an ever-growing trend of people supercharging vaults with LLMs that frequently ingest an input directory, create wiki documents in the vault, and keep them while continually tending to them for retrieval should the user request for its retrieval. I think this is fundamentally pretty different from what digital gardens are, and particularly what they strive to do. I think the term "second brain" might be more apt; the term "digital garden" connotes a more slower, human effort-based space where notes are curated by hand.
+
+In this garden, I haven't asked any agentic system to create something from scratch. My own experiments so far have involved scanning the 190+ Markdown files in the vault and correcting any glaring issues — particularly language (e.g. grammatical and spelling issues) and technical (e.g. broken wikilinks) ones. In this regard, I think it's a good augmenter as a proofreader to validate the files. The contents therein are still human-made.

@@ -5,8 +5,7 @@ tags:
   - spark
   - knowledge
 ---
-
-The arrangement of a given number of items **in a particular order**. Not to be confused with [[combination|combinations]], which is similar but without consideration of order.
+A permutation is an arrangement of a given number of items **in a particular order**. Not to be confused with [[combination|combinations]], which is similar but without consideration of order.
 
 Provided:
 

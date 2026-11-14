@@ -5,8 +5,7 @@ tags:
   - spark
   - knowledge
 ---
-
-A system of writing to express numbers. There are many number systems; among the most popular used in academics include:
+Number systems describe ways of writing to express numbers. There are many number systems; among the most popular used in academics include:
 - binary;
 - decimal; and
 - hexadecimal.

@@ -5,8 +5,7 @@ tags:
   - spark
   - knowledge
 ---
-
-Refers to the process of extracting a subset of a population. Done either due to constraints around:
+In statistics, sampling refers to the process of extracting a subset of a population. Done either due to constraints around:
 
 - time consumption;
 - cost;

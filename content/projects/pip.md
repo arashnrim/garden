@@ -5,7 +5,7 @@ tags:
   - spark
   - project
 ---
-![[pip.png]]
+![[pip.jpg]]
 
 A helpful assistant that runs on a Telegram interface. Started out as a branch from [[homelabbing|my home labbing project]], Pip emerged as a fun experiment for me to see what n8n is capable of with its AI-first workflow capabilities. Currently, I'm experimenting with Hermes Agent to see what agentic systems are capable of — and the risks they play in it as well. This sounds suspiciously close to [another attempt by another dev](https://anselmlong.com/blog/ava?utm_source=garden.arash.codes&utm_medium=referral&utm_campaign=digital-garden&utm_content=projects-pip) I find cool, but that's just a similarity!
 
@@ -45,7 +45,17 @@ Some particular goals that I'm looking to accomplish with this experiment is see
 	- Whether agentic systems are capable of handling medium-scale personal challenges that may be approachable with code, through solid reasoning and self-recovery upon encountering issues or errors.
 - The feasibility of using an agentic system now, both in terms of financial (API tokens cost money!) and temporal (having to learn and be patient in correcting issues) resources.
 
+Currently, Pip can be interacted with through two interfaces:
+
+- Through the official Hermes Desktop app, which also allows the configuration of the agent through its settings page
+- Through Telegram, paired to a bot
+	- While this is my current method of interacting with Pip on the go, I'd like to move away from it where possible; interactions with bot accounts are not end-to-end encrypted, and considering the volume and content that Pip might process — involving things like my home lab — it might be good to scout for more secure platforms.
+
 # Devlog
+
+**14 November 2026**
+
+- I went through the hardship of setting up a Matrix homeserver using [Continuwuity](https://continuwuity.org/) (cute name, btw!), but I realised that Pip doesn't work as expected over there. In addition to that, there's a limitation when running Hermes Agent through macOS with the Matrix platform — because it is inherently Linux-based, all the end-to-end encryption stuff only works on Linux platforms. While grumbling away arguing that macOS could technically be considered one under the hood, I followed [additional instructions to set up a proxy container](https://hermes-agent.nousresearch.com/docs/user-guide/messaging/matrix#proxy-mode-e2ee-on-macos) that instead taps into an exposed API server and acts as a bridge between the Matrix homeserver and the agentic system as a whole. A dud, but time and effort well spent!
 
 **7 November 2026**
 

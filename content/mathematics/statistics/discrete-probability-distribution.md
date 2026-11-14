@@ -5,7 +5,6 @@ tags:
   - spark
   - knowledge
 ---
-
 A random variable can be discrete if it has:
 - a finite number of values; or
 - an infinite but countable number of values.

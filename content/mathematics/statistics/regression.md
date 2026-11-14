@@ -5,8 +5,7 @@ tags:
   - spark
   - knowledge
 ---
-
-A process to analyse two sets of data and work backwards (hence the name) to deduce the relationship between the two sets of data. Should a relationship be found between the two sets, prediction of the value of one set of data given the value of the other can be made.
+In statistics, regression is a process to analyse two sets of data and work backwards (hence the name) to deduce the relationship between the two sets of data. Should a relationship be found between the two sets, prediction of the value of one set of data given the value of the other can be made.
 
 Often used in statistics as it helps to detect trends that are crucial in real life as they can lead to better decisions in planning; for example, in natural disaster proactiveness and weather forecasts, regression can serve to predict occurrences before they happen.
 

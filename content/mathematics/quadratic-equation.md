@@ -5,7 +5,6 @@ tags:
   - spark
   - knowledge
 ---
-
 A quadratic equation is a polynomial equation of a single variable in which the highest exponent of the variable is two. The following is a quadratic equation expressed in the standard form:
 
 $$

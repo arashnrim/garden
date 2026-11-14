@@ -5,8 +5,7 @@ tags:
   - spark
   - knowledge
 ---
-
-The process of using a sample statistic to estimate the population parameter. The estimator is a statistic used to estimate a parameter, usually denoted with a capped symbol of the parameter; for instance, given parameter $\mu$, its estimator is denoted as $\hat\mu$.
+In statistics, estimation is the process of using a sample statistic to estimate the population parameter. The estimator is a statistic used to estimate a parameter, usually denoted with a capped symbol of the parameter; for instance, given parameter $\mu$, its estimator is denoted as $\hat\mu$.
 
 # Terminologies
 
