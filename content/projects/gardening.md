@@ -7,11 +7,9 @@ tags:
 ---
 My family has some plants at home that I'm curious to learn how to take good care of. This will be a nice little venture into gardening — I'm excited to see how things go!
 
-# Current state
-
-> [!info] At a glance
+> [!abstract] The state of things
 > 
-> - R.I.P. plants.
+> R.I.P. plants.
 
 # Growthlog
 

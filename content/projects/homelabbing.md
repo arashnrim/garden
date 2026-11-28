@@ -101,6 +101,12 @@ It's worth noting that my ISP uses [carrier-grade NAT](https://en.wikipedia.org/
 
 # Devlog
 
+**15 November 2026**
+
+- I've patched up a pretty major security gap in the VPS due to the way Docker exposes ports by default — [somewhere in its documentation](https://docs.docker.com/engine/network/port-publishing/), it states that publishing container ports is insecure by default; it exposes the port on all interfaces (`0.0.0.0`) unless explicitly specified with a loopback address (`127.0.0.1`).
+	- That meant that, for a while, anyone could've circumvented the Cloudflare DNS + Caddy pairing that should've restricted access to important services hosted on the VPS (e.g. Komodo Core); instead of visiting the restricted subdomain, they could instead explicitly connect to the IP address and port (i.e. `http://5.XX.XX.XX:90YY`).
+	- I've since updated the Compose files for the relevant services to use the loopback address, closing the gap. An Nmap scan successfully shows the closed ports. Phew!
+
 **8 November 2026**
 
 - I've given [[pip|Pip]] a rather sweeping mandate to manage this home lab, but I'm eyeing its progress very closely. Surely nothing bad will come out of this, right?
